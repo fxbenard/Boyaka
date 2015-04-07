@@ -20,31 +20,147 @@
  * @license http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
-/* Language: text domain
-------------------------------------------*/
+if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 
-load_plugin_textdomain( 'bloom-french', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	/**
+	 * Main EDD_Plugin_Name class
+	 *
+	 * @since       1.0.0
+	 */
+	class EDD_Plugin_Name {
 
-/* Hook to init
-------------------------------------------*/
-add_action( 'init', 'fxb_bloom_init' );
+		/**
+		 *
+		 *
+		 * @var         EDD_Plugin_Name $instance The one true EDD_Plugin_Name
+		 * @since       1.0.0
+		 */
+		private static $instance;
 
-/**
- * Add the text domain to init.
- *
- * @since 1.0
- */
-function fxb_bloom_init() {
 
-	/* Language */
+		/**
+		 * Get active instance
+		 *
+		 * @access      public
+		 * @since       1.0.0
+		 * @return      object self::$instance The one true EDD_Plugin_Name
+		 */
+		public static function instance() {
+			if ( !self::$instance ) {
+				self::$instance = new EDD_Plugin_Name();
+				self::$instance->setup_constants();
+				self::$instance->includes();
+				self::$instance->load_textdomain();
+				self::$instance->hooks();
+			}
+
+			return self::$instance;
+		}
+
+
+		/**
+		 * Setup plugin constants
+		 *
+		 * @access      private
+		 * @since       1.0.0
+		 * @return      void
+		 */
+		private function setup_constants() {
+			// Plugin version
+			define( 'FXB_BLOOM_FRENCH_VER', '1.0.0' );
+
+			// Plugin path
+			define( 'FXB_BLOOM_FRENCH_DIR', plugin_dir_path( __FILE__ ) );
+
+			// Plugin URL
+			define( 'FXB_BLOOM_FRENCH_URL', plugin_dir_url( __FILE__ ) );
+
+			define( 'FXB_BLOOM_STORE_URL', 'http://fxbenard.com' );
+
+			define( 'FXB_BLOOM_ITEM_NAME', 'EDD Braintree French' );
+		}
+
+
+		/**
+		 * Include necessary files
+		 *
+		 * @access      private
+		 * @since       1.0.0
+		 * @return      void
+		 */
+		private function includes() {
+			// Include scripts
+			//require_once FXB_BLOOM_FRENCH_DIR . 'includes/scripts.php';
+			require_once FXB_BLOOM_FRENCH_DIR . 'includes/functions.php';
+
+			/**
+			 *
+			 *
+			 * @todo        The following files are not included in the boilerplate, but
+			 *              the referenced locations are listed for the purpose of ensuring
+			 *              path standardization in EDD extensions. Uncomment any that are
+			 *              relevant to your extension, and remove the rest.
+			 */
+			// require_once FXB_BLOOM_FRENCH_DIR . 'includes/shortcodes.php';
+			// require_once FXB_BLOOM_FRENCH_DIR . 'includes/widgets.php';
+		}
+
+
+		/**
+		 * Run action and filter hooks
+		 *
+		 * @access      private
+		 * @since       1.0.0
+		 * @return      void
+		 *
+		 * @todo        The hooks listed in this section are a guideline, and
+		 *              may or may not be relevant to your particular extension.
+		 *              Please remove any unnecessary lines, and refer to the
+		 *              WordPress codex and EDD documentation for additional
+		 *              information on the included hooks.
+		 *
+		 *              This method should be used to add any filters or actions
+		 *              that are necessary to the core of your extension only.
+		 *              Hooks that are relevant to meta boxes, widgets and
+		 *              the like can be placed in their respective files.
+		 *
+		 *              IMPORTANT! If you are releasing your extension as a
+		 *              commercial extension in the EDD store, DO NOT remove
+		 *              the license check!
+		 */
+		private function hooks() {
+			// Register settings
+			add_filter( 'edd_settings_extensions', array( $this, 'settings' ), 1 );
+
+			// Handle licensing
+			if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
+			// load our custom updater
+				include( dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php' );
+			}
+		}
+
+
+		/**
+		 * Internationalization
+		 *
+		 * @access      public
+		 * @since       1.0.0
+		 * @return      void
+		 */
+		public function load_textdomain() {
+
 	// Set filter for language directory
 	$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-	$lang_dir = apply_filters( 'fxb_bloom_languages_directory', $lang_dir );
+	$lang_dir = apply_filters( 'fxb_bloom_french_languages_directory', $lang_dir );
 
 	// Traditional WordPress plugin locale filter
-	$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom' );
-	$mofile = sprintf( '%1$s-%2$s.mo', 'bloom', $locale );
+	$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom-french' );
+	$mofile = sprintf( '%1$s-%2$s.mo', 'bloom-french', $locale );
 
 	// Setup paths to current locale file
 	$mofile_local   = $lang_dir . $mofile;
@@ -52,185 +168,80 @@ function fxb_bloom_init() {
 
 	if ( file_exists( $mofile_global ) ) {
 		// Look in global /wp-content/languages/bloom-french/ folder
-		load_textdomain( 'bloom', $mofile_global );
+		load_textdomain( 'bloom-french', $mofile_global );
 	} elseif ( file_exists( $mofile_local ) ) {
 		// Look in local /wp-content/plugins/bloom-french/languages/ folder
-		load_textdomain( 'bloom', $mofile_local );
+		load_textdomain( 'bloom-french', $mofile_local );
 	} else {
 		// Load the default language files
-		load_plugin_textdomain( 'bloom', false, $lang_dir );
-
-	}
-}
-define( 'FXB_BLOOM_FRENCH_VER', '1.0.0' );
-
-define( 'FXB_BLOOM_STORE_URL', 'http://fxbenard.com' );
-
-define( 'FXB_BLOOM_ITEM_NAME', 'Divi2 French' );
-
-if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
-	// load our custom updater
-	include( dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php' );
-}
-
-function fxb_bloom_french_plugin_updater() {
-
-	// retrieve our license key from the DB
-	$license_key = trim( get_option( 'fxb_bloom_license_key' ) );
-
-	// setup the updater
-	$edd_updater = new FXB_BLOOM_Plugin_Updater( FXB_BLOOM_STORE_URL, __FILE__, array(
-			'version' 	=> FXB_BLOOM_FRENCH_VER,
-			'license' 	=> $license_key, 		// license key (used get_option above to retrieve from DB)
-			'item_name' => FXB_BLOOM_ITEM_NAME,
-			'author' 	=> 'FX Bénard',
-		)
-	);
-
-}
-add_action( 'admin_init', 'fxb_bloom_french_plugin_updater', 0 );
-
-function fxb_bloom_license_menu() {
-	add_plugins_page( __( 'Bloom French License', 'bloom-french' ), __( 'Bloom French License', 'bloom-french' ), 'manage_options', 'bloomfrench-license', 'fxb_bloom_license_page' );
-}
-add_action( 'admin_menu', 'fxb_bloom_license_menu' );
-
-function fxb_bloom_license_page() {
-	$license 	= get_option( 'fxb_bloom_license_key' );
-	$status 	= get_option( 'fxb_bloom_license_status' );
-	?>
-	<div class="wrap">
-		<h2><?php _e( 'Bloom French License Options', 'bloom-french' ); ?></h2>
-		<form method="post" action="options.php">
-
-			<?php settings_fields( 'fxb_bloom_license' ); ?>
-
-			<table class="form-table">
-				<tbody>
-					<tr valign="top">
-						<th scope="row" valign="top">
-							<?php _e( 'License Key', 'bloom-french' ); ?>
-						</th>
-						<td>
-							<input id="fxb_bloom_license_key" name="fxb_bloom_license_key" type="text" class="regular-text" value="<?php esc_attr_e( $license ); ?>" />
-							<label class="description" for="fxb_bloom_license_key"><?php _e( 'Enter your license key', 'bloom-french' ); ?></label>
-						</td>
-					</tr>
-					<?php if ( false !== $license ) { ?>
-						<tr valign="top">
-							<th scope="row" valign="top">
-								<?php _e( 'Activate License', 'bloom-french' ); ?>
-							</th>
-							<td>
-								<?php if ( false !== $status && 'valid' == $status ) { ?>
-									<span style="color:green;"><?php _e( 'active', 'bloom-french' ); ?></span>
-									<?php wp_nonce_field( 'fxb_bloom_nonce', 'fxb_bloom_nonce' ); ?>
-									<input type="submit" class="button-secondary" name="edd_license_deactivate" value="<?php _e( 'Deactivate License', 'bloom-french' ); ?>"/>
-								<?php } else {
-									wp_nonce_field( 'fxb_bloom_nonce', 'fxb_bloom_nonce' ); ?>
-									<input type="submit" class="button-secondary" name="edd_license_activate" value="<?php _e( 'Activate License', 'bloom-french' ); ?>"/>
-								<?php } ?>
-							</td>
-						</tr>
-					<?php } ?>
-				</tbody>
-			</table>
-			<?php submit_button(); ?>
-
-		</form>
-	<?php
-}
-
-function fxb_bloom_register_option() {
-	// creates our settings in the options table
-	register_setting( 'fxb_bloom_license', 'fxb_bloom_license_key', 'edd_sanitize_license' );
-}
-add_action( 'admin_init', 'fxb_bloom_register_option' );
-
-function edd_sanitize_license( $new ) {
-	$old = get_option( 'fxb_bloom_license_key' );
-	if ( $old && $old != $new ) {
-		delete_option( 'fxb_bloom_license_status' ); // new license has been entered, so must reactivate
-	}
-	return $new;
-}
-
-function fxb_bloom_activate_license() {
-
-	// listen for our activate button to be clicked
-	if ( isset( $_POST['edd_license_activate'] ) ) {
-
-		// run a quick security check
-	 	if ( ! check_admin_referer( 'fxb_bloom_nonce', 'fxb_bloom_nonce' ) ) {
-			return; // get out if we didn't click the Activate button
-	 	}
-
-		// retrieve the license from the database
-		$license = trim( get_option( 'fxb_bloom_license_key' ) );
-
-		// data to send in our API request
-		$api_params = array(
-			'edd_action' => 'activate_license',
-			'license' 	=> $license,
-			'item_name' => urlencode( FXB_BLOOM_ITEM_NAME ), // the name of our product in EDD
-			'url'       => home_url()
-		);
-
-		// Call the custom API.
-		$response = wp_remote_get( add_query_arg( $api_params, FXB_BLOOM_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
-
-		// make sure the response came back okay
-		if ( is_wp_error( $response ) ) {
-			return false;
+		load_plugin_textdomain( 'bloom-french', false, $lang_dir );
+			}
 		}
 
-		// decode the license data
-		$license_data = json_decode( wp_remote_retrieve_body( $response ) );
 
-		// $license_data->license will be either "valid" or "invalid"
+		/**
+		 * Add settings
+		 *
+		 * @access      public
+		 * @since       1.0.0
+		 * @param array   $settings The existing EDD settings array
+		 * @return      array The modified EDD settings array
+		 */
+		public function settings( $settings ) {
+			$new_settings = array(
+				array(
+					'id'    => 'edd_plugin_name_settings',
+					'name'  => '<strong>' . __( 'Plugin Name Settings', 'edd-plugin-name' ) . '</strong>',
+					'desc'  => __( 'Configure Plugin Name Settings', 'edd-plugin-name' ),
+					'type'  => 'header',
+				),
+			);
 
-		update_option( 'fxb_bloom_license_status', $license_data->license );
-
-	}
-}
-add_action( 'admin_init', 'fxb_bloom_activate_license' );
-
-function fxb_bloom_deactivate_license() {
-
-	// listen for our activate button to be clicked
-	if ( isset( $_POST['edd_license_deactivate'] ) ) {
-
-		// run a quick security check
-	 	if ( ! check_admin_referer( 'fxb_bloom_nonce', 'fxb_bloom_nonce' ) ) {
-			return; // get out if we didn't click the Activate button
-	 	}
-
-		// retrieve the license from the database
-		$license = trim( get_option( 'fxb_bloom_license_key' ) );
-
-		// data to send in our API request
-		$api_params = array(
-			'edd_action' => 'deactivate_license',
-			'license' 	=> $license,
-			'item_name' => urlencode( FXB_BLOOM_ITEM_NAME ), // the name of our product in EDD
-			'url'       => home_url()
-		);
-
-		// Call the custom API.
-		$response = wp_remote_get( add_query_arg( $api_params, FXB_BLOOM_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
-
-		// make sure the response came back okay
-		if ( is_wp_error( $response ) ) {
-			return false;
-		}
-
-		// decode the license data
-		$license_data = json_decode( wp_remote_retrieve_body( $response ) );
-
-		// $license_data->license will be either "deactivated" or "failed"
-		if ( 'deactivated' == $license_data->license ) {
-			delete_option( 'fxb_bloom_license_status' );
+			return array_merge( $settings, $new_settings );
 		}
 	}
+} // End if class_exists check
+
+
+/**
+ * The main function responsible for returning the one true EDD_Plugin_Name
+ * instance to functions everywhere
+ *
+ * @since       1.0.0
+ * @return      \EDD_Plugin_Name The one true EDD_Plugin_Name
+ *
+ * @todo        Inclusion of the activation code below isn't mandatory, but
+ *              can prevent any number of errors, including fatal errors, in
+ *              situations where your extension is activated but EDD is not
+ *              present.
+ */
+function EDD_Plugin_Name_load() {
+	if ( ! class_exists( 'Easy_Digital_Downloads' ) ) {
+		if ( ! class_exists( 'EDD_Extension_Activation' ) ) {
+			require_once 'includes/class.extension-activation.php';
+		}
+
+		$activation = new EDD_Extension_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
+		$activation = $activation->run();
+		return EDD_Plugin_Name::instance();
+	} else {
+		return EDD_Plugin_Name::instance();
+	}
 }
-add_action( 'admin_init', 'fxb_bloom_deactivate_license' );
+add_action( 'plugins_loaded', 'EDD_Plugin_Name_load' );
+
+
+/**
+ * The activation hook is called outside of the singleton because WordPress doesn't
+ * register the call from within the class, since we are preferring the plugins_loaded
+ * hook for compatibility, we also can't reference a function inside the plugin class
+ * for the activation function. If you need an activation function, put it here.
+ *
+ * @since       1.0.0
+ * @return      void
+ */
+function edd_plugin_name_activation() {
+	/* Activation functions here */
+
+}
+register_activation_hook( __FILE__, 'edd_plugin_name_activation' );
