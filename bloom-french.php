@@ -139,11 +139,10 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 
 			// Handle licensing
 			if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
-			// load our custom updater
-				include( dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php' );
+				// load our custom updater
+				include dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php';
 			}
 		}
-
 
 		/**
 		 * Internationalization
@@ -154,27 +153,27 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 		 */
 		public function load_textdomain() {
 
-	// Set filter for language directory
-	$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-	$lang_dir = apply_filters( 'fxb_bloom_french_languages_directory', $lang_dir );
+			// Set filter for language directory
+			$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
+			$lang_dir = apply_filters( 'fxb_bloom_french_languages_directory', $lang_dir );
 
-	// Traditional WordPress plugin locale filter
-	$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom-french' );
-	$mofile = sprintf( '%1$s-%2$s.mo', 'bloom-french', $locale );
+			// Traditional WordPress plugin locale filter
+			$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom-french' );
+			$mofile = sprintf( '%1$s-%2$s.mo', 'bloom-french', $locale );
 
-	// Setup paths to current locale file
-	$mofile_local   = $lang_dir . $mofile;
-	$mofile_global  = WP_LANG_DIR . '/bloom-french/' . $mofile;
+			// Setup paths to current locale file
+			$mofile_local   = $lang_dir . $mofile;
+			$mofile_global  = WP_LANG_DIR . '/bloom-french/' . $mofile;
 
-	if ( file_exists( $mofile_global ) ) {
-		// Look in global /wp-content/languages/bloom-french/ folder
-		load_textdomain( 'bloom-french', $mofile_global );
-	} elseif ( file_exists( $mofile_local ) ) {
-		// Look in local /wp-content/plugins/bloom-french/languages/ folder
-		load_textdomain( 'bloom-french', $mofile_local );
-	} else {
-		// Load the default language files
-		load_plugin_textdomain( 'bloom-french', false, $lang_dir );
+			if ( file_exists( $mofile_global ) ) {
+				// Look in global /wp-content/languages/bloom-french/ folder
+				load_textdomain( 'bloom-french', $mofile_global );
+			} elseif ( file_exists( $mofile_local ) ) {
+				// Look in local /wp-content/plugins/bloom-french/languages/ folder
+				load_textdomain( 'bloom-french', $mofile_local );
+			} else {
+				// Load the default language files
+				load_plugin_textdomain( 'bloom-french', false, $lang_dir );
 			}
 		}
 
