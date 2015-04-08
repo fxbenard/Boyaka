@@ -80,9 +80,9 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 			// Plugin URL
 			define( 'FXB_BLOOM_FRENCH_URL', plugin_dir_url( __FILE__ ) );
 
-			define( 'FXB_BLOOM_STORE_URL', 'http://fxbenard.com' );
+			define( 'FXB_BLOOM_STORE_URL', 'https://fxbenard.com' );
 
-			define( 'FXB_BLOOM_ITEM_NAME', 'EDD Braintree French' );
+			define( 'FXB_BLOOM_ITEM_NAME', 'Boyaka' );
 		}
 
 
@@ -135,14 +135,20 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 		 */
 		private function hooks() {
 			// Register settings
-			add_filter( 'edd_settings_extensions', array( $this, 'settings' ), 1 );
+			//add_filter( 'edd_settings_extensions', array( $this, 'settings' ), 1 );
 
 			// Handle licensing
 			if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
 				// load our custom updater
 				include dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php';
 			}
-		}
+
+			     //        // Handle licensing
+        //     if( class_exists( 'EDD_License' ) ) {
+        //         $license = new EDD_License( __FILE__, 'Boyaka', EDD_BLOOM_FRENCH_VER, 'FX BÃ©nard', null, 'http://fxbenard.com' );
+        //     }
+        // }
+}
 
 		/**
 		 * Internationalization
@@ -190,8 +196,8 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 			$new_settings = array(
 				array(
 					'id'    => 'edd_plugin_name_settings',
-					'name'  => '<strong>' . __( 'Plugin Name Settings', 'edd-plugin-name' ) . '</strong>',
-					'desc'  => __( 'Configure Plugin Name Settings', 'edd-plugin-name' ),
+					'name'  => '<strong>' . __( 'Plugin Name Settings', 'bloom-french' ) . '</strong>',
+					'desc'  => __( 'Configure Plugin Name Settings', 'bloom-french' ),
 					'type'  => 'header',
 				),
 			);
@@ -228,6 +234,43 @@ function EDD_Plugin_Name_load() {
 	}
 }
 add_action( 'plugins_loaded', 'EDD_Plugin_Name_load' );
+
+/* Hook to init
+------------------------------------------*/
+add_action( 'init', 'fxb_bloom_init' );
+
+/**
+ * Add the text domain to init.
+ *
+ * @since 1.0
+ */
+function fxb_bloom_init() {
+
+	/* Language */
+	// Set filter for language directory
+	$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
+	$lang_dir = apply_filters( 'fxb_bloom_languages_directory', $lang_dir );
+
+	// Traditional WordPress plugin locale filter
+	$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom' );
+	$mofile = sprintf( '%1$s-%2$s.mo', 'bloom', $locale );
+
+	// Setup paths to current locale file
+	$mofile_local   = $lang_dir . $mofile;
+	$mofile_global  = WP_LANG_DIR . '/bloom-french/' . $mofile;
+
+	if ( file_exists( $mofile_global ) ) {
+		// Look in global /wp-content/languages/bloom-french/ folder
+		load_textdomain( 'bloom', $mofile_global );
+	} elseif ( file_exists( $mofile_local ) ) {
+		// Look in local /wp-content/plugins/bloom-french/languages/ folder
+		load_textdomain( 'bloom', $mofile_local );
+	} else {
+		// Load the default language files
+		load_plugin_textdomain( 'bloom', false, $lang_dir );
+
+	}
+}
 
 
 /**
