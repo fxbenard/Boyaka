@@ -1,0 +1,1399 @@
+# Copyright (C) 2015 Bloom
+# This file is distributed under the same license as the Bloom package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Bloom 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/bloom\n"
+"POT-Creation-Date: 2015-03-18 21:04:31+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-04-07 19:14+0100\n"
+"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Language-Team: fxbenard | FxB <fx@fxbenard.com>\n"
+"X-Generator: Poedit 1.8beta1\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr_FR\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: bloom.php:37
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr ""
+"%s est une classe de singleton et vous ne pouvez pas en créer une seconde "
+"instance."
+
+#: bloom.php:69
+msgid "Save & Exit"
+msgstr "Enregistrer & Quitter"
+
+#. Plugin Name of the plugin/theme
+#: bloom.php:185 includes/bloom-widget.php:11
+msgid "Bloom"
+msgstr "Bloom"
+
+#: bloom.php:186
+msgid "Optin Forms"
+msgstr "Formulaire d'opt-in"
+
+#: bloom.php:187
+msgid "Email Accounts"
+msgstr "Comptes e-mails"
+
+#: bloom.php:188
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: bloom.php:189 dashboard/includes/options.php:22
+msgid "Import & Export"
+msgstr "Importer & Exporter"
+
+#: bloom.php:222
+msgid "Settings"
+msgstr "Réglages"
+
+#: bloom.php:255
+msgid "Next: Design Your Optin"
+msgstr "Suivant : Design Your Optin"
+
+#: bloom.php:262
+msgid "Next: Display Settings"
+msgstr "Suivant : Paramètres d'affichage"
+
+#: bloom.php:269
+msgid "Next: Customize"
+msgstr "Suivant : personnaliser"
+
+#: bloom.php:276
+msgid "Generate Shortcode"
+msgstr "Générer le raccourci"
+
+#: bloom.php:371 bloom.php:377
+msgid "No optins available"
+msgstr "Aucun opt-in disponible"
+
+#: bloom.php:387
+msgid "insert bloom Opt-In"
+msgstr "Insérer le Bloom opt-in"
+
+#: bloom.php:388
+msgid "Inline Opt-In"
+msgstr "Opt-in intégré"
+
+#: bloom.php:389
+msgid "Locked Content Opt-In"
+msgstr "Opt-in Contenu Verrouillé"
+
+#: bloom.php:497
+msgid "new optin"
+msgstr "nouvel opt-in"
+
+#: bloom.php:498
+msgid "Active Optins"
+msgstr "Opt-ins actifs"
+
+#: bloom.php:543 bloom.php:2005
+msgid "select optin type to begin"
+msgstr "sélectionner le type d'opt-in pour commencer"
+
+#: bloom.php:544
+msgid "pop up"
+msgstr "pop-up"
+
+#: bloom.php:545
+msgid "fly in"
+msgstr "apparition"
+
+#: bloom.php:546
+msgid "below post"
+msgstr "sous le contenu"
+
+#: bloom.php:547
+msgid "inline"
+msgstr "intégré"
+
+#: bloom.php:548
+msgid "locked content"
+msgstr "contenu verrouillé"
+
+#: bloom.php:549
+msgid "widget"
+msgstr "Widget"
+
+#: bloom.php:562
+msgid "new account"
+msgstr "nouveau compte"
+
+#: bloom.php:563
+msgid "My Accounts"
+msgstr "Mes comptes"
+
+#: bloom.php:623 dashboard/includes/options.php:1034
+msgid "Preview"
+msgstr "Prévisualiser"
+
+#: bloom.php:681
+msgid "Overview"
+msgstr "Vue générale"
+
+#: bloom.php:693
+msgid "New sign ups"
+msgstr "Nouveaux abonnements"
+
+#: bloom.php:694
+msgid "Last 30 days"
+msgstr "30 derniers jours"
+
+#: bloom.php:695
+msgid "Last 12 month"
+msgstr "12 derniers mois"
+
+#: bloom.php:718
+msgid "All lists"
+msgstr "Toutes les listes"
+
+#: bloom.php:769 bloom.php:808 bloom.php:1811
+msgid "Conversion Rate"
+msgstr "Taux de conversion"
+
+#: bloom.php:771 bloom.php:1058 bloom.php:1654
+msgid "Subscribers"
+msgstr "Abonnés"
+
+#: bloom.php:773
+msgid "Subscriber Growth"
+msgstr "Augmentation d'abonnés"
+
+#: bloom.php:774 bloom.php:1100 bloom.php:1115 bloom.php:1719
+msgid "week"
+msgstr "semaine"
+
+#: bloom.php:805
+msgid "My Optins"
+msgstr "Mes opt-ins"
+
+#: bloom.php:806 bloom.php:1809
+msgid "Impressions"
+msgstr "Impressions"
+
+#: bloom.php:807 bloom.php:1810
+msgid "Conversions"
+msgstr "Conversions"
+
+#: bloom.php:974 dashboard/includes/options.php:753
+msgid "Homepage"
+msgstr "Page d'accueil"
+
+#: bloom.php:1019
+msgid "Highest converting pages"
+msgstr "Pages de conversion plus élevées"
+
+#: bloom.php:1020 bloom.php:2156
+msgid "Conversion rate"
+msgstr "Taux de conversion"
+
+#: bloom.php:1056
+msgid "My Lists"
+msgstr "Mes listes"
+
+#: bloom.php:1057
+msgid "Provider"
+msgstr "Fournisseur"
+
+#: bloom.php:1059
+msgid "Growth Rate"
+msgstr "Taux de croissance"
+
+#: bloom.php:1098 bloom.php:1717
+msgid "n/a"
+msgstr "n/a"
+
+#: bloom.php:1354
+msgid "New Signups"
+msgstr "Nouveaux abonnements"
+
+#: bloom.php:1359
+msgid "Per"
+msgstr "Par"
+
+#: bloom.php:1360
+msgid "Day"
+msgstr "Jour"
+
+#: bloom.php:1360
+msgid "Month"
+msgstr "Mois"
+
+#: bloom.php:1452 bloom.php:2014 dashboard/includes/options.php:906
+#: dashboard/includes/options.php:937
+msgid "Authorize"
+msgstr "Autoriser"
+
+#: bloom.php:1479
+msgid "New Account Setup"
+msgstr "Configuration du nouveau compte"
+
+#: bloom.php:1481
+msgid "You can view and re-authorize this account’s settings below"
+msgstr ""
+"Vous pouvez afficher et ré-autoriser les paramètres de ce compte ci-dessous"
+
+#: bloom.php:1482
+msgid "Setup a new email marketing service account below"
+msgstr ""
+"Configurer un nouveau compte de service de marketing par e-mail ci-dessous"
+
+#: bloom.php:1504 bloom.php:2015 dashboard/dashboard.php:1129
+msgid "Re-Authorize"
+msgstr "Ré-autoriser"
+
+#: bloom.php:1507 bloom.php:1549
+msgid "save & exit"
+msgstr "enregistrer & quitter"
+
+#: bloom.php:1538
+msgid "New account settings"
+msgstr "Réglages du nouveau compte"
+
+#: bloom.php:1539 bloom.php:4213 bloom.php:4503
+#: dashboard/includes/options.php:74 dashboard/includes/options.php:98
+#: dashboard/includes/options.php:109
+msgid "Select One..."
+msgstr "Sélectionnez..."
+
+#: bloom.php:1540 dashboard/includes/options.php:75
+#: dashboard/includes/options.php:885
+msgid "MailChimp"
+msgstr "MailChimp"
+
+#: bloom.php:1541 dashboard/includes/options.php:76
+#: dashboard/includes/options.php:916
+msgid "AWeber"
+msgstr "AWeber"
+
+#: bloom.php:1542 dashboard/includes/options.php:77
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+#: bloom.php:1543 dashboard/includes/options.php:78
+msgid "Campaign Monitor"
+msgstr "Campaign Monitor"
+
+#: bloom.php:1544 dashboard/includes/options.php:79
+msgid "Mad Mimi"
+msgstr "Mad Mimi"
+
+#: bloom.php:1545 dashboard/includes/options.php:80
+msgid "iContact"
+msgstr "iContact"
+
+#: bloom.php:1546 dashboard/includes/options.php:81
+msgid "GetResponse"
+msgstr "GetResponse"
+
+#: bloom.php:1547 dashboard/includes/options.php:82
+msgid "Sendinblue"
+msgstr "Sendinblue"
+
+#: bloom.php:1548 dashboard/includes/options.php:83
+msgid "MailPoet"
+msgstr "MailPoet"
+
+#: bloom.php:1550 dashboard/includes/options.php:85
+msgid "Ontraport"
+msgstr "Ontraport"
+
+#: bloom.php:1551 dashboard/includes/options.php:84
+msgid "Feedblitz"
+msgstr "Feedblitz"
+
+#: bloom.php:1552 dashboard/includes/options.php:86
+msgid "Infusionsoft"
+msgstr "Infusionsoft"
+
+#: bloom.php:1594
+msgid "Account Lists"
+msgstr "Listes de comptes"
+
+#: bloom.php:1597
+msgid "No lists available for this account"
+msgstr "Aucune liste disponible pour ce compte"
+
+#: bloom.php:1653
+msgid "Account name"
+msgstr "Nom du compte"
+
+#: bloom.php:1655
+msgid "Growth rate"
+msgstr "Taux de croissance"
+
+#: bloom.php:1685
+msgid "Update Lists"
+msgstr "Mettre à jour les listes"
+
+#: bloom.php:1690
+msgid "Remove account"
+msgstr "Supprimer le compte"
+
+#: bloom.php:1693
+msgid "Remove this account from list?"
+msgstr "Supprimer ce compte de la liste ?"
+
+#: bloom.php:1694 bloom.php:1858 bloom.php:1927
+msgid "Yes"
+msgstr "Oui"
+
+#: bloom.php:1695 bloom.php:1859 bloom.php:1928
+msgid "No"
+msgstr "Non"
+
+#: bloom.php:1699
+msgid "Authorized"
+msgstr "Autorisé"
+
+#: bloom.php:1700
+msgid "Not Authorized"
+msgstr "Non autorisé"
+
+#: bloom.php:1704
+msgid "Edit account"
+msgstr "Modifier le compte"
+
+#: bloom.php:1730
+msgid "No lists available"
+msgstr "Aucune liste disponible"
+
+#: bloom.php:1808
+msgid "Optin Name"
+msgstr "Nom de l'opt-in"
+
+#: bloom.php:1853 bloom.php:1920
+msgid "Delete Optin"
+msgstr "Supprimer l'opt-in"
+
+#: bloom.php:1857 bloom.php:1926
+msgid "Delete this optin?"
+msgstr "Supprimer cet opt-in ?"
+
+#: bloom.php:1863 bloom.php:1921
+msgid "Edit Optin"
+msgstr "Mofidier l'opt-in"
+
+#: bloom.php:1876
+msgid "Add variant"
+msgstr "Ajouter variante"
+
+#: bloom.php:1877 bloom.php:2017
+msgid "Pause test"
+msgstr "Mettre en pause le test"
+
+#: bloom.php:1877 bloom.php:2018
+msgid "Start test"
+msgstr "Lancer le test"
+
+#: bloom.php:1878
+#, fuzzy
+msgid "End & pick winner"
+msgstr "Fin"
+
+#: bloom.php:1914
+msgid "Generate shortcode"
+msgstr "Générer le raccourci"
+
+#: bloom.php:1918
+msgid "Make Inactive"
+msgstr "Rendre inactif"
+
+#: bloom.php:1918
+msgid "Make Active"
+msgstr "Activer"
+
+#: bloom.php:1919
+msgid "Duplicate"
+msgstr "Dupliquer"
+
+#: bloom.php:1935
+msgid "A/B Testing"
+msgstr "A/B Testing"
+
+#: bloom.php:1971
+msgid "Inactive Optins"
+msgstr "Opt-ins inactifs"
+
+#: bloom.php:2006
+msgid "Shortcode for this optin:"
+msgstr "Raccourci pour cet opt-in :"
+
+#: bloom.php:2016
+msgid "Account name is not defined"
+msgstr "Le nom du compte n'est pas défini"
+
+#: bloom.php:2021
+msgid ""
+"You Have Not Added An Email List. Before your opt-in can be activated, you "
+"must first add an account and select an email list. You can save and exit, "
+"but the opt-in will remain inactive until an account is added."
+msgstr ""
+"Vous n'avez pas ajouté de liste d'e-mail. Avant que votre opt-in puisse être "
+"activé, vous devez d'abord ajouter un compte et sélectionner une liste d'e-"
+"mail. Vous pouvez sauvegarder et quitter, mais l'opt-in restera inactif "
+"jusqu'à ce qu'un compte soit ajouté."
+
+#: bloom.php:2022
+msgid "Add An Account"
+msgstr "Ajouter un compte"
+
+#: bloom.php:2023
+msgid "Save As Inactive"
+msgstr "Enregistrer comme inactifs"
+
+#: bloom.php:2024
+msgid ""
+"You Have Not Added An Email List. Before your opt-in can be activated, you "
+"must first add an account and select an email list."
+msgstr ""
+"Vous n'avez pas ajouté de liste d'e-mail. Avant que votre opt-in puisse être "
+"activé, vous devez d'abord ajouter un compte et sélectionner une liste d'e-"
+"mail."
+
+#: bloom.php:2155 dashboard/includes/options.php:50
+msgid "Optin name"
+msgstr "Nom de l'opt-in"
+
+#: bloom.php:2190
+msgid "Choose an optin"
+msgstr "Choisir un opt-in"
+
+#: bloom.php:2191
+msgid "cancel"
+msgstr "annuler"
+
+#: bloom.php:2527 bloom.php:2620
+msgid "Authorization failed: "
+msgstr "Echec de l'autorisation :"
+
+#: bloom.php:2715
+msgid "Invalid email"
+msgstr "Adresse de messagerie non valide."
+
+#: bloom.php:2735 bloom.php:2795 bloom.php:2843 bloom.php:3073 bloom.php:3455
+#: bloom.php:3536 bloom.php:3595 bloom.php:4139
+msgid "curl_init is not defined "
+msgstr "curl_init n'est pas défini"
+
+#: bloom.php:2816 bloom.php:3020 bloom.php:3030 bloom.php:3145 bloom.php:3259
+#: bloom.php:3379 bloom.php:3626
+msgid "Already subscribed"
+msgstr "D&egrave;j&agrave; abonn&eacute;"
+
+#: bloom.php:2851 bloom.php:2871 bloom.php:3123
+msgid "invalid API key"
+msgstr "Clé API incorrecte"
+
+#: bloom.php:2957 bloom.php:3194 bloom.php:3426 bloom.php:3957 bloom.php:3994
+msgid "empty response"
+msgstr "réponse vide"
+
+#: bloom.php:2965 bloom.php:3038
+msgid "Invalid Token"
+msgstr "Jeton non valide"
+
+#: bloom.php:2969 bloom.php:3042
+msgid "Invalid API key"
+msgstr "Clé API incorrecte"
+
+#: bloom.php:3202 bloom.php:3246 bloom.php:3267
+msgid "Invalid Username or API key"
+msgstr "Nom d'utilisateur ou API key non valide"
+
+#: bloom.php:3336
+msgid "Account ID is not defined"
+msgstr "ID du compte non défini"
+
+#: bloom.php:3434
+msgid "Invalid App ID, Username or Password"
+msgstr "ID de l'app, l&rsquo;identifiant ou le mot de passe non valide."
+
+#: bloom.php:3485 bloom.php:3583
+msgid "Invalid API key or something went wrong during Authorization request"
+msgstr ""
+"Clé d'API non valide ou quelque chose s'est mal passé durant la demande "
+"d'autorisation"
+
+#: bloom.php:3622 bloom.php:3953 bloom.php:3991
+msgid "Unknown error"
+msgstr "Erreur inconnue"
+
+#: bloom.php:3644 bloom.php:3685
+msgid "MailPoet plugin is not installed"
+msgstr "L&rsquo;extension MailPoet n'est pas installée."
+
+#: bloom.php:3747 bloom.php:4127
+msgid "Already Subscribed"
+msgstr "D&egrave;j&agrave; abonn&eacute;"
+
+#: bloom.php:3807
+msgid "Aweber: Wrong configuration data"
+msgstr "Aweber: mauvaise configuration des données"
+
+#: bloom.php:3843
+msgid ""
+"Authorization code is invalid. Try regenerating it and paste in the new code."
+msgstr ""
+"Le code d'autorisation n'est pas valide. Essayez de recréer et de coller un "
+"nouveau code."
+
+#: bloom.php:3868
+msgid "AWeberAPIException."
+msgstr "AWeberAPIException."
+
+#: bloom.php:3869
+msgid "Type"
+msgstr "Type"
+
+#: bloom.php:3870
+msgid "Message"
+msgstr "Message"
+
+#: bloom.php:3871
+msgid "Documentation"
+msgstr "Documentation"
+
+#: bloom.php:4124
+msgid "Error occured during subscription"
+msgstr "Une erreur est survenue pendant l'abonnement"
+
+#: bloom.php:4212 dashboard/includes/options.php:95
+msgid "Select Account"
+msgstr "Sélectionner le compte"
+
+#: bloom.php:4216 bloom.php:4241 dashboard/includes/options.php:99
+msgid "Add Account"
+msgstr "Ajouter compte"
+
+#: bloom.php:4274
+msgid "Account Name"
+msgstr "Nom du compte"
+
+#: bloom.php:4276
+msgid "Enter the name for your account"
+msgstr "Entrez le nom de votre compte"
+
+#: bloom.php:4294 bloom.php:4389
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: bloom.php:4295 bloom.php:4320 bloom.php:4414
+msgid "API key"
+msgstr "Clé API"
+
+#: bloom.php:4300 bloom.php:4324 bloom.php:4340 bloom.php:4396 bloom.php:4420
+#: bloom.php:4443 dashboard/includes/options.php:898
+#: dashboard/includes/options.php:929
+msgid "Click here for more information"
+msgstr "Pour plus d'informations, cliquez ici"
+
+#: bloom.php:4336
+msgid "Token"
+msgstr "Jeton"
+
+#: bloom.php:4354
+msgid ""
+"Step 1: <a href=\"%1$s\" target=\"_blank\">Generate authorization code</"
+"a><br/>"
+msgstr ""
+"Étape 1 : <a href=\"%1$s\" target=\"_blank\">Générez le code d'autorisation</"
+"a><br/>"
+
+#: bloom.php:4361
+msgid ""
+"Step 2: Paste in the authorization code and click \"Authorize\" button: "
+msgstr ""
+"Etape 2: Collez dans le code d'autorisation, puis cliquez sur le bouton « "
+"Autoriser » :"
+
+#: bloom.php:4388
+msgid "App ID"
+msgstr "ID de l'App"
+
+#: bloom.php:4390
+msgid "Password"
+msgstr "Mot de passe"
+
+#: bloom.php:4415
+msgid "APP ID"
+msgstr "ID DE L'APP"
+
+#: bloom.php:4437
+msgid "API Key"
+msgstr "Clé API"
+
+#: bloom.php:4438
+msgid "Application name"
+msgstr "Nom de l'application"
+
+#: bloom.php:4502 dashboard/includes/options.php:106
+msgid "Select Email List"
+msgstr "Sélectionnez une liste d'e-mail"
+
+#: bloom.php:4993 dashboard/includes/options.php:333
+msgid "Email"
+msgstr "E-mail "
+
+#: bloom.php:5005 dashboard/includes/options.php:297
+msgid "First Name"
+msgstr "Prénom"
+
+#: bloom.php:5011 dashboard/includes/options.php:309
+msgid "Name"
+msgstr "Nom"
+
+#: bloom.php:5017 dashboard/includes/options.php:321
+msgid "Last Name"
+msgstr "Nom"
+
+#: bloom.php:5026 dashboard/includes/options.php:344
+msgid "SUBSCRIBE!"
+msgstr "ABONNEZ-VOUS !"
+
+#: bloom.php:5031 dashboard/includes/options.php:568
+msgid "You have Successfully Subscribed!"
+msgstr "Vous vous êtes bien inscrit(e) !"
+
+#: bloom.php:5601
+msgid "Select optin"
+msgstr "Sélectionner l'opt-in"
+
+#: bloom.php:5614
+msgid "No Widget optins created yet"
+msgstr "Aucun Widget d'opt-in créé pour l&#39;instant"
+
+#: dashboard/dashboard.php:36
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: dashboard/dashboard.php:258
+msgid "Ok"
+msgstr "Ok"
+
+#: dashboard/dashboard.php:475
+msgid "Please select social networks in \"Social Sharing / Networks\" settings"
+msgstr ""
+"Veuillez sélectionner les réseaux sociaux dans les réglages \"Partage "
+"sociaux / Réseaux\""
+
+#: dashboard/dashboard.php:840
+msgid " ( post )"
+msgstr " ( article )"
+
+#: dashboard/dashboard.php:896
+msgid "Automatically check categories created in future"
+msgstr "Cocher automatiquement les catégories créées à l'avenir"
+
+#: dashboard/dashboard.php:1009
+msgid "Note:"
+msgstr "Note&nbsp;:"
+
+#: dashboard/dashboard.php:1239
+msgid ""
+"Export the plugin settings for this site as a .json file. This allows you to "
+"easily import the configuration into another site."
+msgstr ""
+"Exporter les réglages de l'extension de ce site au format .json. Cela vous "
+"permet d'importer facilement les réglages de votre configuration sur un "
+"autre site."
+
+#: dashboard/dashboard.php:1245
+msgid "Export"
+msgstr "Exporter"
+
+#: dashboard/dashboard.php:1256
+msgid "Import %1$s Settings"
+msgstr "Importation des réglages de %1$s"
+
+#: dashboard/dashboard.php:1257
+msgid ""
+"Import the plugin settings from a .json file. This file can be obtained by "
+"exporting the settings on another site using the form above."
+msgstr ""
+"Importer les réglages de l'extension à partir d'un fichier au format .json. "
+"Ce fichier peut être obtenu en exportant les réglages d'un autre site en "
+"utilisant le formulaire ci-dessus."
+
+#: dashboard/dashboard.php:1265
+msgid "Import"
+msgstr "Importer"
+
+#: dashboard/dashboard.php:1362
+msgid "Please select .json file for import"
+msgstr "Veuillez sélectionner un fichier .json à importer"
+
+#: dashboard/dashboard.php:1367
+msgid "Please provide valid .json file"
+msgstr "Veuillez fournir un fichier .json valide"
+
+#: dashboard/dashboard.php:1381
+msgid "Options imported successfully."
+msgstr "Options importées avec succès."
+
+#: dashboard/includes/options.php:10
+msgid "Optin Configuration"
+msgstr "Configuration de l'opt-in"
+
+#: dashboard/includes/options.php:12
+msgid "Setup"
+msgstr "Configuration"
+
+#: dashboard/includes/options.php:13
+msgid "Premade Layouts"
+msgstr "Mises en pages prédéfinies"
+
+#: dashboard/includes/options.php:14
+msgid "Design"
+msgstr "Design"
+
+#: dashboard/includes/options.php:15 dashboard/includes/options.php:1003
+msgid "Display Settings"
+msgstr "Réglages de l&rsquo;affichage"
+
+#: dashboard/includes/options.php:20 dashboard/includes/options.php:1019
+msgid "Optin Stats"
+msgstr "Stats"
+
+#: dashboard/includes/options.php:21
+msgid "Accounts settings"
+msgstr "Paramètres des comptes"
+
+#: dashboard/includes/options.php:23 dashboard/includes/options.php:1014
+msgid "Home"
+msgstr "Accueil"
+
+#: dashboard/includes/options.php:24 dashboard/includes/options.php:1029
+msgid "Edit Account"
+msgstr "Modifier le compte"
+
+#: dashboard/includes/options.php:57 dashboard/includes/options.php:58
+msgid "MyNewOptin"
+msgstr "MonNouvelOptin"
+
+#: dashboard/includes/options.php:66
+msgid "Form Integration"
+msgstr "Intégration du formulaire"
+
+#: dashboard/includes/options.php:71
+msgid "Select Email Provider"
+msgstr "Sélectionnez le fournisseur de messagerie"
+
+#: dashboard/includes/options.php:87
+msgid "Custom HTML Form"
+msgstr "Formulaire HTML personnalisé"
+
+#: dashboard/includes/options.php:119
+msgid "Insert HTML"
+msgstr "Insérer du HTML"
+
+#: dashboard/includes/options.php:129
+msgid "Optin title"
+msgstr "Titre de l'opt-in"
+
+#: dashboard/includes/options.php:130
+msgid "No title will appear if left blank"
+msgstr "Aucun titre n'apparaîtra si laissé vide"
+
+#: dashboard/includes/options.php:138 dashboard/includes/options.php:157
+msgid "Insert Text"
+msgstr "Insérer du texte"
+
+#: dashboard/includes/options.php:139
+msgid "Subscribe To Our Newsletter"
+msgstr "Abonnez-vous à notre newsletter"
+
+#: dashboard/includes/options.php:148
+msgid "Optin message"
+msgstr "Message de l'opt-in"
+
+#: dashboard/includes/options.php:149
+msgid "No message will appear if left blank"
+msgstr "Aucun message n'apparaîtra si laissé vide"
+
+#: dashboard/includes/options.php:158
+msgid ""
+"Join our mailing list to receive the latest news and updates from our team."
+msgstr ""
+"Abonnez-vous à notre newsletter pour recevoir les dernières news et mises à "
+"jour de notre équipe."
+
+#: dashboard/includes/options.php:167
+msgid "Image Settings"
+msgstr "Options des images"
+
+#: dashboard/includes/options.php:171 dashboard/includes/options.php:187
+msgid "Image Orientation"
+msgstr "Orientation de l'image"
+
+#: dashboard/includes/options.php:174 dashboard/includes/options.php:190
+msgid "No Image"
+msgstr "Pas d'image"
+
+#: dashboard/includes/options.php:175 dashboard/includes/options.php:191
+msgid "Image Above Text"
+msgstr "Image au-dessus du texte"
+
+#: dashboard/includes/options.php:176 dashboard/includes/options.php:192
+msgid "Image Below Text"
+msgstr "Image au-dessous du texte"
+
+#: dashboard/includes/options.php:177
+msgid "Image Right of Text"
+msgstr "Image à droite du texte"
+
+#: dashboard/includes/options.php:178
+msgid "Image Left of Text"
+msgstr "Image à gauche du texte"
+
+#: dashboard/includes/options.php:210
+msgid "Image URL"
+msgstr "Adresse url de l&rsquo;image"
+
+#: dashboard/includes/options.php:213
+msgid "Upload an Image"
+msgstr "Mettre en ligne une image"
+
+#: dashboard/includes/options.php:214
+msgid "Choose an Optin Image"
+msgstr "Choisissez une image d'opt-in"
+
+#: dashboard/includes/options.php:215
+msgid "Set as Optin Image"
+msgstr "Définir comme image d'opt-in"
+
+#: dashboard/includes/options.php:220
+msgid "Image Load-In Animation"
+msgstr "Image de l'animation dans l'apparition"
+
+#: dashboard/includes/options.php:223 dashboard/includes/options.php:601
+msgid "No Animation"
+msgstr "Aucune animation"
+
+#: dashboard/includes/options.php:224 dashboard/includes/options.php:602
+msgid "Fade In"
+msgstr "Fade In"
+
+#: dashboard/includes/options.php:225 dashboard/includes/options.php:603
+msgid "Slide Right"
+msgstr "Glissement vers la droite"
+
+#: dashboard/includes/options.php:226 dashboard/includes/options.php:605
+msgid "Slide Down"
+msgstr "Glissement vers le bas"
+
+#: dashboard/includes/options.php:227 dashboard/includes/options.php:604
+#: dashboard/includes/options.php:606
+msgid "Slide Up"
+msgstr "Glissement vers le haut"
+
+#: dashboard/includes/options.php:228 dashboard/includes/options.php:607
+msgid "Light Speed"
+msgstr "Vitesse de la lumière"
+
+#: dashboard/includes/options.php:229 dashboard/includes/options.php:608
+msgid "Zoom In"
+msgstr "Zoom In"
+
+#: dashboard/includes/options.php:230 dashboard/includes/options.php:609
+msgid "Flip"
+msgstr "Flip"
+
+#: dashboard/includes/options.php:231 dashboard/includes/options.php:610
+msgid "Bounce"
+msgstr "Rebond"
+
+#: dashboard/includes/options.php:232 dashboard/includes/options.php:611
+msgid "Swing"
+msgstr "Swing"
+
+#: dashboard/includes/options.php:233 dashboard/includes/options.php:612
+msgid "Tada!"
+msgstr "Tada !"
+
+#: dashboard/includes/options.php:235
+msgid "Define the animation that is used to load the image"
+msgstr "Définir l'animation qui est utilisée lors du chargement de l'image."
+
+#: dashboard/includes/options.php:241
+msgid "Hide image on mobile"
+msgstr "Cacher les images sur mobile"
+
+#: dashboard/includes/options.php:251
+msgid "Form setup"
+msgstr "Configuration du formulaire"
+
+#: dashboard/includes/options.php:255
+msgid "Form Orientation"
+msgstr "Orientation du formulaire"
+
+#: dashboard/includes/options.php:258
+msgid "Form On Bottom"
+msgstr "Formulaire en bas"
+
+#: dashboard/includes/options.php:259
+msgid "Form On Right"
+msgstr "Formulaire à droite"
+
+#: dashboard/includes/options.php:260
+msgid "Form On Left"
+msgstr "Formulaire sur la gauche"
+
+#: dashboard/includes/options.php:268
+msgid "Display Name Field"
+msgstr "Afficher le nom du champ"
+
+#: dashboard/includes/options.php:278
+msgid "Name Field(s)"
+msgstr "Nom du champ(s)"
+
+#: dashboard/includes/options.php:282
+msgid "No Name Field"
+msgstr "Champ sans nom"
+
+#: dashboard/includes/options.php:283
+msgid "Single Name Field"
+msgstr "Champ de nom unique"
+
+#: dashboard/includes/options.php:284
+msgid "First + Last Name Fields"
+msgstr "Champs du prénom et du nom"
+
+#: dashboard/includes/options.php:296 dashboard/includes/options.php:308
+msgid "Name Text"
+msgstr "Intitulé"
+
+#: dashboard/includes/options.php:320
+msgid "Last Name Text"
+msgstr "Texte du nom de famille"
+
+#: dashboard/includes/options.php:332
+msgid "Email Text"
+msgstr "Texte de l'e-mail"
+
+#: dashboard/includes/options.php:343
+msgid "Button Text"
+msgstr "Libellé du bouton"
+
+#: dashboard/includes/options.php:351
+msgid "Button Text Color"
+msgstr "Couleur du texte du bouton"
+
+#: dashboard/includes/options.php:355
+msgid "Light"
+msgstr "Lumineux"
+
+#: dashboard/includes/options.php:356
+msgid "Dark"
+msgstr "Sombre"
+
+#: dashboard/includes/options.php:366
+msgid "Optin Styling"
+msgstr "Style de l'opt-in"
+
+#: dashboard/includes/options.php:370
+msgid "Background Color"
+msgstr "Couleur d'arrière-plan"
+
+#: dashboard/includes/options.php:373 dashboard/includes/options.php:439
+#: dashboard/includes/options.php:492 dashboard/includes/options.php:501
+msgid "Hex Value"
+msgstr "Valeur hexadécimale"
+
+#: dashboard/includes/options.php:379
+msgid "Header Font"
+msgstr "Police des en-tête"
+
+#: dashboard/includes/options.php:386
+msgid "Body Font"
+msgstr "Police du corps du texte"
+
+#: dashboard/includes/options.php:393
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: dashboard/includes/options.php:397 dashboard/includes/options.php:481
+msgid "Light Text"
+msgstr "Texte clair"
+
+#: dashboard/includes/options.php:398 dashboard/includes/options.php:482
+msgid "Dark Text"
+msgstr "Texte foncé"
+
+#: dashboard/includes/options.php:405
+msgid "Corner Style"
+msgstr "Style d&apos;angle"
+
+#: dashboard/includes/options.php:409 dashboard/includes/options.php:469
+msgid "Squared Corners"
+msgstr "Coins carrés"
+
+#: dashboard/includes/options.php:410 dashboard/includes/options.php:470
+msgid "Rounded Corners"
+msgstr "Coins arrondis"
+
+#: dashboard/includes/options.php:417
+msgid "Border Orientation"
+msgstr "Orientation de la bordure"
+
+#: dashboard/includes/options.php:421
+msgid "No Border"
+msgstr "Aucune bordure"
+
+#: dashboard/includes/options.php:422
+msgid "Full Border"
+msgstr "Bordure partout"
+
+#: dashboard/includes/options.php:423
+msgid "Top Border"
+msgstr "Bordure du haut"
+
+#: dashboard/includes/options.php:424
+msgid "Right Border"
+msgstr "Bordure droite"
+
+#: dashboard/includes/options.php:425
+msgid "Bottom Border"
+msgstr "Bordure du bas"
+
+#: dashboard/includes/options.php:426
+msgid "Left Border"
+msgstr "Bordure gauche"
+
+#: dashboard/includes/options.php:427
+msgid "Top + Bottom Border"
+msgstr "Bordure en haut + bas"
+
+#: dashboard/includes/options.php:428
+msgid "Left + Right Border"
+msgstr "Bordure gauche + droite"
+
+#: dashboard/includes/options.php:436
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: dashboard/includes/options.php:449
+msgid "Form Styling"
+msgstr "Style du formulaire"
+
+#: dashboard/includes/options.php:453
+msgid "Form Field Orientation"
+msgstr "Orientation du champ de formulaire"
+
+#: dashboard/includes/options.php:456
+msgid "Stacked Form Fields"
+msgstr "Champs de formulaire empilées"
+
+#: dashboard/includes/options.php:457
+msgid "Inline Form Fields"
+msgstr "Champs du formulaire intégré"
+
+#: dashboard/includes/options.php:465
+msgid "Form Field Corner Style"
+msgstr "Style des coins des champs du formulaire"
+
+#: dashboard/includes/options.php:477
+msgid "Form Text Color"
+msgstr "Couleur du texte du formulaire"
+
+#: dashboard/includes/options.php:489
+msgid "Form Background Color"
+msgstr "Couleur d'arrière-plan du formulaire"
+
+#: dashboard/includes/options.php:498
+msgid "Button Color"
+msgstr "Couleur des boutons"
+
+#: dashboard/includes/options.php:509
+msgid "Choose form edge style"
+msgstr "Choisissez le style des bordures du formulaire"
+
+#: dashboard/includes/options.php:526
+msgid "Choose border style"
+msgstr "Choisir le style de bordure"
+
+#: dashboard/includes/options.php:544
+msgid "Form Footer Text"
+msgstr "Texte de pied de page du formulaire"
+
+#: dashboard/includes/options.php:551
+msgid "insert your footer text"
+msgstr "insérez votre texte de pied de page"
+
+#: dashboard/includes/options.php:561
+msgid "Success Message Text"
+msgstr "Texte du message de succès"
+
+#: dashboard/includes/options.php:578
+msgid "Custom CSS"
+msgstr "CSS personnalisé"
+
+#: dashboard/includes/options.php:584
+msgid "insert your custom CSS code"
+msgstr "Insérez votre code CSS personnalisé"
+
+#: dashboard/includes/options.php:593
+msgid "Load-in settings"
+msgstr "Réglages du chargement"
+
+#: dashboard/includes/options.php:598
+msgid "Intro Animation"
+msgstr "Animation d'introduction"
+
+#: dashboard/includes/options.php:614
+msgid "Define the animation that is used, when you load the page."
+msgstr "Définir l'animation qui est utilisée lors du chargement de la page."
+
+#: dashboard/includes/options.php:621
+msgid "Trigger After Time Delay"
+msgstr "Déclencher après le délai de temps"
+
+#: dashboard/includes/options.php:630
+msgid "Delay (in seconds)"
+msgstr "Délai (en secondes)"
+
+#: dashboard/includes/options.php:632
+msgid ""
+"Define how many seconds you want to wait before the pop up appears on the "
+"screen."
+msgstr ""
+"Définir le nombre de secondes avant que la pop-up n'apparaisse à l'écran."
+
+#: dashboard/includes/options.php:639
+msgid "Trigger After Inactivity"
+msgstr "Déclenchement avec l'inactivité"
+
+#: dashboard/includes/options.php:648
+msgid "Idle Timeout ( in seconds )"
+msgstr "Délai d'inactivité (en secondes)"
+
+#: dashboard/includes/options.php:650
+msgid ""
+"Define how many seconds user should be inactive before the pop up appears on "
+"screen."
+msgstr ""
+"Définir le nombre de secondes pendant lesquelles l'utilisateur doit être "
+"inactif avant que la pop-up n'apparaisse à l'écran."
+
+#: dashboard/includes/options.php:657
+msgid "Trigger At The Bottom of Post"
+msgstr "Déclenchement en bas de l'article"
+
+#: dashboard/includes/options.php:664
+msgid "Trigger After Commenting"
+msgstr "Déclenchement après un commentaire"
+
+#: dashboard/includes/options.php:671
+msgid "Trigger After Scrolling"
+msgstr "Déclenchement avec le défilement"
+
+#: dashboard/includes/options.php:680
+msgid "Percentage Down The Page"
+msgstr "Pourcentage dans la page"
+
+#: dashboard/includes/options.php:682
+msgid ""
+"Define the % of the page to be scrolled before the pop up appears on the "
+"screen."
+msgstr ""
+"Définir le % de défilement dans la page pour faire avant la pop-up "
+"n'apparaisse à l'écran."
+
+#: dashboard/includes/options.php:689
+msgid "Trigger After Purchasing"
+msgstr "Déclencher après l'achat"
+
+#: dashboard/includes/options.php:692
+msgid "Display on \"Thank you\" page of WooCommerce after purchase"
+msgstr ""
+"S'affiche sur la page de  « Remerciement » de WooCommerce après l'achat"
+
+#: dashboard/includes/options.php:697
+msgid "Display once per session"
+msgstr "Afficher une fois par session"
+
+#: dashboard/includes/options.php:706
+msgid "Session Duration (in days)"
+msgstr "Dur&eacute;e d'une session (en jours)"
+
+#: dashboard/includes/options.php:708
+msgid ""
+"Define the length of time (in days) that a session lasts for. For example, "
+"if you input 2 a user will only see a popup on your site every two days."
+msgstr ""
+"Définir la durée (en jours) d'une session. Par exemple, si vous entrez 2, un "
+"utilisateur ne verra une pop-up sur votre site que tous les deux jours "
+"maximum."
+
+#: dashboard/includes/options.php:715
+msgid "Hide on Mobile"
+msgstr "Cacher sur les mobiles"
+
+#: dashboard/includes/options.php:725
+msgid "Fly-In Orientation"
+msgstr "Orientation de l'apparition"
+
+#: dashboard/includes/options.php:730
+msgid "Choose Orientation"
+msgstr "Choisir l'orientation"
+
+#: dashboard/includes/options.php:733
+msgid "Right"
+msgstr "À droite"
+
+#: dashboard/includes/options.php:734
+msgid "Left"
+msgstr "À gauche"
+
+#: dashboard/includes/options.php:735
+msgid "Center"
+msgstr "Centré"
+
+#: dashboard/includes/options.php:745
+msgid "Display on"
+msgstr "Afficher sur"
+
+#: dashboard/includes/options.php:752
+msgid "Everything"
+msgstr "Tout"
+
+#: dashboard/includes/options.php:754
+msgid "Archives"
+msgstr "Archives"
+
+#: dashboard/includes/options.php:755
+msgid "Categories"
+msgstr "Catégories"
+
+#: dashboard/includes/options.php:756
+msgid "Tags"
+msgstr "Mots-clefs"
+
+#: dashboard/includes/options.php:783
+msgid "Display on these categories"
+msgstr "Affichez sur ces catégories"
+
+#: dashboard/includes/options.php:801
+msgid "Do not display on these pages"
+msgstr "Ne pas afficher sur ces pages"
+
+#: dashboard/includes/options.php:810 dashboard/includes/options.php:830
+msgid "choose pages..."
+msgstr "choisir les pages..."
+
+#: dashboard/includes/options.php:820
+msgid "Display on these pages"
+msgstr "Afficher sur ces pages"
+
+#: dashboard/includes/options.php:821
+msgid "Pages defined below will override all settings above"
+msgstr "Les pages définies ci-dessous remplacent tous les réglages ci-dessus"
+
+#: dashboard/includes/options.php:840
+msgid "Do not display on these posts"
+msgstr "Ne pas afficher sur ces articles"
+
+#: dashboard/includes/options.php:849 dashboard/includes/options.php:869
+msgid "choose posts..."
+msgstr "choisir les articles"
+
+#: dashboard/includes/options.php:859
+msgid "Display on these posts"
+msgstr "Affichez sur ces articles"
+
+#: dashboard/includes/options.php:860
+msgid "Posts defined below will override all settings above"
+msgstr "Les articles définis ci-dessous remplacent tous les réglages ci-dessus"
+
+#: dashboard/includes/options.php:879
+msgid "Setup your accounts"
+msgstr "Configurer vos comptes"
+
+#: dashboard/includes/options.php:892
+msgid "MailChimp API Key"
+msgstr "Clé API de MailChimp"
+
+#: dashboard/includes/options.php:923
+msgid "AWeber authorization code"
+msgstr "Code d'autorisation d'AWeber"
+
+#: dashboard/includes/options.php:990
+msgid "Setup your optin form"
+msgstr "Configurer votre formulaire d'opt-in"
+
+#: dashboard/includes/options.php:991
+msgid "Name your optin and configure your form integration."
+msgstr "Nommer votre op-tin et configurer l'intégration de votre formulaire."
+
+#: dashboard/includes/options.php:996
+msgid "Design your optin form"
+msgstr "Concevez votre formulaire d'opt-in"
+
+#: dashboard/includes/options.php:997
+msgid "Configure your content, layout, and optin styling below."
+msgstr ""
+"Configurer votre contenu, la mise ne page et le style de l'opt-in ci-dessous."
+
+#: dashboard/includes/options.php:1004
+msgid "Define when and where to display this optin on your website."
+msgstr "Définir quand et où afficher cette opt-in sur votre site web."
+
+#: dashboard/includes/options.php:1009
+msgid "Import/Export"
+msgstr "Import / Export"
+
+#: dashboard/includes/options.php:1024
+msgid "Accounts"
+msgstr "Comptes"
+
+#: dashboard/includes/options.php:1039 dashboard/includes/options.php:1045
+msgid "Choose a template"
+msgstr "Choisir un modèle"
+
+#: dashboard/includes/options.php:1040
+msgid ""
+"These are just starting points that you can full customize on the next step."
+msgstr ""
+"Ce n'est que le début, vous pourrez tout personnaliser à l'étape suivante."
+
+#: includes/bloom-widget.php:10
+msgid "Bloom widget, please configure all the settings in Bloom control panel"
+msgstr ""
+"Widget Bloom, veuillez configurer tous les réglages dans le panneau de "
+"config de Bloom"
+
+#: includes/bloom-widget.php:19 includes/bloom-widget.php:48
+msgid "Subscribe"
+msgstr "Abonnez-vous"
+
+#: includes/bloom-widget.php:60
+msgid "Title"
+msgstr "Titre"
+
+#: includes/bloom-widget.php:82
+msgid "Select Optin"
+msgstr "Sélectionner l'opt-in"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.elegantthemes.com/plugins/bloom/"
+msgstr "http://www.elegantthemes.com/plugins/bloom/"
+
+#. Description of the plugin/theme
+msgid ""
+"A simple, comprehensive and beautifully constructed email opt-in plugin "
+"built to help you quickly grow your mailing list."
+msgstr ""
+"Une extension simple, complète et magnifique de construction d'opt-in pour "
+"vous permettre de rapidement augmenter vos abonnés à vos mailing listes."
+
+#. Author of the plugin/theme
+msgid "Elegant Themes"
+msgstr "Elegant Themes"
+
+#. Author URI of the plugin/theme
+msgid "http://www.elegantthemes.com"
+msgstr "http://www.elegantthemes.com"
