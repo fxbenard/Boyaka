@@ -57,6 +57,18 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 				self::$instance->includes();
 				self::$instance->load_textdomain();
 				self::$instance->hooks();
+
+				// retrieve our license key from the DB
+				$license_key = trim( get_option( 'fxb_bloom_license_key' ) );
+
+				// setup the updater
+				$edd_updater = new FXB_BLOOM_Plugin_Updater( FXB_BLOOM_STORE_URL, __FILE__, array(
+						'version' 	=> FXB_BLOOM_FRENCH_VER,
+						'license' 	=> $license_key, 		// license key (used get_option above to retrieve from DB)
+						'item_name' => FXB_BLOOM_ITEM_NAME,
+						'author' 	=> 'fxbenard',
+					)
+				);
 			}
 
 			return self::$instance;
@@ -234,46 +246,6 @@ function EDD_Plugin_Name_load() {
 	}
 }
 add_action( 'plugins_loaded', 'EDD_Plugin_Name_load' );
-
-/* Hook to init
-------------------------------------------*/
-add_action( 'init', 'fxb_bloom_init' );
-
-/**
- * Add the text domain to init.
- *
- * @since 1.0
- */
-function fxb_bloom_init() {
-
-	/* Language */
-	// Set filter for language directory
-	$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-	$lang_dir = apply_filters( 'fxb_bloom_languages_directory', $lang_dir );
-
-	// Traditional WordPress plugin locale filter
-	$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom' );
-	$mofile = sprintf( '%1$s-%2$s.mo', 'bloom', $locale );
-
-	// Setup paths to current locale file
-	$mofile_local   = $lang_dir . $mofile;
-	$mofile_global  = WP_LANG_DIR . '/bloom-french/' . $mofile;
-
-	if ( file_exists( $mofile_global ) ) {
-		// Look in global /wp-content/languages/bloom-french/ folder
-		load_textdomain( 'bloom', $mofile_global );
-	} elseif ( file_exists( $mofile_local ) ) {
-		// Look in local /wp-content/plugins/bloom-french/languages/ folder
-		load_textdomain( 'bloom', $mofile_local );
-	} else {
-		// Load the default language files
-		load_plugin_textdomain( 'bloom', false, $lang_dir );
-				load_plugin_textdomain( 'et_dashboard', false, $lang_dir );
-
-
-	}
-}
-
 
 /**
  * The activation hook is called outside of the singleton because WordPress doesn't
