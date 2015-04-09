@@ -25,19 +25,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
+if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 
 	/**
-	 * Main EDD_Plugin_Name class
+	 * Main FXB_BLOOM_Plugin class
 	 *
 	 * @since       1.0.0
 	 */
-	class EDD_Plugin_Name {
+	class FXB_BLOOM_Plugin {
 
 		/**
 		 *
 		 *
-		 * @var         EDD_Plugin_Name $instance The one true EDD_Plugin_Name
+		 * @var         FXB_BLOOM_Plugin $instance The one true FXB_BLOOM_Plugin
 		 * @since       1.0.0
 		 */
 		private static $instance;
@@ -48,11 +48,11 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 		 *
 		 * @access      public
 		 * @since       1.0.0
-		 * @return      object self::$instance The one true EDD_Plugin_Name
+		 * @return      object self::$instance The one true FXB_BLOOM_Plugin
 		 */
 		public static function instance() {
 			if ( !self::$instance ) {
-				self::$instance = new EDD_Plugin_Name();
+				self::$instance = new FXB_BLOOM_Plugin();
 				self::$instance->setup_constants();
 				self::$instance->includes();
 				self::$instance->load_textdomain();
@@ -146,21 +146,12 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 		 *              the license check!
 		 */
 		private function hooks() {
-			// Register settings
-			//add_filter( 'edd_settings_extensions', array( $this, 'settings' ), 1 );
-
 			// Handle licensing
 			if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
 				// load our custom updater
 				include dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php';
 			}
-
-			     //        // Handle licensing
-        //     if( class_exists( 'EDD_License' ) ) {
-        //         $license = new EDD_License( __FILE__, 'Boyaka', EDD_BLOOM_FRENCH_VER, 'FX BÃ©nard', null, 'http://fxbenard.com' );
-        //     }
-        // }
-}
+		}
 
 		/**
 		 * Internationalization
@@ -195,21 +186,12 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 			}
 		}
 
-
-		/**
-		 * Add settings
-		 *
-		 * @access      public
-		 * @since       1.0.0
-		 * @param array   $settings The existing EDD settings array
-		 * @return      array The modified EDD settings array
-		 */
 		public function settings( $settings ) {
 			$new_settings = array(
 				array(
-					'id'    => 'edd_plugin_name_settings',
-					'name'  => '<strong>' . __( 'Plugin Name Settings', 'bloom-french' ) . '</strong>',
-					'desc'  => __( 'Configure Plugin Name Settings', 'bloom-french' ),
+					'id'    => 'fxb_bloom_plugin_settings',
+					'name'  => '<strong>' . __( 'FXB BLOOM Settings', 'bloom-french' ) . '</strong>',
+					'desc'  => __( 'Configure FXB BLOOM Settings', 'bloom-french' ),
 					'type'  => 'header',
 				),
 			);
@@ -221,18 +203,18 @@ if ( ! class_exists( 'EDD_Plugin_Name' ) ) {
 
 
 /**
- * The main function responsible for returning the one true EDD_Plugin_Name
+ * The main function responsible for returning the one true FXB_BLOOM_Plugin
  * instance to functions everywhere
  *
  * @since       1.0.0
- * @return      \EDD_Plugin_Name The one true EDD_Plugin_Name
+ * @return      \FXB_BLOOM_Plugin The one true FXB_BLOOM_Plugin
  *
  * @todo        Inclusion of the activation code below isn't mandatory, but
  *              can prevent any number of errors, including fatal errors, in
  *              situations where your extension is activated but EDD is not
  *              present.
  */
-function EDD_Plugin_Name_load() {
+function FXB_BLOOM_Plugin_load() {
 	if ( ! class_exists( 'Easy_Digital_Downloads' ) ) {
 		if ( ! class_exists( 'EDD_Extension_Activation' ) ) {
 			require_once 'includes/class.extension-activation.php';
@@ -240,12 +222,12 @@ function EDD_Plugin_Name_load() {
 
 		$activation = new EDD_Extension_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
 		$activation = $activation->run();
-		return EDD_Plugin_Name::instance();
+		return FXB_BLOOM_Plugin::instance();
 	} else {
-		return EDD_Plugin_Name::instance();
+		return FXB_BLOOM_Plugin::instance();
 	}
 }
-add_action( 'plugins_loaded', 'EDD_Plugin_Name_load' );
+add_action( 'plugins_loaded', 'FXB_BLOOM_Plugin_load' );
 
 /**
  * The activation hook is called outside of the singleton because WordPress doesn't
@@ -256,8 +238,8 @@ add_action( 'plugins_loaded', 'EDD_Plugin_Name_load' );
  * @since       1.0.0
  * @return      void
  */
-function edd_plugin_name_activation() {
+function FXB_BLOOM_Plugin_activation() {
 	/* Activation functions here */
 
 }
-register_activation_hook( __FILE__, 'edd_plugin_name_activation' );
+register_activation_hook( __FILE__, 'FXB_BLOOM_Plugin_activation' );
