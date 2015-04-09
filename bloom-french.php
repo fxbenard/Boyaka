@@ -268,6 +268,8 @@ function fxb_bloom_init() {
 	} else {
 		// Load the default language files
 		load_plugin_textdomain( 'bloom', false, $lang_dir );
+				load_plugin_textdomain( 'et_dashboard', false, $lang_dir );
+
 
 	}
 }
