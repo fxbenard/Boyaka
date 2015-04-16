@@ -154,12 +154,12 @@ if ( ! function_exists( 'fxb_sample_deactivate_license' ) ) {
 			$api_params = array(
 				'edd_action' => 'deactivate_license',
 				'license'   => $license,
-				'item_name' => urlencode( FXB_BLOOM_ITEM_NAME ), // the name of our product in EDD
+				'item_name' => urlencode( FXB_SAMPLE_ITEM_NAME ), // the name of our product in EDD
 				'url'       => home_url()
 			);
 
 			// Call the custom API.
-			$response = wp_remote_get( add_query_arg( $api_params, FXB_BLOOM_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
+			$response = wp_remote_get( add_query_arg( $api_params, FXB_SAMPLE_STORE_URL ), array( 'timeout' => 15, 'sslverify' => false ) );
 
 			// make sure the response came back okay
 			if ( is_wp_error( $response ) ) {
