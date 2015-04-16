@@ -94,7 +94,7 @@ if ( ! class_exists( 'FXB_SAMPLE_Plugin' ) ) {
 
 			define( 'FXB_SAMPLE_STORE_URL', 'https://fxbenard.com' );
 
-			define( 'FXB_SAMPLE_ITEM_NAME', 'Sample' );
+			define( 'FXB_SAMPLE_ITEM_NAME', 'FxB Sample Translations' );
 		}
 
 
@@ -164,25 +164,25 @@ if ( ! class_exists( 'FXB_SAMPLE_Plugin' ) ) {
 
 			// Set filter for language directory
 			$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-			$lang_dir = apply_filters( 'fxb_sample_french_languages_directory', $lang_dir );
+			$lang_dir = apply_filters( 'fxb_sample_translations_languages_directory', $lang_dir );
 
 			// Traditional WordPress plugin locale filter
-			$locale = apply_filters( 'plugin_locale', get_locale(), 'sample-french' );
-			$mofile = sprintf( '%1$s-%2$s.mo', 'sample-french', $locale );
+			$locale = apply_filters( 'plugin_locale', get_locale(), 'fxb-sample-translations' );
+			$mofile = sprintf( '%1$s-%2$s.mo', 'fxb-sample-translations', $locale );
 
 			// Setup paths to current locale file
 			$mofile_local   = $lang_dir . $mofile;
-			$mofile_global  = WP_LANG_DIR . '/sample-french/' . $mofile;
+			$mofile_global  = WP_LANG_DIR . '/fxb-sample-translations/' . $mofile;
 
 			if ( file_exists( $mofile_global ) ) {
-				// Look in global /wp-content/languages/sample-french/ folder
-				load_textdomain( 'sample-french', $mofile_global );
+				// Look in global /wp-content/languages/sample-translations/ folder
+				load_textdomain( 'fxb-sample-translations', $mofile_global );
 			} elseif ( file_exists( $mofile_local ) ) {
-				// Look in local /wp-content/plugins/sample-french/languages/ folder
-				load_textdomain( 'sample-french', $mofile_local );
+				// Look in local /wp-content/plugins/sample-translations/languages/ folder
+				load_textdomain( 'fxb-sample-translations', $mofile_local );
 			} else {
 				// Load the default language files
-				load_plugin_textdomain( 'sample-french', false, $lang_dir );
+				load_plugin_textdomain( 'fxb-sample-translations', false, $lang_dir );
 			}
 		}
 
@@ -190,8 +190,8 @@ if ( ! class_exists( 'FXB_SAMPLE_Plugin' ) ) {
 			$new_settings = array(
 				array(
 					'id'    => 'fxb_sample_plugin_settings',
-					'name'  => '<strong>' . __( 'FXB SAMPLE Settings', 'sample-french' ) . '</strong>',
-					'desc'  => __( 'Configure FXB SAMPLE Settings', 'sample-french' ),
+					'name'  => '<strong>' . __( 'FXB SAMPLE Settings', 'sample-translations' ) . '</strong>',
+					'desc'  => __( 'Configure FXB SAMPLE Settings', 'fxb-sample-translations' ),
 					'type'  => 'header',
 				),
 			);
