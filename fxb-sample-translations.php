@@ -1,12 +1,12 @@
 <?php
 /**
- * Plugin Name: Bloom French
- * Plugin URI: http://fxbenard.com/
- * Description: French Language Translations for Bloom.
+ * Plugin Name: FxB Sample Translations
+ * Plugin URI: https://fxbenard.com/
+ * Description: Translations for the FxB Sample plugin
  * Version: 1.0.0
  * Author: fxbenard
- * Author URI: http://fxbenard.com/
- * Text Domain: bloom-french
+ * Author URI: https://fxbenard.com/
+ * Text Domain: fxb-sample-translations
  * Domain Path: languages
  *
  * This program is free software; you can redistribute it and/or modify it under the terms of the GNU
@@ -25,19 +25,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
+if ( ! class_exists( 'FXB_SAMPLE_Plugin' ) ) {
 
 	/**
-	 * Main FXB_BLOOM_Plugin class
+	 * Main FXB_SAMPLE_Plugin class
 	 *
 	 * @since       1.0.0
 	 */
-	class FXB_BLOOM_Plugin {
+	class FXB_SAMPLE_Plugin {
 
 		/**
 		 *
 		 *
-		 * @var         FXB_BLOOM_Plugin $instance The one true FXB_BLOOM_Plugin
+		 * @var         FXB_SAMPLE_Plugin $instance The one true FXB_SAMPLE_Plugin
 		 * @since       1.0.0
 		 */
 		private static $instance;
@@ -48,24 +48,24 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 		 *
 		 * @access      public
 		 * @since       1.0.0
-		 * @return      object self::$instance The one true FXB_BLOOM_Plugin
+		 * @return      object self::$instance The one true FXB_SAMPLE_Plugin
 		 */
 		public static function instance() {
 			if ( !self::$instance ) {
-				self::$instance = new FXB_BLOOM_Plugin();
+				self::$instance = new FXB_SAMPLE_Plugin();
 				self::$instance->setup_constants();
 				self::$instance->includes();
 				self::$instance->load_textdomain();
 				self::$instance->hooks();
 
 				// retrieve our license key from the DB
-				$license_key = trim( get_option( 'fxb_bloom_license_key' ) );
+				$license_key = trim( get_option( 'fxb_sample_license_key' ) );
 
 				// setup the updater
-				$edd_updater = new FXB_BLOOM_Plugin_Updater( FXB_BLOOM_STORE_URL, __FILE__, array(
-						'version' 	=> FXB_BLOOM_FRENCH_VER,
+				$edd_updater = new FXB_SAMPLE_Plugin_Updater( FXB_SAMPLE_STORE_URL, __FILE__, array(
+						'version' 	=> FXB_SAMPLE_TRANSLATIONS_VER,
 						'license' 	=> $license_key, 		// license key (used get_option above to retrieve from DB)
-						'item_name' => FXB_BLOOM_ITEM_NAME,
+						'item_name' => FXB_SAMPLE_ITEM_NAME,
 						'author' 	=> 'fxbenard',
 					)
 				);
@@ -84,17 +84,17 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 		 */
 		private function setup_constants() {
 			// Plugin version
-			define( 'FXB_BLOOM_FRENCH_VER', '1.0.0' );
+			define( 'FXB_SAMPLE_TRANSLATIONS_VER', '1.0.0' );
 
 			// Plugin path
-			define( 'FXB_BLOOM_FRENCH_DIR', plugin_dir_path( __FILE__ ) );
+			define( 'FXB_SAMPLE_TRANSLATIONS_DIR', plugin_dir_path( __FILE__ ) );
 
 			// Plugin URL
-			define( 'FXB_BLOOM_FRENCH_URL', plugin_dir_url( __FILE__ ) );
+			define( 'FXB_SAMPLE_TRANSLATIONS_URL', plugin_dir_url( __FILE__ ) );
 
-			define( 'FXB_BLOOM_STORE_URL', 'https://fxbenard.com' );
+			define( 'FXB_SAMPLE_STORE_URL', 'https://fxbenard.com' );
 
-			define( 'FXB_BLOOM_ITEM_NAME', 'Boyaka' );
+			define( 'FXB_SAMPLE_ITEM_NAME', 'Sample' );
 		}
 
 
@@ -107,8 +107,8 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 		 */
 		private function includes() {
 			// Include scripts
-			//require_once FXB_BLOOM_FRENCH_DIR . 'includes/scripts.php';
-			require_once FXB_BLOOM_FRENCH_DIR . 'includes/functions.php';
+			//require_once FXB_SAMPLE_TRANSLATIONS_DIR . 'includes/scripts.php';
+			require_once FXB_SAMPLE_TRANSLATIONS_DIR . 'includes/functions.php';
 
 			/**
 			 *
@@ -118,8 +118,8 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 			 *              path standardization in EDD extensions. Uncomment any that are
 			 *              relevant to your extension, and remove the rest.
 			 */
-			// require_once FXB_BLOOM_FRENCH_DIR . 'includes/shortcodes.php';
-			// require_once FXB_BLOOM_FRENCH_DIR . 'includes/widgets.php';
+			// require_once FXB_SAMPLE_TRANSLATIONS_DIR . 'includes/shortcodes.php';
+			// require_once FXB_SAMPLE_TRANSLATIONS_DIR . 'includes/widgets.php';
 		}
 
 
@@ -147,9 +147,9 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 		 */
 		private function hooks() {
 			// Handle licensing
-			if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
+			if ( ! class_exists( 'FXB_SAMPLE_Plugin_Updater' ) ) {
 				// load our custom updater
-				include dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php';
+				include dirname( __FILE__ ) . '/includes/FXB_SAMPLE_Plugin_Updater.php';
 			}
 		}
 
@@ -164,34 +164,34 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 
 			// Set filter for language directory
 			$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-			$lang_dir = apply_filters( 'fxb_bloom_french_languages_directory', $lang_dir );
+			$lang_dir = apply_filters( 'fxb_sample_french_languages_directory', $lang_dir );
 
 			// Traditional WordPress plugin locale filter
-			$locale = apply_filters( 'plugin_locale', get_locale(), 'bloom-french' );
-			$mofile = sprintf( '%1$s-%2$s.mo', 'bloom-french', $locale );
+			$locale = apply_filters( 'plugin_locale', get_locale(), 'sample-french' );
+			$mofile = sprintf( '%1$s-%2$s.mo', 'sample-french', $locale );
 
 			// Setup paths to current locale file
 			$mofile_local   = $lang_dir . $mofile;
-			$mofile_global  = WP_LANG_DIR . '/bloom-french/' . $mofile;
+			$mofile_global  = WP_LANG_DIR . '/sample-french/' . $mofile;
 
 			if ( file_exists( $mofile_global ) ) {
-				// Look in global /wp-content/languages/bloom-french/ folder
-				load_textdomain( 'bloom-french', $mofile_global );
+				// Look in global /wp-content/languages/sample-french/ folder
+				load_textdomain( 'sample-french', $mofile_global );
 			} elseif ( file_exists( $mofile_local ) ) {
-				// Look in local /wp-content/plugins/bloom-french/languages/ folder
-				load_textdomain( 'bloom-french', $mofile_local );
+				// Look in local /wp-content/plugins/sample-french/languages/ folder
+				load_textdomain( 'sample-french', $mofile_local );
 			} else {
 				// Load the default language files
-				load_plugin_textdomain( 'bloom-french', false, $lang_dir );
+				load_plugin_textdomain( 'sample-french', false, $lang_dir );
 			}
 		}
 
 		public function settings( $settings ) {
 			$new_settings = array(
 				array(
-					'id'    => 'fxb_bloom_plugin_settings',
-					'name'  => '<strong>' . __( 'FXB BLOOM Settings', 'bloom-french' ) . '</strong>',
-					'desc'  => __( 'Configure FXB BLOOM Settings', 'bloom-french' ),
+					'id'    => 'fxb_sample_plugin_settings',
+					'name'  => '<strong>' . __( 'FXB SAMPLE Settings', 'sample-french' ) . '</strong>',
+					'desc'  => __( 'Configure FXB SAMPLE Settings', 'sample-french' ),
 					'type'  => 'header',
 				),
 			);
@@ -203,18 +203,18 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin' ) ) {
 
 
 /**
- * The main function responsible for returning the one true FXB_BLOOM_Plugin
+ * The main function responsible for returning the one true FXB_SAMPLE_Plugin
  * instance to functions everywhere
  *
  * @since       1.0.0
- * @return      \FXB_BLOOM_Plugin The one true FXB_BLOOM_Plugin
+ * @return      \FXB_SAMPLE_Plugin The one true FXB_SAMPLE_Plugin
  *
  * @todo        Inclusion of the activation code below isn't mandatory, but
  *              can prevent any number of errors, including fatal errors, in
  *              situations where your extension is activated but EDD is not
  *              present.
  */
-function FXB_BLOOM_Plugin_load() {
+function FXB_SAMPLE_Plugin_load() {
 	if ( ! class_exists( 'Easy_Digital_Downloads' ) ) {
 		if ( ! class_exists( 'EDD_Extension_Activation' ) ) {
 			require_once 'includes/class.extension-activation.php';
@@ -222,12 +222,12 @@ function FXB_BLOOM_Plugin_load() {
 
 		$activation = new EDD_Extension_Activation( plugin_dir_path( __FILE__ ), basename( __FILE__ ) );
 		$activation = $activation->run();
-		return FXB_BLOOM_Plugin::instance();
+		return FXB_SAMPLE_Plugin::instance();
 	} else {
-		return FXB_BLOOM_Plugin::instance();
+		return FXB_SAMPLE_Plugin::instance();
 	}
 }
-add_action( 'plugins_loaded', 'FXB_BLOOM_Plugin_load' );
+add_action( 'plugins_loaded', 'FXB_SAMPLE_Plugin_load' );
 
 /**
  * The activation hook is called outside of the singleton because WordPress doesn't
@@ -238,8 +238,8 @@ add_action( 'plugins_loaded', 'FXB_BLOOM_Plugin_load' );
  * @since       1.0.0
  * @return      void
  */
-function FXB_BLOOM_Plugin_activation() {
+function FXB_SAMPLE_Plugin_activation() {
 	/* Activation functions here */
 
 }
-register_activation_hook( __FILE__, 'FXB_BLOOM_Plugin_activation' );
+register_activation_hook( __FILE__, 'FXB_SAMPLE_Plugin_activation' );
