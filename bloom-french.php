@@ -73,6 +73,20 @@ if ( ! class_exists( 'FXB_BLOOM_Plugin_Updater' ) ) {
 	include( dirname( __FILE__ ) . '/includes/FXB_BLOOM_Plugin_Updater.php' );
 }
 
+function fxb_bloom_french_admin_notices() {
+    $license = get_option( 'fxb_bloom_license_key' );
+
+    if($license) {
+    	return false;
+    }
+
+    echo '<div class="error"><p>';
+        echo __( 'Please activate your license key to receive updates.', 'bloom-french' );
+        echo '&nbsp;<a href="' . admin_url( 'plugins.php?page=bloomfrench-license' ) . '" class="button-secondary">' . __( 'Activate License', 'bloom-french' ) . '</a>';
+    echo '</p></div>';
+}
+add_action( 'admin_notices', 'fxb_bloom_french_admin_notices' );
+
 function fxb_bloom_french_plugin_updater() {
 
 	// retrieve our license key from the DB
