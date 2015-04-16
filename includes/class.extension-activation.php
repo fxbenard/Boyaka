@@ -46,7 +46,7 @@ class EDD_Extension_Activation {
 		if ( isset( $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'] ) ) {
 			$this->plugin_name = str_replace( 'Easy Digital Downloads - ', '', $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'] );
 		} else {
-			$this->plugin_name = __( 'This plugin', 'edd-braintree-french' );
+			$this->plugin_name = __( 'This plugin', 'fxb-sample-translations' );
 		}
 
 		// Is EDD installed?
@@ -83,12 +83,12 @@ class EDD_Extension_Activation {
 	public function missing_edd_notice() {
 		if ( $this->has_edd ) {
 			$url  = esc_url( wp_nonce_url( admin_url( 'plugins.php?action=activate&plugin=' . $this->edd_base ), 'activate-plugin_' . $this->edd_base ) );
-			$link = '<a href="' . $url . '">' . __( 'activate it', 'edd-braintree-french' ) . '</a>';
+			$link = '<a href="' . $url . '">' . __( 'activate it', 'fxb-sample-translations' ) . '</a>';
 		} else {
 			$url  = esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=easy-digital-downloads' ), 'install-plugin_easy-digital-downloads' ) );
-			$link = '<a href="' . $url . '">' . __( 'install it', 'edd-braintree-french' ) . '</a>';
+			$link = '<a href="' . $url . '">' . __( 'install it', 'fxb-sample-translations' ) . '</a>';
 		}
 
-		echo '<div class="error"><p>' . $this->plugin_name . sprintf( __( ' requires Easy Digital Downloads! Please %s to continue!', 'edd-braintree-french' ), $link ) . '</p></div>';
+		echo '<div class="error"><p>' . $this->plugin_name . sprintf( __( ' requires Easy Digital Downloads! Please %s to continue!', 'fxb-sample-translations' ), $link ) . '</p></div>';
 	}
 }
