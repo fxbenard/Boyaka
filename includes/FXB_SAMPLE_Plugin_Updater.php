@@ -131,13 +131,12 @@ class FXB_SAMPLE_Plugin_Updater {
 			$cache_key    = md5( 'edd_plugin_' .sanitize_key( $this->name ) . '_version_info' );
 			$version_info = get_transient( $cache_key );
 
-			if( false === $version_info ) {
+			if ( false === $version_info ) {
 
 				$version_info = $this->api_request( 'plugin_latest_version', array( 'slug' => $this->slug ) );
 
 				set_transient( $cache_key, $version_info, 3600 );
 			}
-
 
 			if ( ! is_object( $version_info ) ) {
 				return;
