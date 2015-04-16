@@ -50,7 +50,7 @@ class EDD_Extension_Activation {
 		}
 
 		// Is EDD installed?
-		foreach( $plugins as $plugin_path => $plugin ) {
+		foreach ( $plugins as $plugin_path => $plugin ) {
 			if ( $plugin['Name'] == 'Easy Digital Downloads' ) {
 				$this->has_edd = true;
 				$this->edd_base = $plugin_path;
