@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! function_exists( 'fxb_license_menu' ) ) {
 	function fxb_license_menu() {
-		add_plugins_page( __( 'FxB trads', 'fxb-sample-translations' ), __( 'FxB trads', 'fxb-sample-translations' ), 'manage_options', 'fxb-trads-license', 'fxb_license_page' );
+		add_plugins_page( __( 'FxB Translations', 'fxb-sample-translations' ), __( 'FxB Translations', 'fxb-sample-translations' ), 'manage_options', 'fxb-trads-license', 'fxb_license_page' );
 	}
 	add_action( 'admin_menu', 'fxb_license_menu' );
 }
@@ -176,46 +176,6 @@ if ( ! function_exists( 'fxb_sample_deactivate_license' ) ) {
 		}
 	}
 	add_action( 'admin_init', 'fxb_sample_deactivate_license' );
-}
-
-if ( ! function_exists( 'fxb_sample_init' ) ) {
-	/* Hook to init
-	------------------------------------------*/
-	add_action( 'init', 'fxb_sample_init' );
-
-	/**
-	 * Add the text domain to init.
-	 *
-	 * @since 1.0
-	 */
-	function fxb_sample_init() {
-
-		/* Language */
-		// Set filter for language directory
-		$lang_dir = dirname( plugin_basename( __FILE__ ) ) . '/languages/';
-		$lang_dir = apply_filters( 'fxb_sample_languages_directory', $lang_dir );
-
-		// Traditional WordPress plugin locale filter
-		$locale = apply_filters( 'plugin_locale', get_locale(), 'fxb-sample' );
-		$mofile = sprintf( '%1$s-%2$s.mo', 'fxb-sample', $locale );
-
-		// Setup paths to current locale file
-		$mofile_local   = $lang_dir . $mofile;
-		$mofile_global  = WP_LANG_DIR . 'fxb-sample/' . $mofile;
-
-		if ( file_exists( $mofile_global ) ) {
-			// Look in global /wp-content/languages/fxb-sample/ folder
-			load_textdomain( 'fxb-sample', $mofile_global );
-		} elseif ( file_exists( $mofile_local ) ) {
-			// Look in local /wp-content/plugins/fxb-sample/languages/ folder
-			load_textdomain( 'fxb-sample', $mofile_local );
-		} else {
-			// Load the default language files
-			load_plugin_textdomain( 'fxb-sample', false, $lang_dir );
-					load_plugin_textdomain( 'fxb-sample', false, $lang_dir );
-
-		}
-	}
 }
 
 function fxb_sample_translations_admin_notices() {
