@@ -1,7 +1,7 @@
 <?php
 
 // uncomment this line for testing
-//set_site_transient( 'update_plugins', null );
+set_site_transient( 'update_plugins', null );
 
 /**
  * Allows plugins to use their own update API.
@@ -9,7 +9,7 @@
  * @author Pippin Williamson
  * @version 1.6
  */
-class FXB_BLOOM_Plugin_Updater {
+class FXB_SAMPLE_Plugin_Updater {
 	private $api_url   = '';
 	private $api_data  = array();
 	private $name      = '';
@@ -131,13 +131,12 @@ class FXB_BLOOM_Plugin_Updater {
 			$cache_key    = md5( 'edd_plugin_' .sanitize_key( $this->name ) . '_version_info' );
 			$version_info = get_transient( $cache_key );
 
-			if( false === $version_info ) {
+			if ( false === $version_info ) {
 
 				$version_info = $this->api_request( 'plugin_latest_version', array( 'slug' => $this->slug ) );
 
 				set_transient( $cache_key, $version_info, 3600 );
 			}
-
 
 			if ( ! is_object( $version_info ) ) {
 				return;
@@ -173,14 +172,14 @@ class FXB_BLOOM_Plugin_Updater {
 
 			if ( empty( $version_info->download_link ) ) {
 				printf(
-					__( 'There is a new version of %1$s available. <a target="_blank" class="thickbox" href="%2$s">View version %3$s details</a>.', 'bloom-french' ),
+					__( 'There is a new version of %1$s available. <a target="_blank" class="thickbox" href="%2$s">View version %3$s details</a>.', 'fxb-sample-translations' ),
 					esc_html( $version_info->name ),
 					esc_url( $changelog_link ),
 					esc_html( $version_info->new_version )
 				);
 			} else {
 				printf(
-					__( 'There is a new version of %1$s available. <a target="_blank" class="thickbox" href="%2$s">View version %3$s details</a> or <a href="%4$s">update now</a>.', 'bloom-french' ),
+					__( 'There is a new version of %1$s available. <a target="_blank" class="thickbox" href="%2$s">View version %3$s details</a> or <a href="%4$s">update now</a>.', 'fxb-sample-translations' ),
 					esc_html( $version_info->name ),
 					esc_url( $changelog_link ),
 					esc_html( $version_info->new_version ),
@@ -320,7 +319,7 @@ class FXB_BLOOM_Plugin_Updater {
 		}
 
 		if ( ! current_user_can( 'update_plugins' ) ) {
-			wp_die( __( 'You do not have permission to install plugin updates', 'bloom-french' ), __( 'Error', 'bloom-french' ), array( 'response' => 403 ) );
+			wp_die( __( 'You do not have permission to install plugin updates', 'fxb-sample-translations' ), __( 'Error', 'fxb-sample-translations' ), array( 'response' => 403 ) );
 		}
 
 		$response = $this->api_request( 'plugin_latest_version', array( 'slug' => $_REQUEST['slug'] ) );
