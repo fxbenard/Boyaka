@@ -1,0 +1,3319 @@
+# WordPress Plugin Boilerplate Copyright (c) {2014}
+# Translators:
+# FxB <fxb@wp-translations.org>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Plugin Boilerplate\n"
+"Report-Msgid-Bugs-To: https://fxbenard.com/\n"
+"POT-Creation-Date: 2015-04-17 13:34:06+00:00\n"
+"PO-Revision-Date: 2015-04-17 16:48+0100\n"
+"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
+"Language-Team: French (France) (http://www.transifex.com/projects/p/"
+"wordpress-plugin-boilerplate/language/fr_FR/)\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.8beta1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c;_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fxb-sample.php:292 fxb-sample.php:304
+msgid "Cheatin&#8217; huh?"
+msgstr "Alors on essaye de tricher&nbsp;?"
+
+#: fxb-sample.php:352 includes/admin/class-fxb-sample-admin-menus.php:85
+#: includes/admin/class-fxb-sample-admin-menus.php:89
+#: includes/admin/class-fxb-sample-admin-welcome.php:221
+#: includes/admin/views/html-admin-page-status-report.php:318
+msgid "Settings"
+msgstr "Réglages"
+
+#: fxb-sample.php:353 includes/admin/class-fxb-sample-admin-help.php:57
+msgid "Support"
+msgstr "Aide"
+
+#: fxb-sample.php:379 includes/admin/class-fxb-sample-admin-welcome.php:51
+msgid "Getting Started"
+msgstr "Mise en route"
+
+#: fxb-sample.php:380 includes/admin/class-fxb-sample-admin-welcome.php:65
+msgid "Credits"
+msgstr "Cr&eacute;dits"
+
+#: fxb-sample.php:381 includes/admin/class-fxb-sample-admin-help.php:48
+#: includes/admin/class-fxb-sample-admin.php:150
+#: includes/admin/views/html-admin-page.php:11
+msgid "Documentation"
+msgstr "Documentation"
+
+#: fxb-sample.php:738 includes/admin/class-fxb-sample-transifex-stats.php:104
+msgid "No results"
+msgstr "Aucun résultat"
+
+#: fxb-sample.php:740 includes/admin/class-fxb-sample-admin-settings.php:189
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr ""
+"Les modifications que vous avez faites seront perdues si vous changez de "
+"page."
+
+#: fxb-sample.php:744 includes/admin/class-fxb-sample-admin-menus.php:94
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:29
+msgid "First Tab"
+msgstr "Premier onglet"
+
+#: fxb-sample.php:745 includes/admin/class-fxb-sample-admin-menus.php:98
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:29
+msgid "Second Tab"
+msgstr "Deuxième onglet"
+
+#: fxb-sample.php:746 includes/admin/class-fxb-sample-admin-help.php:63
+#: includes/admin/class-fxb-sample-admin-help.php:72
+#: includes/admin/class-fxb-sample-admin-menus.php:109
+#: includes/admin/views/html-admin-page-status.php:17
+msgid "System Status"
+msgstr "État du système"
+
+#: fxb-sample.php:747 includes/admin/class-fxb-sample-admin-menus.php:111
+#: includes/admin/views/html-admin-page-status-tools.php:10
+#: includes/admin/views/html-admin-page-status.php:18
+msgid "Tools"
+msgstr "Outils"
+
+#: fxb-sample.php:748
+msgid "Import"
+msgstr "Importer"
+
+#: fxb-sample.php:749
+msgid "Export"
+msgstr "Exporter"
+
+#: includes/admin/class-fxb-sample-admin-help.php:50
+msgid ""
+"Thank you for using <strong>%s</strong> :) Should you need help using or "
+"extending %s please read the documentation."
+msgstr ""
+"Thank you for using <strong>%s</strong> :) Should you need help using or "
+"extending %s please read the documentation."
+
+#: includes/admin/class-fxb-sample-admin-help.php:52
+msgid "%s Documentation"
+msgstr "Documentation de %s"
+
+#: includes/admin/class-fxb-sample-admin-help.php:52
+msgid "Restart Tour"
+msgstr "Recommencer la visite guidée"
+
+#: includes/admin/class-fxb-sample-admin-help.php:59
+msgid ""
+"After <a href=\"%s\">reading the documentation</a>, for further assistance "
+"you can use the <a href=\"%s\">community forum</a>."
+msgstr ""
+"Après la <a href=\"%s\">lecture de la documentation</a>, pour plus d'aide, "
+"vous pouvez utiliser le <a href=\"%s\"> forum de la communauté</a>."
+
+#: includes/admin/class-fxb-sample-admin-help.php:59
+msgid "Company Name"
+msgstr "Nom de la société"
+
+#: includes/admin/class-fxb-sample-admin-help.php:61
+msgid ""
+"Before asking for help we recommend checking the status page to identify any "
+"problems with your configuration."
+msgstr ""
+"Avant de demander de l'aide nous vous recommandons de vérifier votre page "
+"d'état afin d'identifier des problèmes avec votre configuration."
+
+#: includes/admin/class-fxb-sample-admin-help.php:63
+msgid "Community Support"
+msgstr "Forum de la communauté"
+
+#: includes/admin/class-fxb-sample-admin-help.php:68
+msgid "Found a bug?"
+msgstr "Un bug à signaler ?"
+
+#: includes/admin/class-fxb-sample-admin-help.php:70
+msgid ""
+"If you find a bug within <strong>%s</strong> you can create a ticket via <a "
+"href=\"%s\">Github issues</a>. Ensure you read the <a href=\"%s"
+"\">contribution guide</a> prior to submitting your report. Be as descriptive "
+"as possible and please include your <a href=\"%s\">system status report</a>."
+msgstr ""
+"Si vous trouvez un bug dans <strong>%s</strong>, vous pouvez créer un ticket "
+"via les <a href=\"%s\">issues de Github</a>. Assurez-vous d'avoir lu le <a "
+"href=\"%s\">guide de la contribution</a> avant d'envoyer votre rapport. "
+"Soyez aussi descriptif que possible et merci d'inclure votre <a href=\"%s"
+"\">rapport d'état de système</a>."
+
+#: includes/admin/class-fxb-sample-admin-help.php:72
+msgid "Report a bug"
+msgstr "Signaler un bug"
+
+#: includes/admin/class-fxb-sample-admin-help.php:77
+msgid "For more information:"
+msgstr "Pour plus d'informations :"
+
+#: includes/admin/class-fxb-sample-admin-help.php:78
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: includes/admin/class-fxb-sample-admin-help.php:79
+msgid "Project on WordPress.org"
+msgstr "Projet sur WordPress.org"
+
+#: includes/admin/class-fxb-sample-admin-help.php:80
+msgid "Project on Github"
+msgstr "Projet sur GitHub"
+
+#: includes/admin/class-fxb-sample-admin-menus.php:85
+#: includes/admin/class-fxb-sample-admin-menus.php:89
+#: includes/admin/class-fxb-sample-admin-menus.php:105
+msgid "%s Settings"
+msgstr "Réglages de %s"
+
+#: includes/admin/class-fxb-sample-admin-menus.php:109
+msgid "%s Status"
+msgstr "État de %s"
+
+#: includes/admin/class-fxb-sample-admin-menus.php:111
+msgid "%s Tools"
+msgstr "Outils de %s"
+
+#: includes/admin/class-fxb-sample-admin-settings.php:73
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Échec. Veuillez rafraîchir la page et réessayer."
+
+#: includes/admin/class-fxb-sample-admin-settings.php:81
+msgid "Your settings have been saved."
+msgstr "Vos réglages ont bien été enregistrés."
+
+#: includes/admin/class-fxb-sample-admin-settings.php:543
+msgid "Hard Crop?"
+msgstr "Recadrage ?"
+
+#: includes/admin/class-fxb-sample-admin-settings.php:566
+msgid "Select a page&hellip;"
+msgstr "Sélectionner une page&hellip;"
+
+#: includes/admin/class-fxb-sample-admin-status.php:74
+msgid "All missing %s pages was installed successfully."
+msgstr "Toutes les pages manquantes de %s a été correctement installées."
+
+#: includes/admin/class-fxb-sample-admin-status.php:82
+msgid "Roles successfully reset"
+msgstr "Rôles réinitialisés avec succès"
+
+#: includes/admin/class-fxb-sample-admin-status.php:96
+msgid "All previous data has been removed and re-installed the defaults."
+msgstr ""
+"Toutes les données précédentes ont été supprimées et réinitialisées à leurs "
+"valeurs par défauts."
+
+#: includes/admin/class-fxb-sample-admin-status.php:107
+msgid "There was an error calling %s::%s"
+msgstr "Il y a une erreur en appelant %s::%s "
+
+#: includes/admin/class-fxb-sample-admin-status.php:109
+msgid "There was an error calling %s"
+msgstr "Il y a une erreur en appelant %s"
+
+#: includes/admin/class-fxb-sample-admin-status.php:119
+msgid "Your changes have been saved."
+msgstr "Les modifications ont bien été enregistrées"
+
+#: includes/admin/class-fxb-sample-admin-status.php:137
+#: includes/admin/views/html-notice-install.php:6
+msgid "Install %s Pages"
+msgstr "Installer les pages de %s"
+
+#: includes/admin/class-fxb-sample-admin-status.php:138
+msgid "Install pages"
+msgstr "Installer les pages"
+
+#: includes/admin/class-fxb-sample-admin-status.php:139
+msgid ""
+"<strong class=\"red\">Note:</strong> This tool will install all the missing "
+"%s pages. Pages already defined and set up will not be replaced."
+msgstr ""
+"<strong class=\"red\">Remarque :</strong> cet outil va installer toutes les "
+"pages manquantes de %s. Les pages déjà crées et mises en place ne seront pas "
+"remplacées."
+
+#: includes/admin/class-fxb-sample-admin-status.php:143
+msgid "Capabilities"
+msgstr "Capacités"
+
+#: includes/admin/class-fxb-sample-admin-status.php:144
+msgid "Reset capabilities"
+msgstr "Réinitialiser les permissions"
+
+#: includes/admin/class-fxb-sample-admin-status.php:145
+msgid ""
+"This tool will reset the admin roles to default. Use this if your users "
+"cannot access all of the %s admin pages."
+msgstr ""
+"Cet outil réinitialisera les rôles d'administrateur à leurs valeur par "
+"défaut. Utilisez cette option si vos utilisateurs ne peuvent pas accéder à "
+"toutes les pages d'admin de %s."
+
+#: includes/admin/class-fxb-sample-admin-status.php:149
+msgid "Start Over"
+msgstr "Commencer"
+
+#: includes/admin/class-fxb-sample-admin-status.php:150
+msgid "Restart"
+msgstr "Recommencer"
+
+#: includes/admin/class-fxb-sample-admin-status.php:151
+msgid ""
+"This tool will erase all settings, database tables (if any) and re-install "
+"\"<em>%s</em>\". Use this if you are really sure. All current data will be "
+"lost and will not be recoverable."
+msgstr ""
+"Cet outil supprimera tous les paramètres, les tables de la base de données "
+"(le cas échéant) et ré-installera \"<em>%s</em>\". Utilisez cette option que "
+"si vous êtes vraiment sûr de ce que vous faites. Toutes les données "
+"actuelles seront perdues et ne pourront pas être récupérées."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:48
+msgid "Welcome to %s"
+msgstr "Bienvenue dans %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:55
+msgid "%s Changelog"
+msgstr "Journal des modifications de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:58
+msgid "Changelog"
+msgstr "Liste des modifications"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:62
+msgid "%s Credits"
+msgstr "Crédits de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:69
+msgid "%s Translations"
+msgstr "Traductions de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:72
+msgid "Translations"
+msgstr "Traductions"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:76
+msgid "%s Freedoms"
+msgstr "Libertés de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:79
+msgid "Freedoms"
+msgstr "Libertés"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:181
+msgid "Welcome to %s %s"
+msgstr "Bienvenue dans %s %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:188
+msgid "Thanks, all done!"
+msgstr "Merci, tout est terminé&nbsp;!"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:191
+msgid "Thank you for updating to the latest version!"
+msgstr "Merci d&rsquo;être passé à la dernière version !"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:194
+msgid "Thanks for installing!"
+msgstr "Merci pour l'installation !"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:197
+msgid ""
+"%s %s %s is a powerful, stable, and secure sample plugin. I hope you enjoy "
+"it."
+msgstr ""
+"%s %s %s est une puissante, stable, et sécurisée extension de démonstration "
+"pour WordPress. Nous espérons qu'elle vous plaira."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:203
+msgid "Version %s"
+msgstr "Version %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:222
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:223
+msgid "Your tweet message would be placed here."
+msgstr "Votre message de tweet apparaîtra ici."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:280
+msgid ""
+"Use this page to show what the plugin does or what features you have added "
+"since your first release. Replace the placeholder images with screenshots of "
+"your plugin. You can even make the screenshots linkable to show a larger "
+"screenshot with or without caption or play an embedded video. It's all up to "
+"you."
+msgstr ""
+"Cette page permet de montrer ce que fait l’extension ou les fonctionnalités "
+"que vous avez ajoutées depuis votre première version. Remplacer les images "
+"de démo avec des captures d’écran de votre extension. Vous pouvez même faire "
+"des captures d’écran cliquables pour afficher une capture d’écran plus "
+"grande avec ou sans légende ou intégrer une vidéo. À vous de jouer."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:283
+msgid "Three Columns with Screenshots"
+msgstr "Trois colonnes, avec captures d'écrans"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:286
+msgid "Screenshot Title"
+msgstr "Titre de la capture d&rsquo;écran"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:287
+#: includes/admin/class-fxb-sample-admin-welcome.php:292
+#: includes/admin/class-fxb-sample-admin-welcome.php:297
+#: includes/admin/class-fxb-sample-admin-welcome.php:307
+#: includes/admin/class-fxb-sample-admin-welcome.php:311
+#: includes/admin/class-fxb-sample-admin-welcome.php:315
+#: includes/admin/class-fxb-sample-admin-welcome.php:326
+#: includes/admin/class-fxb-sample-admin-welcome.php:331
+#: includes/admin/class-fxb-sample-admin-welcome.php:342
+#: includes/admin/class-fxb-sample-admin-welcome.php:346
+#: includes/admin/class-fxb-sample-admin-welcome.php:397
+#: includes/admin/class-fxb-sample-admin-welcome.php:402
+#: includes/admin/class-fxb-sample-admin-welcome.php:407
+#: includes/admin/class-fxb-sample-admin-welcome.php:415
+#: includes/admin/class-fxb-sample-admin-welcome.php:420
+#: includes/admin/class-fxb-sample-admin-welcome.php:425
+#: includes/admin/class-fxb-sample-admin-welcome.php:433
+#: includes/admin/class-fxb-sample-admin-welcome.php:438
+#: includes/admin/class-fxb-sample-admin-welcome.php:443
+msgid "Title of Feature or New Changes"
+msgstr "Titre de la fonctionnalité ou des nouveaux changements"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:291
+msgid "You can add captions to your screenshots."
+msgstr "Vous pouvez ajouter des légendes à vos captures d'écran."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:296
+msgid "Or add captions on your videos."
+msgstr "Ou ajouter des légendes à vos vidéos."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:296
+msgid "Video Title"
+msgstr "Titre de la vidéo"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:304
+msgid "Three Columns with a white background"
+msgstr "Trois colonnes avec un fond blanc"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:322
+msgid "Two Columns with Screenshots"
+msgstr "Deux colonnes avec captures d'écran"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:338
+msgid "Two Columns with a Single Screenshot"
+msgstr "Deux colonnes avec une seule capture d'écran"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:353
+msgid "Callout Headline"
+msgstr "Gros titre de la légende"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:358
+msgid "One Column centered with a Single Screenshot"
+msgstr "Une colonne centrée avec une seule capture d'écran"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:367
+msgid "Two Columns, Content Left, Screenshot Right"
+msgstr "Deux colonnes, contenu à gauche, capture d'écran à droite"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:369
+#: includes/admin/class-fxb-sample-admin-welcome.php:386
+msgid "Sub-Title (H4)"
+msgstr "Sous-titre (H4)"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:384
+msgid "Two Columns, Content Right, Screenshot Left"
+msgstr "Deux colonnes, contenu à droite, capture d'écran à gauche"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:393
+msgid "Three Columns with NO Screenshots"
+msgstr "Trois colonnes SANS captures d'écrans"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:452
+msgid "Go to %s Settings"
+msgstr "Aller aux réglages de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:471
+msgid "Bulletpoint your changelog like so."
+msgstr "Voici la liste des modifications de l'extension."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:474
+#: includes/admin/class-fxb-sample-admin-welcome.php:491
+#: includes/admin/class-fxb-sample-admin-welcome.php:499
+#: includes/admin/views/html-admin-page-status-report.php:437
+msgid "Version"
+msgstr "Version"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:474
+msgid "nd March"
+msgstr "mars"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:491
+#: includes/admin/class-fxb-sample-admin-welcome.php:499
+msgid "th August"
+msgstr "août"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:500
+msgid "First version of the %s."
+msgstr "Première version de %s."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:520
+msgid ""
+"The %s is based on the BoilWP project developped  and maintained by "
+"\"S&eacute;bastien Dumont\". Are you a passionate individual, would you like "
+"to give your support and see your name here? <a href=\"%s\" target=\"_blank"
+"\">Contribute to %s</a>."
+msgstr ""
+"%s est basé sur le boileplate BoilWP développé et maintenu par &quot;"
+"Sébastien Dumont&quot;. Vous êtes une personne passionnée, vous voulez-"
+"participer et voir votre nom affiché ici ? <a href=\\\"%s\\\" target=\\"
+"\"_blank\\\">Contribuez à %s</a> ."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:526
+msgid "Project Leader &amp; Developer"
+msgstr "Chef de projet &amp; Développeur"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:527
+msgid ""
+"I am a freelance WordPress Developer and I have been developing for "
+"WordPress since 2009. I provide Code Reviews, e-Commerce installations and "
+"custom WordPress plugin and theme development services. I developed this "
+"boilerplate and many others."
+msgstr ""
+"Je suis développeur freelance pour WordPress depuis 2009. Je fournis des "
+"revisions de code, l'installation d'extensions d'e-commerce ou "
+"personnalisées ainsi qu'un service de développement personnalisé de thème. "
+"J'ai développé ce boilerplate et bien d'autres choses."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:542
+#: includes/admin/class-fxb-sample-admin-welcome.php:563
+msgid "View %s&rsquo;s website"
+msgstr "Aller sur le site de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:547
+msgid "Translation Manager, CEO of WP-Translations.org"
+msgstr "Manageur de la traduction, CEO de WP-Translations.org"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:548
+msgid ""
+"Translation is my hobby, make it a living is my plan. I translate but also "
+"check and code the missing i18n() functions in your plugins or themes. I run "
+"a FREE WP Community of translators on Transifex. So if you need someone who "
+"cares about quality work, get in touch. Many developers are already trusting "
+"me, Seb of course but also Yoast, Pippin and the Mailpoet Team."
+msgstr ""
+"Je suis traducteur pour WordPress depuis 2011. J'ai crée la communauté de "
+"traducteurs WP-Translations sur Transifex qui regroupe plus de 600 bénévoles "
+"dans 120 nationalités différentes et gère +100 projets. De nombreux "
+"développeurs me font déjà confiance, Sebastien, bien sûr, mais aussi Pippin, "
+"Yoast, l&#39;équipe de Mailpoet ou de WP-Rocket pour leurs traductions. Et "
+"si vous cherchez un thème WordPress en français je n'ai qu'un nom : "
+"\"Hexagone\" ma boutique de thème créée en collaboration avec Devin Price."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:570
+msgid "Contributers"
+msgstr "Contributeurs"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:570
+msgid "These contributers are fetched from the GitHub repository."
+msgstr "Ces contributeurs sont récupérés à partir du repo GitHub."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:576
+msgid "Translators"
+msgstr "Traducteurs"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:576
+msgid "These translators are fetched from the Transifex project for %s."
+msgstr ""
+"Ces contributeurs sont récupérés à partir du dépot Transifex du projet %s."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:578
+msgid ""
+"<strong>%s</strong> has been kindly translated into several other languages "
+"thanks to the WP-Translations community."
+msgstr ""
+"<strong>%s</strong> a été aimablement traduit en plusieurs autres langues "
+"grâce à la communauté de WP-Transaltions."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:583
+msgid ""
+"Is your name not listed? Then how about taking part in helping with the "
+"translation of this plugin. See the list of <a href=\"%s\">languages to "
+"translate</a>."
+msgstr ""
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:587
+msgid "External Libraries"
+msgstr "Bibliothèques tierces"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:614
+msgid ""
+"Translations currently in progress and completed for %s. <a href=\"%s\" "
+"target=\"_blank\">View more on %s</a>."
+msgstr ""
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:635
+msgid ""
+"FxB Sample is Free and open source software, built to help speed up plugin "
+"development and to be stable and secure for all WordPress versions. Below is "
+"a list explaining what you are allowed to do. Enjoy!"
+msgstr ""
+"FxB sample est une extension libre et open source, construit pour aider à "
+"accélérer le développement d'extension, elle est stable et sécurisée pour "
+"toutes les versions de WordPress. Voici une liste de ce que vous faire avec. "
+"Tirez-en le maximum !"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:638
+msgid "You have the freedom to run the program, for any purpose."
+msgstr ""
+"Vous êtes libre de modifier ce programme, dans n&rsquo;importe quel but."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:639
+msgid ""
+"You have access to the source code, the freedom to study how the program "
+"works, and the freedom to change it to make it do what you wish."
+msgstr ""
+"Vous avez accès au code source, êtes libres d&rsquo;étudier la manière dont "
+"le programme fonctionne, et libres de le modifier pour en faire ce que vous "
+"souhaitez."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:640
+msgid ""
+"You have the freedom to redistribute copies of the original program so you "
+"can help your neighbor."
+msgstr ""
+"Vous êtes libres de redistribuer des copies du programme original, afin "
+"d&rsquo;aider votre prochain."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:641
+msgid ""
+"You have the freedom to distribute copies of your modified versions to "
+"others. By doing this you can give the whole community a chance to benefit "
+"from your changes."
+msgstr ""
+"Vous êtes libres de distribuer à autrui des copies de votre propre version "
+"modifiée de ce programme. Ce faisant, vous offrez à la communauté la "
+"possibilité de profiter de vos modifications."
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:675
+msgid "View %s's GitHub Profile"
+msgstr "Afficher le profil GitHub de %s"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:681
+#: includes/admin/views/html-admin-page-status-report.php:433
+msgid "Name"
+msgstr "Nom"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:684
+msgid "Username"
+msgstr "Identifiant"
+
+#: includes/admin/class-fxb-sample-admin-welcome.php:687
+msgid "View Website"
+msgstr "Visiter le site web"
+
+#: includes/admin/class-fxb-sample-admin.php:149
+#: includes/admin/views/html-admin-page.php:10
+msgid "Website"
+msgstr "Site Web"
+
+#: includes/admin/class-fxb-sample-admin.php:167
+msgid ""
+"If you like <strong>%1$s</strong> please leave a <a href=\"%2$s\" target="
+"\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> rating on <a href=\"%2$s"
+"\" target=\"_blank\">WordPress.org</a>. A huge thank you in advance!"
+msgstr ""
+"Si vous aimez <strong>%1$s</strong> merci de lui attribuer <a href=\\\"%2$s\\"
+"\" target=\\\"_blank\\\">★★★★★</a> sur <a href=\\\"%2$s\\\" target=\\\"_blank"
+"\\\">WordPress.org</a>. Un grand merci pour votre soutien !"
+
+#: includes/admin/class-fxb-sample-admin.php:197
+msgid "Contribute"
+msgstr "Contribuer"
+
+#: includes/admin/class-fxb-sample-admin.php:198
+msgid "Report Bugs"
+msgstr "Signaler un bug"
+
+#: includes/admin/class-fxb-sample-admin.php:199
+#: includes/admin/class-fxb-sample-transifex-stats.php:226
+msgid "Translate"
+msgstr "Traduire"
+
+#: includes/admin/class-fxb-sample-admin.php:208
+#: includes/admin/views/html-admin-page-status-report.php:37
+msgid "%s Version"
+msgstr "Version %s"
+
+#: includes/admin/class-fxb-sample-install.php:169
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:110
+#: includes/admin/views/html-admin-page-status-report.php:344
+msgid "Example Page"
+msgstr "Page d'exemple"
+
+#: includes/admin/class-fxb-sample-install.php:170
+msgid ""
+"This page was created as an example to show you the ability to creating "
+"pages automatically when the plugin is installed. You may if you wish create "
+"a page just to insert a single shortcode. You should find this page already "
+"set in the plugin settings. This save the user time to setup the pages the "
+"plugin requires."
+msgstr ""
+"Cette page a été créée à titre d'exemple pour vous montrer la capacité de "
+"créer des pages automatiquement lorsque l'extension est installée. Vous "
+"pouvez si vous le souhaitez créer une page juste pour insérer un simple "
+"shortcode. Vous devriez trouver cette page directement paramétrée dans la "
+"configuration de l'extension. Cela permet au développeur de gagner du temps "
+"sur la configuration des pages nécessaires au bon fonctionnement de "
+"l'extension."
+
+#: includes/admin/class-fxb-sample-install.php:175
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:121
+#: includes/admin/views/html-admin-page-status-report.php:349
+msgid "Shortcode Example Page"
+msgstr "Page d'exemple des raccourcis"
+
+#: includes/admin/class-fxb-sample-install.php:176
+msgid ""
+"[caption align=\"alignright\" width=\"300\"]<img src=\"http://placekitten."
+"com/300/205\" alt=\"Cat\" title=\"Cute Cat\" width=\"300\" height=\"205\" /> "
+"Cute Cat[/caption] This page was created to show shortcode detection in the "
+"page."
+msgstr ""
+"[caption align=\"alignright\" width=\"300\"]<img src=\"http://placekitten."
+"com/300/205\" alt=\"Chat\" title=\"Mignon chaton\" width=\"300\" height="
+"\"205\" /> Mignon chaton[/caption] Cette page a été créée pour montrer le "
+"fonctionnement de la détection des raccourcis."
+
+#: includes/admin/class-fxb-sample-install.php:244
+msgid "%s Manager"
+msgstr "Gestionnaire de %s"
+
+#: includes/admin/class-fxb-sample-install.php:490
+msgid "What's new:"
+msgstr "Quoi de neuf :"
+
+#: includes/admin/class-fxb-sample-transifex-api.php:90
+msgid "No responses"
+msgstr "Aucune réponse"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:68
+msgid "Settings Title"
+msgstr "Titre des réglages"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:75
+msgid "Subscriber Access"
+msgstr "Accès abonné"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:76
+msgid "Prevent users from accessing WordPress admin."
+msgstr "Empêche les utilisateurs d'accéder à l'administration de WordPress."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:83
+msgid "Secure Content"
+msgstr "Sécuriser le contenu"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:84
+msgid ""
+"Keep your site secure by forcing SSL (HTTPS) on site (an SSL Certificate is "
+"required)."
+msgstr ""
+"Sécuriser votre site en forçant l'utilisation du SSL (HTTPS) sur le site (un "
+"certificat SSL est nécessaire)."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:91
+msgid "Select Country"
+msgstr "Sélectionner un pays"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:92
+msgid "This gives you a list of countries. "
+msgstr "Cela vous donne une liste de pays."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:101
+msgid "Multi Select Countries"
+msgstr "Multi-sélection de pays"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:111
+msgid ""
+"You can set pages that the plugin requires by having them installed and "
+"selected automatically when the plugin is installed."
+msgstr ""
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:122
+msgid "This page has a shortcode applied when created by the plugin."
+msgstr ""
+"Cette page a un raccourci appliqué quand elle est créée par l'extension."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:132
+msgid "Single Checkbox"
+msgstr "Case à cocher simple"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:133
+msgid "Can come in handy to display more options."
+msgstr "Cela peut être pratique pour afficher plus d'options"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:140
+msgid "Single Input (Text) "
+msgstr "Ligne de texte unique"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:143
+msgid "This admin setting can be hidden via the checkbox above."
+msgstr "Ce paramètre d'admin peut être masqué avec la case à cocher ci-dessus."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:150
+msgid "Single Textarea "
+msgstr "Zone de texte"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-one.php:153
+msgid ""
+"You can allow the user to use this field to enter their own CSS or HTML code."
+msgstr ""
+"Vous pouvez permettre aux utilisateurs de rentrer leur propre code HTML ou "
+"CSS."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:51
+msgid "Section One"
+msgstr "Section une"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:52
+#: includes/admin/views/html-admin-page.php:28
+msgid "Section Two"
+msgstr "Section deux"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:104
+msgid "Section Two Options"
+msgstr "Options de la section deux"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:111
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:263
+msgid "Select Page"
+msgstr "Sélectionner la page"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:112
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:264
+msgid "You can set a description here also."
+msgstr "Vous pouvez mettre une description ici aussi."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:118
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:270
+msgid "You can select or search for a page."
+msgstr "Vous pouvez sélectionner ou rechercher une page."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:122
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:274
+msgid "Select"
+msgstr "Sélectionner"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:123
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:275
+msgid "This example shows you options from an array()."
+msgstr "Cet exemple vous montre les options avec un array()."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:130
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:145
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:167
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:282
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:297
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:319
+#: includes/admin/views/html-admin-page-status-report.php:61
+#: includes/admin/views/html-admin-page-status-report.php:118
+#: includes/admin/views/html-admin-page-status-report.php:143
+#: includes/admin/views/html-admin-page-status-report.php:325
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:131
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:146
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:168
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:283
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:298
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:320
+#: includes/admin/views/html-admin-page-status-report.php:64
+#: includes/admin/views/html-admin-page-status-report.php:118
+#: includes/admin/views/html-admin-page-status-report.php:143
+#: includes/admin/views/html-admin-page-status-report.php:325
+msgid "No"
+msgstr "Non"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:137
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:289
+msgid "MultiSelect"
+msgstr "Multi-sélection"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:138
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:290
+msgid ""
+"This example shows you the ability to select multi options from an array()."
+msgstr ""
+"Cet exemple vous montre les possibilités de sélectionner de multiples "
+"options avec un array()."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:152
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:304
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:153
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:305
+msgid "Checkbox option"
+msgstr "Options de la case à cocher"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:160
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:312
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:161
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:313
+msgid "Radio option"
+msgstr "Option radio"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:173
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:325
+msgid "Number"
+msgstr "Quantité"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:174
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:326
+msgid "Use this field for numbered options."
+msgstr "Utiliser ce champ pour des options numériques."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:187
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:339
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:188
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:340
+msgid "Use this field for color picking."
+msgstr "Utiliser ce champ pour choisir une couleur."
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:197
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:349
+msgid "Group Checkboxes"
+msgstr "Groupe de cases à cocher"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:198
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:350
+msgid "Checkbox One"
+msgstr "Case à cocher une"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:207
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:359
+msgid "Checkbox Two"
+msgstr "Case à cocher deux"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:216
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:368
+msgid "Email"
+msgstr "E-mail "
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:225
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:377
+msgid "Password"
+msgstr "Mot de passe"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:234
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:386
+msgid "Image Size"
+msgstr "Taille de l'image"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:235
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:387
+msgid "Use this field option to save multiple settings for an image size"
+msgstr ""
+"Utilisez cette option de champ pour enregistrer les multiples options pour "
+"la dimension des images"
+
+#: includes/admin/settings/class-fxb-sample-settings-tab-two.php:256
+msgid "Section One Options"
+msgstr "Options de la section Une"
+
+#: includes/admin/views/html-admin-page-status-report.php:11
+msgid "Please include this information when requesting support:"
+msgstr "Veuillez inclure cette information lorsque vous contactez le support :"
+
+#: includes/admin/views/html-admin-page-status-report.php:12
+msgid "Get System Report"
+msgstr "Obtenir le rapport système"
+
+#: includes/admin/views/html-admin-page-status-report.php:15
+msgid "Copied!"
+msgstr "Copié !"
+
+#: includes/admin/views/html-admin-page-status-report.php:15
+msgid "Copy for Support"
+msgstr "Copier pour le support"
+
+#: includes/admin/views/html-admin-page-status-report.php:23
+msgid "Environment"
+msgstr "Environnement"
+
+#: includes/admin/views/html-admin-page-status-report.php:29
+msgid "Home URI"
+msgstr "Adresse web du site (URI)"
+
+#: includes/admin/views/html-admin-page-status-report.php:33
+msgid "Site URI"
+msgstr "Adresse web du site (URI)"
+
+#: includes/admin/views/html-admin-page-status-report.php:41
+msgid "%s Database Version"
+msgstr "Version %s de la base de données"
+
+#: includes/admin/views/html-admin-page-status-report.php:45
+msgid "WordPress Version"
+msgstr "Version de WordPress"
+
+#: includes/admin/views/html-admin-page-status-report.php:58
+msgid "WordPress Multisite Enabled"
+msgstr "WordPress Multisite activé"
+
+#: includes/admin/views/html-admin-page-status-report.php:69
+msgid "Server Info"
+msgstr "Informations du serveur"
+
+#: includes/admin/views/html-admin-page-status-report.php:73
+msgid "PHP Version"
+msgstr "Version PHP"
+
+#: includes/admin/views/html-admin-page-status-report.php:88
+msgid "MySQL Version"
+msgstr "Version MySQL"
+
+#: includes/admin/views/html-admin-page-status-report.php:103
+msgid "WordPress Memory Limit"
+msgstr "Limite de mémoire de WordPress"
+
+#: includes/admin/views/html-admin-page-status-report.php:117
+msgid "Is WordPress in Debug Mode?"
+msgstr "WordPress est-il en mode de débogage ?"
+
+#: includes/admin/views/html-admin-page-status-report.php:121
+msgid "WordPress Language"
+msgstr "Langue de WordPress"
+
+#: includes/admin/views/html-admin-page-status-report.php:125
+msgid "WordPress Max Upload Size"
+msgstr "Taille maximale d'envoi de WordPress"
+
+#: includes/admin/views/html-admin-page-status-report.php:130
+msgid "PHP Post Max Size"
+msgstr "Poids Max Post PHP"
+
+#: includes/admin/views/html-admin-page-status-report.php:134
+msgid "PHP Time Limit"
+msgstr "Limite d'exécution PHP"
+
+#: includes/admin/views/html-admin-page-status-report.php:138
+msgid "PHP Max Input Vars"
+msgstr "Entrée PHP Max Vars"
+
+#: includes/admin/views/html-admin-page-status-report.php:142
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN installé"
+
+#: includes/admin/views/html-admin-page-status-report.php:147
+msgid "%s Logging"
+msgstr "Connexion à %s"
+
+#: includes/admin/views/html-admin-page-status-report.php:151
+msgid "Log directory is writable."
+msgstr "Le dossier Log est accessible en écriture."
+
+#: includes/admin/views/html-admin-page-status-report.php:157
+msgid "Default Timezone"
+msgstr "Fuseau horaire par défaut"
+
+#: includes/admin/views/html-admin-page-status-report.php:161
+msgid "Default timezone is %s - it should be UTC"
+msgstr "Le fuseau horaire par défaut est %s - Il devrait être UTC"
+
+#: includes/admin/views/html-admin-page-status-report.php:163
+msgid "Default timezone is %s"
+msgstr "Le fuseau horaire par défaut est %s"
+
+#: includes/admin/views/html-admin-page-status-report.php:174
+msgid "Your server has fsockopen and cURL enabled."
+msgstr "Votre serveur a fsockopen et cURL activés."
+
+#: includes/admin/views/html-admin-page-status-report.php:176
+msgid "Your server has fsockopen enabled, cURL is disabled."
+msgstr "Votre serveur a fsockopen actif, cURL est désactivé."
+
+#: includes/admin/views/html-admin-page-status-report.php:178
+msgid "Your server has cURL enabled, fsockopen is disabled."
+msgstr "Votre serveur a cURL actif, fsockopen est désactivé."
+
+#: includes/admin/views/html-admin-page-status-report.php:182
+msgid ""
+"Your server does not have fsockopen or cURL enabled - Various scripts which "
+"communicate with other servers will not work. Contact your hosting provider."
+msgstr ""
+"Votre serveur n'a pas fsockopen ou cURL actifs - Paypal IPN et les autres "
+"scripts qui communiquent avec d'autres serveurs ne fonctionneront pas. "
+"Contactez votre hébergeur."
+
+#: includes/admin/views/html-admin-page-status-report.php:189
+msgid "Your server has the SOAP Client class enabled."
+msgstr "Votre serveur a le client SOAP activé."
+
+#: includes/admin/views/html-admin-page-status-report.php:192
+msgid ""
+"Your server does not have the <a href=\"%s\">SOAP Client</a> class enabled."
+msgstr ""
+"Votre serveur n'a pas la classe de <a href=\"%s\">Client SOAP</a> activée."
+
+#: includes/admin/views/html-admin-page-status-report.php:197
+msgid "Remote Post"
+msgstr "Publication Distante"
+
+#: includes/admin/views/html-admin-page-status-report.php:211
+msgid ""
+"wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+"your hosting provider."
+msgstr ""
+"wp_remote_post () a échoué. PayPal IPN ne fonctionnera pas avec votre "
+"serveur. Contactez votre fournisseur d'hébergement."
+
+#: includes/admin/views/html-admin-page-status-report.php:213
+#: includes/admin/views/html-admin-page-status-report.php:228
+msgid "Error: %s"
+msgstr "Erreur : %s"
+
+#: includes/admin/views/html-admin-page-status-report.php:219
+msgid "Remote Get"
+msgstr "Remote Get"
+
+#: includes/admin/views/html-admin-page-status-report.php:226
+msgid ""
+"wp_remote_get() failed. The ability to update this plugin won't work with "
+"your server. Contact your hosting provider."
+msgstr ""
+
+#: includes/admin/views/html-admin-page-status-report.php:253
+msgid "Plugins"
+msgstr "Extensions"
+
+#: includes/admin/views/html-admin-page-status-report.php:259
+msgid "Active Plugins"
+msgstr "Extensions activées"
+
+#: includes/admin/views/html-admin-page-status-report.php:279
+msgid "Visit plugin homepage"
+msgstr "Aller sur le site de l&rsquo;extension"
+
+#: includes/admin/views/html-admin-page-status-report.php:302
+#: includes/admin/views/html-admin-page-status-report.php:441
+msgid "is available"
+msgstr "est disponible"
+
+#: includes/admin/views/html-admin-page-status-report.php:306
+msgid "Network enabled"
+msgstr "Activée pour le réseau"
+
+#: includes/admin/views/html-admin-page-status-report.php:324
+msgid "Force SSL"
+msgstr "Forcer le SSL"
+
+#: includes/admin/views/html-admin-page-status-report.php:331
+msgid "%s Pages"
+msgstr "%s Pages"
+
+#: includes/admin/views/html-admin-page-status-report.php:339
+msgid "Sample Page"
+msgstr "Page d&rsquo;exemple"
+
+#: includes/admin/views/html-admin-page-status-report.php:370
+msgid "Page not set"
+msgstr "La page n&rsquo;est pas définie"
+
+#: includes/admin/views/html-admin-page-status-report.php:379
+msgid "Page does not exist"
+msgstr "La page n&rsquo;existe pas"
+
+#: includes/admin/views/html-admin-page-status-report.php:383
+msgid "Page does not contain the shortcode: %s"
+msgstr "La page ne contient pas le raccourci : %s"
+
+#: includes/admin/views/html-admin-page-status-report.php:389
+msgid "Page ID"
+msgstr "ID de la page"
+
+#: includes/admin/views/html-admin-page-status-report.php:389
+msgid "Page Slug"
+msgstr "Identifiant de la page"
+
+#: includes/admin/views/html-admin-page-status-report.php:399
+msgid "Theme"
+msgstr "Thème"
+
+#: includes/admin/views/html-admin-page-status-report.php:446
+msgid "Author URL"
+msgstr "URL de l'auteur"
+
+#: includes/admin/views/html-admin-page-status-tools.php:26
+msgid "Remove all data on uninstall"
+msgstr "Supprimer toutes les données lors de la désinstallation"
+
+#: includes/admin/views/html-admin-page-status-tools.php:29
+msgid "Enabled"
+msgstr "Activé"
+
+#: includes/admin/views/html-admin-page-status-tools.php:32
+msgid "This tool will delete all data when uninstalling via Plugins > Delete."
+msgstr ""
+"Cet outil supprimera toutes les données lors de la désinstallation via "
+"Extensions > Supprimer."
+
+#: includes/admin/views/html-admin-page-status-tools.php:40
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin/views/html-admin-page.php:27
+msgid "Default"
+msgstr "Valeur par défaut"
+
+#: includes/admin/views/html-admin-page.php:29
+msgid "Section Three"
+msgstr "Section Trois"
+
+#: includes/admin/views/html-admin-page.php:54
+msgid ""
+"You can use this page to place the main back feature of your plugin. Place "
+"links at the end of your header and set the page into sections."
+msgstr ""
+
+#: includes/admin/views/html-admin-page.php:55
+msgid ""
+"These sections can then display different content based on the section the "
+"user is viewing."
+msgstr ""
+"Ces sections peuvent afficher un contenu différent en fonction de l'endroit "
+"où l&#39;utilisateur se trouve."
+
+#: includes/admin/views/html-admin-page.php:56
+msgid ""
+"There are many actions and filters in place to allow you to add and display "
+"anything you need."
+msgstr ""
+"Il y a de nombreuses actions et filtres disponiblent pour vous permettre "
+"d&#39;ajouter et d&#39;afficher tout ce dont vous avez besoin."
+
+#: includes/admin/views/html-admin-settings.php:30
+msgid "Save changes"
+msgstr "Enregistrer les modifications"
+
+#: includes/admin/views/html-notice-install.php:5
+msgid ""
+"<strong>Welcome to %s</strong> &#8211; You're almost ready to start using "
+"this plugin :)"
+msgstr ""
+"<strong>Bienvenue dans %s</strong> &#8211; Vous êtes presque prêt pour "
+"commencer à utiliser cette extension :)"
+
+#: includes/admin/views/html-notice-install.php:6
+msgid "Skip setup"
+msgstr "Passer l'installation"
+
+#: includes/admin/views/html-notice-theme-support.php:6
+msgid "Theme Integration Guide"
+msgstr "Guide d'intégration du thème"
+
+#: includes/admin/views/html-notice-theme-support.php:6
+msgid "Hide this notice"
+msgstr "Masquer cette notification"
+
+#: includes/admin/views/html-notice-update.php:5
+msgid ""
+"<strong>%s Data Update Required</strong> &#8211; We just need to update your "
+"install to the latest version"
+msgstr ""
+"<strong>Mises à jour des données nécessaires de %s</strong> &#8211; Nous "
+"devons mettre à jour votre installation avec la dernière version."
+
+#: includes/admin/views/html-notice-update.php:6
+msgid "Run the updater"
+msgstr "Lancer la mise à jour"
+
+#: includes/admin/views/html-notice-update.php:10
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Il est fortement recommandé de sauvegarder votre base de données avant de "
+"procéder. Êtes-vous certain(e) de vouloir exécuter la mise à jour "
+"maintenant ?"
+
+#. Description of the plugin/theme
+msgid "A simple FxB sample plugin"
+msgstr "Une simple extension de démo de FxB"
+
+#: includes/admin/class-fxb-sample-install.php:168
+msgctxt "page_slug"
+msgid "example"
+msgstr "exemple"
+
+#: includes/admin/class-fxb-sample-install.php:174
+msgctxt "page_slug"
+msgid "shortcode"
+msgstr "code court"
+
+#: includes/admin/views/html-admin-page-status-report.php:311
+msgctxt "by author"
+msgid "by %s"
+msgstr "par %s"
+
+#: includes/admin/views/html-admin-page-status-report.php:361
+msgctxt "%s Pages links in the System Status"
+msgid "Edit %s page"
+msgstr "Modifier la page %s"
+
+#~ msgid "FxB Sample"
+#~ msgstr "FxB Sample"
+
+#~ msgid "https://fxbenard.com/"
+#~ msgstr "https://fxbenard.com/"
+
+#~ msgid "FX Bénard"
+#~ msgstr "FX Bénard"
+
+#~ msgid "WordPress Plugin Boilerplate"
+#~ msgstr "WordPress Plugin Boilerplate"
+
+#~ msgid "https://github.com/BoilWP/WordPress-Plugin-Boilerplate"
+#~ msgstr "https://github.com/BoilWP/WordPress-Plugin-Boilerplate"
+
+#~ msgid "Sébastien Dumont"
+#~ msgstr "Sébastien Dumont"
+
+#~ msgid "http://www.sebastiendumont.com"
+#~ msgstr "http://www.sebastiendumont.com"
+
+#~ msgid "Choose a country&hellip;"
+#~ msgstr "S&eacute;lectionner un pays&hellip;"
+
+#~ msgid "Choose countries&hellip;"
+#~ msgstr "S&eacute;lectionner des pays&hellip;"
+
+#~ msgid "Select all"
+#~ msgstr "Tout sélectionner"
+
+#~ msgid "Select none"
+#~ msgstr "Ne rien sélectionner"
+
+#~ msgid "Custom Role"
+#~ msgstr "Rôle personnalisé"
+
+#~ msgid "fsockopen/cURI"
+#~ msgstr "fsockopen/cURI"
+
+#~ msgid "SOAP Client"
+#~ msgstr "Client SOAP"
+
+#~ msgid "Installed Plugins"
+#~ msgstr "Extensions installées"
+
+#~ msgid "by"
+#~ msgstr "par"
+
+#~ msgid "Theme Name"
+#~ msgstr "Nom du thème"
+
+#~ msgid "Theme Version"
+#~ msgstr "Version du thème"
+
+#~ msgid "Afghanistan"
+#~ msgstr "Afghanistan"
+
+#~ msgid "&#197;land Islands"
+#~ msgstr "Îles d'Aland"
+
+#~ msgid "Albania"
+#~ msgstr "Albanie"
+
+#~ msgid "Algeria"
+#~ msgstr "Algérie"
+
+#~ msgid "Andorra"
+#~ msgstr "Andorre"
+
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#~ msgid "Antarctica"
+#~ msgstr "Antartique"
+
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua et Barbuda"
+
+#~ msgid "Argentina"
+#~ msgstr "Argentine"
+
+#~ msgid "Armenia"
+#~ msgstr "Arménie"
+
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#~ msgid "Australia"
+#~ msgstr "Australie"
+
+#~ msgid "Austria"
+#~ msgstr "Autriche"
+
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaïjan"
+
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#~ msgid "Bahrain"
+#~ msgstr "Bahreïn"
+
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#~ msgid "Barbados"
+#~ msgstr "Barbade"
+
+#~ msgid "Belarus"
+#~ msgstr "Biélorussie"
+
+#~ msgid "Belgium"
+#~ msgstr "Belgique"
+
+#~ msgid "Belau"
+#~ msgstr "Belau"
+
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#~ msgid "Benin"
+#~ msgstr "Bénin"
+
+#~ msgid "Bermuda"
+#~ msgstr "Bermudes"
+
+#~ msgid "Bhutan"
+#~ msgstr "Bhoutan"
+
+#~ msgid "Bolivia"
+#~ msgstr "Bolivie"
+
+#~ msgid "Bonaire, Saint Eustatius and Saba"
+#~ msgstr "Saba, Saint-Eustache et Bonaire"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnie-Herzégovine"
+
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#~ msgid "Bouvet Island"
+#~ msgstr "Île Bouvet"
+
+#~ msgid "Brazil"
+#~ msgstr "Brésil"
+
+#~ msgid "British Indian Ocean Territory"
+#~ msgstr "Territoire Britannique de l'Océan Indien"
+
+#~ msgid "British Virgin Islands"
+#~ msgstr "Îles Vierges (britanniques)"
+
+#~ msgid "Brunei"
+#~ msgstr "Brunei"
+
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgarie"
+
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#~ msgid "Cambodia"
+#~ msgstr "Cambodge"
+
+#~ msgid "Cameroon"
+#~ msgstr "Cameroun"
+
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#~ msgid "Cape Verde"
+#~ msgstr "Cap-Vert"
+
+#~ msgid "Cayman Islands"
+#~ msgstr "Îles Caïmans"
+
+#~ msgid "Central African Republic"
+#~ msgstr "République Centrafricaine"
+
+#~ msgid "Chad"
+#~ msgstr "Tchad"
+
+#~ msgid "Chile"
+#~ msgstr "Chili"
+
+#~ msgid "China"
+#~ msgstr "Chine"
+
+#~ msgid "Christmas Island"
+#~ msgstr "Île Christmas"
+
+#~ msgid "Cocos (Keeling) Islands"
+#~ msgstr "Îles Cocos (Keeling)"
+
+#~ msgid "Colombia"
+#~ msgstr "Colombie"
+
+#~ msgid "Comoros"
+#~ msgstr "Comores"
+
+#~ msgid "Congo (Brazzaville)"
+#~ msgstr "Congo (Brazzaville)"
+
+#~ msgid "Congo (Kinshasa)"
+#~ msgstr "Congo (Kinshasa)"
+
+#~ msgid "Cook Islands"
+#~ msgstr "Îles Cook"
+
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#~ msgid "Croatia"
+#~ msgstr "Croatie"
+
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#~ msgid "Cura&Ccedil;ao"
+#~ msgstr "Curaçao"
+
+#~ msgid "Cyprus"
+#~ msgstr "Chypre"
+
+#~ msgid "Czech Republic"
+#~ msgstr "République Tchèque"
+
+#~ msgid "Denmark"
+#~ msgstr "Danemark"
+
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Dominica"
+#~ msgstr "Dominique"
+
+#~ msgid "Dominican Republic"
+#~ msgstr "République Dominicaine"
+
+#~ msgid "Ecuador"
+#~ msgstr "Equateur"
+
+#~ msgid "Egypt"
+#~ msgstr "Egypte"
+
+#~ msgid "El Salvador"
+#~ msgstr "Salvador"
+
+#~ msgid "Equatorial Guinea"
+#~ msgstr "Guinée Equitoriale"
+
+#~ msgid "Eritrea"
+#~ msgstr "Érythrée"
+
+#~ msgid "Estonia"
+#~ msgstr "Estonie"
+
+#~ msgid "Ethiopia"
+#~ msgstr "Éthiopie"
+
+#~ msgid "Falkland Islands"
+#~ msgstr "Îles Falkland"
+
+#~ msgid "Faroe Islands"
+#~ msgstr "Féroé (îles)"
+
+#~ msgid "Fiji"
+#~ msgstr "Fidji"
+
+#~ msgid "Finland"
+#~ msgstr "Finlande"
+
+#~ msgid "France"
+#~ msgstr "France"
+
+#~ msgid "French Guiana"
+#~ msgstr "Guinée Française"
+
+#~ msgid "French Polynesia"
+#~ msgstr "Polynésie Française"
+
+#~ msgid "French Southern Territories"
+#~ msgstr "Terres Australes Françaises"
+
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#~ msgid "Gambia"
+#~ msgstr "Gambie"
+
+#~ msgid "Georgia"
+#~ msgstr "Géorgie"
+
+#~ msgid "Germany"
+#~ msgstr "Allemagne"
+
+#~ msgid "Ghana"
+#~ msgstr "Ghana"
+
+#~ msgid "Gibraltar"
+#~ msgstr "Gibraltar"
+
+#~ msgid "Greece"
+#~ msgstr "Grèce"
+
+#~ msgid "Greenland"
+#~ msgstr "Groenland"
+
+#~ msgid "Grenada"
+#~ msgstr "Grenade"
+
+#~ msgid "Guadeloupe"
+#~ msgstr "Guadeloupe"
+
+#~ msgid "Guatemala"
+#~ msgstr "Guatemala"
+
+#~ msgid "Guernsey"
+#~ msgstr "Guernsey"
+
+#~ msgid "Guinea"
+#~ msgstr "Guinée"
+
+#~ msgid "Guinea-Bissau"
+#~ msgstr "Guinée-Bissau"
+
+#~ msgid "Guyana"
+#~ msgstr "Guyane"
+
+#~ msgid "Haiti"
+#~ msgstr "Haïti"
+
+#~ msgid "Heard Island and McDonald Islands"
+#~ msgstr "Îles McDonald et Heard"
+
+#~ msgid "Honduras"
+#~ msgstr "Honduras"
+
+#~ msgid "Hong Kong"
+#~ msgstr "Hong Kong"
+
+#~ msgid "Hungary"
+#~ msgstr "Hongrie"
+
+#~ msgid "Iceland"
+#~ msgstr "Islande"
+
+#~ msgid "India"
+#~ msgstr "Inde"
+
+#~ msgid "Indonesia"
+#~ msgstr "Indonésie"
+
+#~ msgid "Iran"
+#~ msgstr "Iran"
+
+#~ msgid "Iraq"
+#~ msgstr "Irak"
+
+#~ msgid "Republic of Ireland"
+#~ msgstr "République d'Irlande"
+
+#~ msgid "Isle of Man"
+#~ msgstr "Île de Man"
+
+#~ msgid "Israel"
+#~ msgstr "Israël"
+
+#~ msgid "Italy"
+#~ msgstr "Italie"
+
+#~ msgid "Ivory Coast"
+#~ msgstr "Côte d'Ivoire"
+
+#~ msgid "Jamaica"
+#~ msgstr "Jamaïque"
+
+#~ msgid "Japan"
+#~ msgstr "Japon"
+
+#~ msgid "Jersey"
+#~ msgstr "Jersey"
+
+#~ msgid "Jordan"
+#~ msgstr "Jordanie"
+
+#~ msgid "Kazakhstan"
+#~ msgstr "Kazakhstan"
+
+#~ msgid "Kenya"
+#~ msgstr "Kenya"
+
+#~ msgid "Kiribati"
+#~ msgstr "Kiribati"
+
+#~ msgid "Kuwait"
+#~ msgstr "Koweït"
+
+#~ msgid "Kyrgyzstan"
+#~ msgstr "Kirghizistan"
+
+#~ msgid "Laos"
+#~ msgstr "Laos"
+
+#~ msgid "Latvia"
+#~ msgstr "Lettonie"
+
+#~ msgid "Lebanon"
+#~ msgstr "Liban"
+
+#~ msgid "Lesotho"
+#~ msgstr "Lesotho"
+
+#~ msgid "Liberia"
+#~ msgstr "Libéria"
+
+#~ msgid "Libya"
+#~ msgstr "Libye"
+
+#~ msgid "Liechtenstein"
+#~ msgstr "Liechtenstein"
+
+#~ msgid "Lithuania"
+#~ msgstr "Lithuanie"
+
+#~ msgid "Luxembourg"
+#~ msgstr "Luxembourg"
+
+#~ msgid "Macao S.A.R., China"
+#~ msgstr "Macao S.A.R., Chine"
+
+#~ msgid "Macedonia"
+#~ msgstr "Macédoine"
+
+#~ msgid "Madagascar"
+#~ msgstr "Madagascar"
+
+#~ msgid "Malawi"
+#~ msgstr "Malawi"
+
+#~ msgid "Malaysia"
+#~ msgstr "Malaysie"
+
+#~ msgid "Maldives"
+#~ msgstr "Maldives"
+
+#~ msgid "Mali"
+#~ msgstr "Mali"
+
+#~ msgid "Malta"
+#~ msgstr "Malte"
+
+#~ msgid "Marshall Islands"
+#~ msgstr "Îles Marshall"
+
+#~ msgid "Martinique"
+#~ msgstr "Martinique"
+
+#~ msgid "Mauritania"
+#~ msgstr "Mauritanie"
+
+#~ msgid "Mauritius"
+#~ msgstr "Île Maurice"
+
+#~ msgid "Mayotte"
+#~ msgstr "Mayotte"
+
+#~ msgid "Mexico"
+#~ msgstr "Méxique"
+
+#~ msgid "Micronesia"
+#~ msgstr "Micronésie"
+
+#~ msgid "Moldova"
+#~ msgstr "Moldavie"
+
+#~ msgid "Monaco"
+#~ msgstr "Monaco"
+
+#~ msgid "Mongolia"
+#~ msgstr "Mongolie"
+
+#~ msgid "Montenegro"
+#~ msgstr "Monténégro"
+
+#~ msgid "Montserrat"
+#~ msgstr "Montserrat"
+
+#~ msgid "Morocco"
+#~ msgstr "Maroc"
+
+#~ msgid "Mozambique"
+#~ msgstr "Mozambique"
+
+#~ msgid "Myanmar"
+#~ msgstr "Myanmar"
+
+#~ msgid "Namibia"
+#~ msgstr "Namibie"
+
+#~ msgid "Nauru"
+#~ msgstr "Nauru"
+
+#~ msgid "Nepal"
+#~ msgstr "Népal"
+
+#~ msgid "Netherlands"
+#~ msgstr "Pays-Bas"
+
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Antilles Néerlandaises"
+
+#~ msgid "New Caledonia"
+#~ msgstr "Nouvelle Calédonie"
+
+#~ msgid "New Zealand"
+#~ msgstr "Nouvelle Zélande"
+
+#~ msgid "Nicaragua"
+#~ msgstr "Nicaragua"
+
+#~ msgid "Niger"
+#~ msgstr "Niger"
+
+#~ msgid "Nigeria"
+#~ msgstr "Nigéria"
+
+#~ msgid "Niue"
+#~ msgstr "Niué"
+
+#~ msgid "Norfolk Island"
+#~ msgstr "Île Norfolk"
+
+#~ msgid "North Korea"
+#~ msgstr "Corée du Nord"
+
+#~ msgid "Norway"
+#~ msgstr "Norvège"
+
+#~ msgid "Oman"
+#~ msgstr "Oman"
+
+#~ msgid "Pakistan"
+#~ msgstr "Pakistan"
+
+#~ msgid "Palestinian Territory"
+#~ msgstr "Territoire Palestinien"
+
+#~ msgid "Panama"
+#~ msgstr "Panama"
+
+#~ msgid "Papua New Guinea"
+#~ msgstr "Papouasie Nouvelle-Guinée"
+
+#~ msgid "Paraguay"
+#~ msgstr "Paraguay"
+
+#~ msgid "Peru"
+#~ msgstr "Pérou"
+
+#~ msgid "Philippines"
+#~ msgstr "Philippines"
+
+#~ msgid "Pitcairn"
+#~ msgstr "Îles Pitcairn"
+
+#~ msgid "Poland"
+#~ msgstr "Pologne"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugal"
+
+#~ msgid "Qatar"
+#~ msgstr "Qatar"
+
+#~ msgid "Reunion"
+#~ msgstr "Île de la Réunion"
+
+#~ msgid "Romania"
+#~ msgstr "Roumanie"
+
+#~ msgid "Russia"
+#~ msgstr "Russie"
+
+#~ msgid "Rwanda"
+#~ msgstr "Rwanda"
+
+#~ msgid "Saint Barth&eacute;lemy"
+#~ msgstr "Saint-Barthélemy"
+
+#~ msgid "Saint Helena"
+#~ msgstr "Sainte-Hélène"
+
+#~ msgid "Saint Kitts and Nevis"
+#~ msgstr "Saint-Kitts-et-Nevis"
+
+#~ msgid "Saint Lucia"
+#~ msgstr "Sainte-Lucie"
+
+#~ msgid "Saint Martin (French part)"
+#~ msgstr "Saint-Martin (France)"
+
+#~ msgid "Saint Martin (Dutch part)"
+#~ msgstr "Saint-Martin (Pays-Bas)"
+
+#~ msgid "Saint Pierre and Miquelon"
+#~ msgstr "St-Pierre et Miquelon"
+
+#~ msgid "Saint Vincent and the Grenadines"
+#~ msgstr "Saint Vincent et les Grenadines"
+
+#~ msgid "San Marino"
+#~ msgstr "Saint-Marin"
+
+#~ msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe"
+#~ msgstr "Sao Tomé-et-Principe"
+
+#~ msgid "Saudi Arabia"
+#~ msgstr "Arabie Saoudite"
+
+#~ msgid "Senegal"
+#~ msgstr "Sénégal"
+
+#~ msgid "Serbia"
+#~ msgstr "Serbie"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Sierra Leone"
+#~ msgstr "Sierra Léone"
+
+#~ msgid "Singapore"
+#~ msgstr "Singapour"
+
+#~ msgid "Slovakia"
+#~ msgstr "Slovaquie"
+
+#~ msgid "Slovenia"
+#~ msgstr "Slovénie"
+
+#~ msgid "Solomon Islands"
+#~ msgstr "Îles Salomon"
+
+#~ msgid "Somalia"
+#~ msgstr "Somalie"
+
+#~ msgid "South Africa"
+#~ msgstr "Afrique du Sud"
+
+#~ msgid "South Georgia/Sandwich Islands"
+#~ msgstr "Géorgie du Sud et îles Sandwich du Sud"
+
+#~ msgid "South Korea"
+#~ msgstr "Corée du Sud"
+
+#~ msgid "South Sudan"
+#~ msgstr "Sud-Soudan"
+
+#~ msgid "Spain"
+#~ msgstr "Espagne"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Sri Lanka"
+
+#~ msgid "Sudan"
+#~ msgstr "Soudan"
+
+#~ msgid "Suriname"
+#~ msgstr "Suriname"
+
+#~ msgid "Svalbard and Jan Mayen"
+#~ msgstr "Îles Svalbard et Jan Mayen"
+
+#~ msgid "Swaziland"
+#~ msgstr "Swaziland"
+
+#~ msgid "Sweden"
+#~ msgstr "Suède"
+
+#~ msgid "Switzerland"
+#~ msgstr "Suisse"
+
+#~ msgid "Syria"
+#~ msgstr "Syrie"
+
+#~ msgid "Taiwan"
+#~ msgstr "Taiwan"
+
+#~ msgid "Tajikistan"
+#~ msgstr "Tadjikistan"
+
+#~ msgid "Tanzania"
+#~ msgstr "Tanzanie"
+
+#~ msgid "Thailand"
+#~ msgstr "Thaïlande"
+
+#~ msgid "Timor-Leste"
+#~ msgstr "Timor-Leste"
+
+#~ msgid "Togo"
+#~ msgstr "Togo"
+
+#~ msgid "Tokelau"
+#~ msgstr "Tokélaou"
+
+#~ msgid "Tonga"
+#~ msgstr "Tonga"
+
+#~ msgid "Trinidad and Tobago"
+#~ msgstr "Trinité-et-Tobago"
+
+#~ msgid "Tunisia"
+#~ msgstr "Tunisie"
+
+#~ msgid "Turkey"
+#~ msgstr "Turquie"
+
+#~ msgid "Turkmenistan"
+#~ msgstr "Turkmenistan"
+
+#~ msgid "Turks and Caicos Islands"
+#~ msgstr "Îles Turques et Caïques"
+
+#~ msgid "Tuvalu"
+#~ msgstr "Tuvalu"
+
+#~ msgid "Uganda"
+#~ msgstr "Ouganda"
+
+#~ msgid "Ukraine"
+#~ msgstr "Ukraine"
+
+#~ msgid "United Arab Emirates"
+#~ msgstr "Émirats Arabes Unis"
+
+#~ msgid "United Kingdom (UK)"
+#~ msgstr "Royaume-Uni"
+
+#~ msgid "United States (US)"
+#~ msgstr "États-Unis d'Amérique"
+
+#~ msgid "Uruguay"
+#~ msgstr "Uruguay"
+
+#~ msgid "Uzbekistan"
+#~ msgstr "Ouzbékistan"
+
+#~ msgid "Vanuatu"
+#~ msgstr "Vanuatu"
+
+#~ msgid "Vatican"
+#~ msgstr "Vatican"
+
+#~ msgid "Venezuela"
+#~ msgstr "Vénézuela"
+
+#~ msgid "Vietnam"
+#~ msgstr "Vietnam"
+
+#~ msgid "Wallis and Futuna"
+#~ msgstr "Wallis et Futuna"
+
+#~ msgid "Western Sahara"
+#~ msgstr "Sahara occidental"
+
+#~ msgid "Western Samoa"
+#~ msgstr "Samoa Occidental"
+
+#~ msgid "Yemen"
+#~ msgstr "Yemen"
+
+#~ msgid "Zambia"
+#~ msgstr "Zambie"
+
+#~ msgid "Zimbabwe"
+#~ msgstr "Zimbabwe"
+
+#~ msgid "the"
+#~ msgstr "le"
+
+#~ msgid "Queensland"
+#~ msgstr "Queensland"
+
+#~ msgid "South Australia"
+#~ msgstr "Australie du Sud"
+
+#~ msgid "Tasmania"
+#~ msgstr "Tasmanie"
+
+#~ msgid "Victoria"
+#~ msgstr "Victoria"
+
+#~ msgid "Blagoevgrad"
+#~ msgstr "Blagoevgrad"
+
+#~ msgid "Burgas"
+#~ msgstr "Burgas"
+
+#~ msgid "Dobrich"
+#~ msgstr "Dobrich"
+
+#~ msgid "Gabrovo"
+#~ msgstr "Gabrovo"
+
+#~ msgid "Haskovo"
+#~ msgstr "Haskovo"
+
+#~ msgid "Kardzhali"
+#~ msgstr "Kardzhali"
+
+#~ msgid "Kyustendil"
+#~ msgstr "Kyustendil"
+
+#~ msgid "Lovech"
+#~ msgstr "Lovech"
+
+#~ msgid "Montana"
+#~ msgstr "Montana"
+
+#~ msgid "Pazardzhik"
+#~ msgstr "Pazardzhik"
+
+#~ msgid "Pernik"
+#~ msgstr "Pernik"
+
+#~ msgid "Pleven"
+#~ msgstr "Pleven"
+
+#~ msgid "Plovdiv"
+#~ msgstr "Plovdiv"
+
+#~ msgid "Razgrad"
+#~ msgstr "Razgrad"
+
+#~ msgid "Ruse"
+#~ msgstr "Ruse"
+
+#~ msgid "Shumen"
+#~ msgstr "Shumen"
+
+#~ msgid "Silistra"
+#~ msgstr "Silistra"
+
+#~ msgid "Sliven"
+#~ msgstr "Sliven"
+
+#~ msgid "Smolyan"
+#~ msgstr "Smolyan"
+
+#~ msgid "Sofia"
+#~ msgstr "Sofia"
+
+#~ msgid "Sofia-Grad"
+#~ msgstr "Sofia-Grad"
+
+#~ msgid "Stara Zagora"
+#~ msgstr "Stara Zagora"
+
+#~ msgid "Targovishte"
+#~ msgstr "Targovishte"
+
+#~ msgid "Varna"
+#~ msgstr "Varna"
+
+#~ msgid "Veliko Tarnovo"
+#~ msgstr "Veliko Tarnovo"
+
+#~ msgid "Vidin"
+#~ msgstr "Vidin"
+
+#~ msgid "Vratsa"
+#~ msgstr "Vratsa"
+
+#~ msgid "Yambol"
+#~ msgstr "Yambol"
+
+#~ msgid "Acre"
+#~ msgstr "Acre"
+
+#~ msgid "Alagoas"
+#~ msgstr "Alagoas"
+
+#~ msgid "Amap&aacute;"
+#~ msgstr "Amap&aacute;"
+
+#~ msgid "Amazonas"
+#~ msgstr "Amazonas"
+
+#~ msgid "Bahia"
+#~ msgstr "Bahia"
+
+#~ msgid "Cear&aacute;"
+#~ msgstr "Cear&aacute;"
+
+#~ msgid "Rio de Janeiro"
+#~ msgstr "Rio de Janeiro"
+
+#~ msgid "Alberta"
+#~ msgstr "Alberta"
+
+#~ msgid "British Columbia"
+#~ msgstr "Colombie-Britannique"
+
+#~ msgid "Manitoba"
+#~ msgstr "Manitoba"
+
+#~ msgid "New Brunswick"
+#~ msgstr "Nouveau-Brunswick"
+
+#~ msgid "Newfoundland"
+#~ msgstr "Terre-Neuve"
+
+#~ msgid "Northwest Territories"
+#~ msgstr "Territoires du Nord-Ouest"
+
+#~ msgid "Nova Scotia"
+#~ msgstr "Nouvelle-Écosse"
+
+#~ msgid "Nunavut"
+#~ msgstr "Nunavut"
+
+#~ msgid "Ontario"
+#~ msgstr "Ontario"
+
+#~ msgid "Prince Edward Island"
+#~ msgstr "Île du Prince-Édouard"
+
+#~ msgid "Quebec"
+#~ msgstr "Québec"
+
+#~ msgid "Saskatchewan"
+#~ msgstr "Saskatchewan"
+
+#~ msgid "Yukon Territory"
+#~ msgstr "Yukon"
+
+#~ msgid "Yunnan / &#20113;&#21335;"
+#~ msgstr "Yunnan / &#20113;&#21335;"
+
+#~ msgid "Beijing / &#21271;&#20140;"
+#~ msgstr "Beijing / &#21271;&#20140;"
+
+#~ msgid "Tianjin / &#22825;&#27941;"
+#~ msgstr "Tianjin / &#22825;&#27941;"
+
+#~ msgid "Hebei / &#27827;&#21271;"
+#~ msgstr "Hebei / &#27827;&#21271;"
+
+#~ msgid "Shanxi / &#23665;&#35199;"
+#~ msgstr "Shanxi / &#23665;&#35199;"
+
+#~ msgid "Inner Mongolia / &#20839;&#33945;&#21476;"
+#~ msgstr "Mongolie-intérieure / &#20839;&#33945;&#21476;"
+
+#~ msgid "Liaoning / &#36797;&#23425;"
+#~ msgstr "Liaoning / &#36797;&#23425;"
+
+#~ msgid "Jilin / &#21513;&#26519;"
+#~ msgstr "Jilin / &#21513;&#26519;"
+
+#~ msgid "Heilongjiang / &#40657;&#40857;&#27743;"
+#~ msgstr "Heilongjiang / &#40657;&#40857;&#27743;"
+
+#~ msgid "Shanghai / &#19978;&#28023;"
+#~ msgstr "Shanghai / &#19978;&#28023;"
+
+#~ msgid "Jiangsu / &#27743;&#33487;"
+#~ msgstr "Jiangsu / &#27743;&#33487;"
+
+#~ msgid "Zhejiang / &#27993;&#27743;"
+#~ msgstr "Zhejiang / &#27993;&#27743;"
+
+#~ msgid "Anhui / &#23433;&#24509;"
+#~ msgstr "Anhui / &#23433;&#24509;"
+
+#~ msgid "Fujian / &#31119;&#24314;"
+#~ msgstr "Fujian / &#31119;&#24314;"
+
+#~ msgid "Jiangxi / &#27743;&#35199;"
+#~ msgstr "Jiangxi / &#27743;&#35199;"
+
+#~ msgid "Shandong / &#23665;&#19996;"
+#~ msgstr "Shandong / &#23665;&#19996;"
+
+#~ msgid "Henan / &#27827;&#21335;"
+#~ msgstr "Henan / &#27827;&#21335;"
+
+#~ msgid "Hubei / &#28246;&#21271;"
+#~ msgstr "Hubei / &#28246;&#21271;"
+
+#~ msgid "Hunan / &#28246;&#21335;"
+#~ msgstr "Hunan / &#28246;&#21335;"
+
+#~ msgid "Guangdong / &#24191;&#19996;"
+#~ msgstr "Guangdong / &#24191;&#19996;"
+
+#~ msgid "Guangxi Zhuang / &#24191;&#35199;&#22766;&#26063;"
+#~ msgstr "Guangxi Zhuang / &#24191;&#35199;&#22766;&#26063;"
+
+#~ msgid "Hainan / &#28023;&#21335;"
+#~ msgstr "Hainan / &#28023;&#21335;"
+
+#~ msgid "Chongqing / &#37325;&#24198;"
+#~ msgstr "Chongqing / &#37325;&#24198;"
+
+#~ msgid "Sichuan / &#22235;&#24029;"
+#~ msgstr "Sichuan / &#22235;&#24029;"
+
+#~ msgid "Guizhou / &#36149;&#24030;"
+#~ msgstr "Guizhou / &#36149;&#24030;"
+
+#~ msgid "Shaanxi / &#38485;&#35199;"
+#~ msgstr "Shaanxi / &#38485;&#35199;"
+
+#~ msgid "Gansu / &#29976;&#32899;"
+#~ msgstr "Gansu / &#29976;&#32899;"
+
+#~ msgid "Qinghai / &#38738;&#28023;"
+#~ msgstr "Qinghai / &#38738;&#28023;"
+
+#~ msgid "Ningxia Hui / &#23425;&#22799;"
+#~ msgstr "Ningxia Hui / &#23425;&#22799;"
+
+#~ msgid "Macau / &#28595;&#38376;"
+#~ msgstr "Macao / &#28595;&#38376;"
+
+#~ msgid "Tibet / &#35199;&#34255;"
+#~ msgstr "Tibet / &#35199;&#34255;"
+
+#~ msgid "Xinjiang / &#26032;&#30086;"
+#~ msgstr "Xinjiang / &#26032;&#30086;"
+
+#~ msgid "A Coru&ntilde;a"
+#~ msgstr "La Corogne"
+
+#~ msgid "&Aacute;lava"
+#~ msgstr "&Aacute;lava"
+
+#~ msgid "Albacete"
+#~ msgstr "Albacete"
+
+#~ msgid "Alicante"
+#~ msgstr "Alicante"
+
+#~ msgid "Almer&iacute;a"
+#~ msgstr "Almeria"
+
+#~ msgid "Asturias"
+#~ msgstr "Asturies"
+
+#~ msgid "&Aacute;vila"
+#~ msgstr "&Aacute;vila"
+
+#~ msgid "Badajoz"
+#~ msgstr "Badajoz"
+
+#~ msgid "Baleares"
+#~ msgstr "Baléares"
+
+#~ msgid "Barcelona"
+#~ msgstr "Barcelone"
+
+#~ msgid "Burgos"
+#~ msgstr "Burgos"
+
+#~ msgid "C&aacute;ceres"
+#~ msgstr "C&aacute;ceres"
+
+#~ msgid "C&aacute;diz"
+#~ msgstr "Cadix"
+
+#~ msgid "Cantabria"
+#~ msgstr "Cantabrie"
+
+#~ msgid "Castell&oacute;n"
+#~ msgstr "Castell&oacute;n"
+
+#~ msgid "Ceuta"
+#~ msgstr "Ceuta"
+
+#~ msgid "Ciudad Real"
+#~ msgstr "Ciudad Real"
+
+#~ msgid "C&oacute;rdoba"
+#~ msgstr "Cordoba"
+
+#~ msgid "Cuenca"
+#~ msgstr "Cuenca"
+
+#~ msgid "Girona"
+#~ msgstr "G&eacute;rone"
+
+#~ msgid "Granada"
+#~ msgstr "Grenade"
+
+#~ msgid "Guadalajara"
+#~ msgstr "Guadalajara"
+
+#~ msgid "Guip&uacute;zcoa"
+#~ msgstr "Guipuzcoa"
+
+#~ msgid "Huelva"
+#~ msgstr "Huelva"
+
+#~ msgid "Huesca"
+#~ msgstr "Huesca"
+
+#~ msgid "Ja&eacute;n"
+#~ msgstr "Ja&eacute;n"
+
+#~ msgid "La Rioja"
+#~ msgstr "La Rioja"
+
+#~ msgid "Las Palmas"
+#~ msgstr "Las Palmas"
+
+#~ msgid "Le&oacute;n"
+#~ msgstr "Le&oacute;n"
+
+#~ msgid "Lleida"
+#~ msgstr "Lleida"
+
+#~ msgid "Lugo"
+#~ msgstr "Lugo"
+
+#~ msgid "Madrid"
+#~ msgstr "Madrid"
+
+#~ msgid "M&aacute;laga"
+#~ msgstr "Malaga"
+
+#~ msgid "Melilla"
+#~ msgstr "Melilla"
+
+#~ msgid "Murcia"
+#~ msgstr "Murcia"
+
+#~ msgid "Navarra"
+#~ msgstr "Navarre"
+
+#~ msgid "Ourense"
+#~ msgstr "Ourense"
+
+#~ msgid "Palencia"
+#~ msgstr "Palencia"
+
+#~ msgid "Pontevedra"
+#~ msgstr "Pontevedra"
+
+#~ msgid "Salamanca"
+#~ msgstr "Salamanca"
+
+#~ msgid "Santa Cruz de Tenerife"
+#~ msgstr "Santa Cruz de Tenerife"
+
+#~ msgid "Segovia"
+#~ msgstr "S&eacute;govie"
+
+#~ msgid "Sevilla"
+#~ msgstr "S&eacute;ville"
+
+#~ msgid "Soria"
+#~ msgstr "Soria"
+
+#~ msgid "Tarragona"
+#~ msgstr "Tarragone"
+
+#~ msgid "Teruel"
+#~ msgstr "Teruel"
+
+#~ msgid "Toledo"
+#~ msgstr "Toledo"
+
+#~ msgid "Valencia"
+#~ msgstr "Valence"
+
+#~ msgid "Valladolid"
+#~ msgstr "Valladolid"
+
+#~ msgid "Vizcaya"
+#~ msgstr "Vizcaya"
+
+#~ msgid "Zamora"
+#~ msgstr "Zamora"
+
+#~ msgid "Zaragoza"
+#~ msgstr "Saragosse"
+
+#~ msgid "Hong Kong Island"
+#~ msgstr "Hong Kong Island"
+
+#~ msgid "Kowloon"
+#~ msgstr "Kowloon"
+
+#~ msgid "New Territories"
+#~ msgstr "Nouveaux Territoires"
+
+#~ msgid "Bács-Kiskun"
+#~ msgstr "Bács-Kiskun"
+
+#~ msgid "Békés"
+#~ msgstr "Békés"
+
+#~ msgid "Baranya"
+#~ msgstr "Baranya"
+
+#~ msgid "Borsod-Abaúj-Zemplén"
+#~ msgstr "Borsod-Abaúj-Zemplén"
+
+#~ msgid "Budapest"
+#~ msgstr "Budapest"
+
+#~ msgid "Csongrád"
+#~ msgstr "Csongrád"
+
+#~ msgid "Fejér"
+#~ msgstr "Fejér"
+
+#~ msgid "Győr-Moson-Sopron"
+#~ msgstr "Győr-Moson-Sopron"
+
+#~ msgid "Hajdú-Bihar"
+#~ msgstr "Hajdú-Bihar"
+
+#~ msgid "Heves"
+#~ msgstr "Heves"
+
+#~ msgid "Jász-Nagykun-Szolnok"
+#~ msgstr "Jász-Nagykun-Szolnok"
+
+#~ msgid "Nógrád"
+#~ msgstr "Nógrád"
+
+#~ msgid "Pest"
+#~ msgstr "Pest"
+
+#~ msgid "Somogy"
+#~ msgstr "Somogy"
+
+#~ msgid "Szabolcs-Szatmár-Bereg"
+#~ msgstr "Szabolcs-Szatmár-Bereg"
+
+#~ msgid "Tolna"
+#~ msgstr "Tolna"
+
+#~ msgid "Vas"
+#~ msgstr "Vas"
+
+#~ msgid "Zala"
+#~ msgstr "Zala"
+
+#~ msgid "Auckland"
+#~ msgstr "Auckland"
+
+#~ msgid "Bay of Plenty"
+#~ msgstr "Bay of Plenty"
+
+#~ msgid "Canterbury"
+#~ msgstr "Canterbury"
+
+#~ msgid "Hawke&rsquo;s Bay"
+#~ msgstr "Hawke&rsquo;s Bay"
+
+#~ msgid "Manawatu-Wanganui"
+#~ msgstr "Manawatu-Wanganui"
+
+#~ msgid "Marlborough"
+#~ msgstr "Marlborough"
+
+#~ msgid "Nelson"
+#~ msgstr "Nelson"
+
+#~ msgid "Northland"
+#~ msgstr "Northland"
+
+#~ msgid "Otago"
+#~ msgstr "Otago"
+
+#~ msgid "Southland"
+#~ msgstr "Southland"
+
+#~ msgid "Taranaki"
+#~ msgstr "Taranaki"
+
+#~ msgid "Tasman"
+#~ msgstr "Tasman"
+
+#~ msgid "Waikato"
+#~ msgstr "Waikato"
+
+#~ msgid "Wellington"
+#~ msgstr "Wellington"
+
+#~ msgid "West Coast"
+#~ msgstr "West Coast"
+
+#~ msgid "Daerah Istimewa Aceh"
+#~ msgstr "Daerah Istimewa Aceh"
+
+#~ msgid "Sumatera Utara"
+#~ msgstr "Sumatra du Nord"
+
+#~ msgid "Sumatera Barat"
+#~ msgstr "Sumatra occidental"
+
+#~ msgid "Riau"
+#~ msgstr "Riau"
+
+#~ msgid "Kepulauan Riau"
+#~ msgstr "Îles Riau"
+
+#~ msgid "Jambi"
+#~ msgstr "Jambi"
+
+#~ msgid "Sumatera Selatan"
+#~ msgstr "Sumatra du Sud"
+
+#~ msgid "Bangka Belitung"
+#~ msgstr "Îles Bangka Belitung"
+
+#~ msgid "Bengkulu"
+#~ msgstr "Bengkulu"
+
+#~ msgid "Lampung"
+#~ msgstr "Lampung"
+
+#~ msgid "DKI Jakarta"
+#~ msgstr "Jakarta"
+
+#~ msgid "Jawa Barat"
+#~ msgstr "Java occidental"
+
+#~ msgid "Banten"
+#~ msgstr "Banten"
+
+#~ msgid "Jawa Tengah"
+#~ msgstr "Java central"
+
+#~ msgid "Jawa Timur"
+#~ msgstr "Java oriental"
+
+#~ msgid "Daerah Istimewa Yogyakarta"
+#~ msgstr "Yogyakarta"
+
+#~ msgid "Bali"
+#~ msgstr "Bali"
+
+#~ msgid "Nusa Tenggara Barat"
+#~ msgstr "Petites Îles de la Sonde occidentales"
+
+#~ msgid "Nusa Tenggara Timur"
+#~ msgstr "Petites Îles de la Sonde orientales"
+
+#~ msgid "Kalimantan Barat"
+#~ msgstr "Kalimantan occidental"
+
+#~ msgid "Kalimantan Tengah"
+#~ msgstr "Kalimantan central"
+
+#~ msgid "Kalimantan Timur"
+#~ msgstr "Kalimantan oriental"
+
+#~ msgid "Kalimantan Selatan"
+#~ msgstr "Kalimantan du Sud"
+
+#~ msgid "Kalimantan Utara"
+#~ msgstr "Kalimantan du Nord"
+
+#~ msgid "Sulawesi Utara"
+#~ msgstr "Sulawesi du Nord"
+
+#~ msgid "Sulawesi Tengah"
+#~ msgstr "Sulawesi central"
+
+#~ msgid "Sulawesi Tenggara"
+#~ msgstr "Sulawesi du Sud-Est"
+
+#~ msgid "Sulawesi Barat"
+#~ msgstr "Sulawesi occidental"
+
+#~ msgid "Sulawesi Selatan"
+#~ msgstr "Sulawesi du Sud"
+
+#~ msgid "Gorontalo"
+#~ msgstr "Gorontalo"
+
+#~ msgid "Maluku"
+#~ msgstr "Moluques"
+
+#~ msgid "Maluku Utara"
+#~ msgstr "Moluques du Nord"
+
+#~ msgid "Papua"
+#~ msgstr "Papouasie"
+
+#~ msgid "Papua Barat"
+#~ msgstr "Papouasie occidentale"
+
+#~ msgid "Andra Pradesh"
+#~ msgstr "Andhra Pradesh"
+
+#~ msgid "Arunachal Pradesh"
+#~ msgstr "Arunachal Pradesh"
+
+#~ msgid "Assam"
+#~ msgstr "Assam"
+
+#~ msgid "Bihar"
+#~ msgstr "Bihar"
+
+#~ msgid "Goa"
+#~ msgstr "Goa"
+
+#~ msgid "Gujarat"
+#~ msgstr "Gujarat"
+
+#~ msgid "Haryana"
+#~ msgstr "Haryana"
+
+#~ msgid "Himachal Pradesh"
+#~ msgstr "Himachal Pradesh"
+
+#~ msgid "Jammu and Kashmir"
+#~ msgstr "Jammu-et-Cachemire"
+
+#~ msgid "Jharkhand"
+#~ msgstr "Jharkhand"
+
+#~ msgid "Karnataka"
+#~ msgstr "Karnataka"
+
+#~ msgid "Kerala"
+#~ msgstr "Kérala"
+
+#~ msgid "Madhya Pradesh"
+#~ msgstr "Madhya Pradesh"
+
+#~ msgid "Maharashtra"
+#~ msgstr "Maharashtra"
+
+#~ msgid "Manipur"
+#~ msgstr "Manipur"
+
+#~ msgid "Meghalaya"
+#~ msgstr "Meghalaya"
+
+#~ msgid "Mizoram"
+#~ msgstr "Mizoram"
+
+#~ msgid "Nagaland"
+#~ msgstr "Nagaland"
+
+#~ msgid "Orissa"
+#~ msgstr "Orissa"
+
+#~ msgid "Punjab"
+#~ msgstr "Punjab"
+
+#~ msgid "Rajasthan"
+#~ msgstr "Rajasthan"
+
+#~ msgid "Sikkim"
+#~ msgstr "Sikkim"
+
+#~ msgid "Tamil Nadu"
+#~ msgstr "Tamil Nadu"
+
+#~ msgid "Tripura"
+#~ msgstr "Tripura"
+
+#~ msgid "Uttaranchal"
+#~ msgstr "Uttaranchal"
+
+#~ msgid "Uttar Pradesh"
+#~ msgstr "Uttar Pradesh"
+
+#~ msgid "West Bengal"
+#~ msgstr "Bengale occidental"
+
+#~ msgid "Andaman and Nicobar Islands"
+#~ msgstr "Îles Andaman-et-Nicobar"
+
+#~ msgid "Chandigarh"
+#~ msgstr "Chandigarh"
+
+#~ msgid "Dadar and Nagar Haveli"
+#~ msgstr "Dadra et Nagar Haveli"
+
+#~ msgid "Daman and Diu"
+#~ msgstr "Daman et Diu"
+
+#~ msgid "Delhi"
+#~ msgstr "Delhi"
+
+#~ msgid "Lakshadeep"
+#~ msgstr "Lakshadeep"
+
+#~ msgid "Pondicherry (Puducherry)"
+#~ msgstr "Pondichéry (Puducherry)"
+
+#~ msgid "Agrigento"
+#~ msgstr "Agrigente"
+
+#~ msgid "Alessandria"
+#~ msgstr "Alexandrie"
+
+#~ msgid "Ancona"
+#~ msgstr "Anc&ocirc;ne"
+
+#~ msgid "Aosta"
+#~ msgstr "Aoste"
+
+#~ msgid "Arezzo"
+#~ msgstr "Arezzo"
+
+#~ msgid "Ascoli Piceno"
+#~ msgstr "Ascoli Piceno"
+
+#~ msgid "Asti"
+#~ msgstr "Asti"
+
+#~ msgid "Avellino"
+#~ msgstr "Avellino"
+
+#~ msgid "Bari"
+#~ msgstr "Bari"
+
+#~ msgid "Barletta-Andria-Trani"
+#~ msgstr "Barletta-Andria-Trani"
+
+#~ msgid "Belluno"
+#~ msgstr "Belluno"
+
+#~ msgid "Benevento"
+#~ msgstr "Benevento"
+
+#~ msgid "Bergamo"
+#~ msgstr "Bergame"
+
+#~ msgid "Biella"
+#~ msgstr "Biella"
+
+#~ msgid "Bologna"
+#~ msgstr "Bologne"
+
+#~ msgid "Bolzano"
+#~ msgstr "Bolzano"
+
+#~ msgid "Brescia"
+#~ msgstr "Brescia"
+
+#~ msgid "Brindisi"
+#~ msgstr "Brindisi"
+
+#~ msgid "Cagliari"
+#~ msgstr "Cagliari"
+
+#~ msgid "Caltanissetta"
+#~ msgstr "Caltanissetta"
+
+#~ msgid "Campobasso"
+#~ msgstr "Campobasso"
+
+#~ msgid "Carbonia-Iglesias"
+#~ msgstr "Carbonia-Iglesias"
+
+#~ msgid "Caserta"
+#~ msgstr "Caserta"
+
+#~ msgid "Catania"
+#~ msgstr "Catania"
+
+#~ msgid "Catanzaro"
+#~ msgstr "Catanzaro"
+
+#~ msgid "Chieti"
+#~ msgstr "Chieti"
+
+#~ msgid "Como"
+#~ msgstr "C&ocirc;me"
+
+#~ msgid "Cosenza"
+#~ msgstr "Cosenza"
+
+#~ msgid "Cremona"
+#~ msgstr "Cremona"
+
+#~ msgid "Crotone"
+#~ msgstr "Crotone"
+
+#~ msgid "Cuneo"
+#~ msgstr "Cuneo"
+
+#~ msgid "Enna"
+#~ msgstr "Enna"
+
+#~ msgid "Fermo"
+#~ msgstr "Fermo"
+
+#~ msgid "Ferrara"
+#~ msgstr "Ferrara"
+
+#~ msgid "Firenze"
+#~ msgstr "Firenze"
+
+#~ msgid "Foggia"
+#~ msgstr "Foggia"
+
+#~ msgid "Frosinone"
+#~ msgstr "Frosinone"
+
+#~ msgid "Genova"
+#~ msgstr "G&ecirc;nes"
+
+#~ msgid "Gorizia"
+#~ msgstr "Gorizia"
+
+#~ msgid "Grosseto"
+#~ msgstr "Grosseto"
+
+#~ msgid "Imperia"
+#~ msgstr "Imperia"
+
+#~ msgid "Isernia"
+#~ msgstr "Isernia"
+
+#~ msgid "La Spezia"
+#~ msgstr "La Spezia"
+
+#~ msgid "L&apos;Aquila"
+#~ msgstr "L&apos;Aquila"
+
+#~ msgid "Latina"
+#~ msgstr "Latina"
+
+#~ msgid "Lecce"
+#~ msgstr "Lecce"
+
+#~ msgid "Lecco"
+#~ msgstr "Lecco"
+
+#~ msgid "Livorno"
+#~ msgstr "Livorno"
+
+#~ msgid "Lodi"
+#~ msgstr "Lodi"
+
+#~ msgid "Lucca"
+#~ msgstr "Lucca"
+
+#~ msgid "Macerata"
+#~ msgstr "Macerata"
+
+#~ msgid "Mantova"
+#~ msgstr "Mantova"
+
+#~ msgid "Massa-Carrara"
+#~ msgstr "Massa-Carrara"
+
+#~ msgid "Milano"
+#~ msgstr "Milan"
+
+#~ msgid "Modena"
+#~ msgstr "Mod&egrave;ne"
+
+#~ msgid "Monza e della Brianza"
+#~ msgstr "Monza e della Brianza"
+
+#~ msgid "Napoli"
+#~ msgstr "Naples"
+
+#~ msgid "Novara"
+#~ msgstr "Novare"
+
+#~ msgid "Nuoro"
+#~ msgstr "Nuoro"
+
+#~ msgid "Olbia-Tempio"
+#~ msgstr "Olbia-Tempio"
+
+#~ msgid "Oristano"
+#~ msgstr "Oristano"
+
+#~ msgid "Padova"
+#~ msgstr "Padova"
+
+#~ msgid "Palermo"
+#~ msgstr "Palerme"
+
+#~ msgid "Parma"
+#~ msgstr "Parme"
+
+#~ msgid "Pavia"
+#~ msgstr "Pavia"
+
+#~ msgid "Perugia"
+#~ msgstr "Perugia"
+
+#~ msgid "Pesaro e Urbino"
+#~ msgstr "Pesaro e Urbino"
+
+#~ msgid "Pescara"
+#~ msgstr "Pescara"
+
+#~ msgid "Piacenza"
+#~ msgstr "Piacenza"
+
+#~ msgid "Pisa"
+#~ msgstr "Pise"
+
+#~ msgid "Pistoia"
+#~ msgstr "Pistoia"
+
+#~ msgid "Pordenone"
+#~ msgstr "Pordenone"
+
+#~ msgid "Potenza"
+#~ msgstr "Potenza"
+
+#~ msgid "Prato"
+#~ msgstr "Prato"
+
+#~ msgid "Ragusa"
+#~ msgstr "Ragusa"
+
+#~ msgid "Ravenna"
+#~ msgstr "Ravenne"
+
+#~ msgid "Reggio Calabria"
+#~ msgstr "Reggio Calabria"
+
+#~ msgid "Reggio Emilia"
+#~ msgstr "Reggio Emilia"
+
+#~ msgid "Siracusa"
+#~ msgstr "Siracuse"
+
+#~ msgid "Tokyo"
+#~ msgstr "Tōkyō"
+
+#~ msgid "Lima"
+#~ msgstr "Lima"
+
+#~ msgid "Ordu"
+#~ msgstr "Ordu"
+
+#~ msgid "Rize"
+#~ msgstr "Rize"
+
+#~ msgid "Sakarya"
+#~ msgstr "Sakarya"
+
+#~ msgid "Samsun"
+#~ msgstr "Samsun"
+
+#~ msgid "Siirt"
+#~ msgstr "Siirt"
+
+#~ msgid "Sinop"
+#~ msgstr "Sinop"
+
+#~ msgid "Sivas"
+#~ msgstr "Sivas"
+
+#~ msgid "Tekirda&#287;"
+#~ msgstr "Tekirda&#287;"
+
+#~ msgid "Tokat"
+#~ msgstr "Tokat"
+
+#~ msgid "Trabzon"
+#~ msgstr "Trabzon"
+
+#~ msgid "Tunceli"
+#~ msgstr "Tunceli"
+
+#~ msgid "&#350;anl&#305;urfa"
+#~ msgstr "&#350;anl&#305;urfa"
+
+#~ msgid "U&#351;ak"
+#~ msgstr "U&#351;ak"
+
+#~ msgid "Van"
+#~ msgstr "Van"
+
+#~ msgid "Yozgat"
+#~ msgstr "Yozgat"
+
+#~ msgid "Zonguldak"
+#~ msgstr "Zonguldak"
+
+#~ msgid "Aksaray"
+#~ msgstr "Aksaray"
+
+#~ msgid "Bayburt"
+#~ msgstr "Bayburt"
+
+#~ msgid "Karaman"
+#~ msgstr "Karaman"
+
+#~ msgid "K&#305;r&#305;kkale"
+#~ msgstr "K&#305;r&#305;kkale"
+
+#~ msgid "Batman"
+#~ msgstr "Batman"
+
+#~ msgid "&#350;&#305;rnak"
+#~ msgstr "&#350;&#305;rnak"
+
+#~ msgid "Bart&#305;n"
+#~ msgstr "Bart&#305;n"
+
+#~ msgid "Ardahan"
+#~ msgstr "Ardahan"
+
+#~ msgid "I&#287;d&#305;r"
+#~ msgstr "I&#287;d&#305;r"
+
+#~ msgid "Yalova"
+#~ msgstr "Yalova"
+
+#~ msgid "Karab&#252;k"
+#~ msgstr "Karab&#252;k"
+
+#~ msgid "Kilis"
+#~ msgstr "Kilis"
+
+#~ msgid "Osmaniye"
+#~ msgstr "Osmaniye"
+
+#~ msgid "D&#252;zce"
+#~ msgstr "D&#252;zce"
+
+#~ msgid "Alabama"
+#~ msgstr "Alabama"
+
+#~ msgid "Alaska"
+#~ msgstr "Alaska"
+
+#~ msgid "Arizona"
+#~ msgstr "Arizona"
+
+#~ msgid "Arkansas"
+#~ msgstr "Arkansas"
+
+#~ msgid "California"
+#~ msgstr "Californie"
+
+#~ msgid "Colorado"
+#~ msgstr "Colorado"
+
+#~ msgid "Connecticut"
+#~ msgstr "Connecticut"
+
+#~ msgid "Delaware"
+#~ msgstr "Delaware"
+
+#~ msgid "Florida"
+#~ msgstr "Floride"
+
+#~ msgid "Hawaii"
+#~ msgstr "Hawaii"
+
+#~ msgid "Idaho"
+#~ msgstr "Idaho"
+
+#~ msgid "Illinois"
+#~ msgstr "Illinois"
+
+#~ msgid "Indiana"
+#~ msgstr "Indiana"
+
+#~ msgid "Iowa"
+#~ msgstr "Iowa"
+
+#~ msgid "Kansas"
+#~ msgstr "Kansas"
+
+#~ msgid "Kentucky"
+#~ msgstr "Kentucky"
+
+#~ msgid "Louisiana"
+#~ msgstr "Louisiane"
+
+#~ msgid "Maine"
+#~ msgstr "Maine"
+
+#~ msgid "Maryland"
+#~ msgstr "Maryland"
+
+#~ msgid "Massachusetts"
+#~ msgstr "Massachusetts"
+
+#~ msgid "Michigan"
+#~ msgstr "Michigan"
+
+#~ msgid "Minnesota"
+#~ msgstr "Minnesota"
+
+#~ msgid "Mississippi"
+#~ msgstr "Mississippi"
+
+#~ msgid "Nebraska"
+#~ msgstr "Nebraska"
+
+#~ msgid "Nevada"
+#~ msgstr "Névada"
+
+#~ msgid "New Hampshire"
+#~ msgstr "New Hampshire"
+
+#~ msgid "New Jersey"
+#~ msgstr "New Jersey"
+
+#~ msgid "New Mexico"
+#~ msgstr "Nouveau Méxique"
+
+#~ msgid "New York"
+#~ msgstr "New York"
+
+#~ msgid "North Carolina"
+#~ msgstr "Caroline du Nord"
+
+#~ msgid "North Dakota"
+#~ msgstr "Dakota du Nord"
+
+#~ msgid "Ohio"
+#~ msgstr "Ohio"
+
+#~ msgid "Oklahoma"
+#~ msgstr "Oklahoma"
+
+#~ msgid "Oregon"
+#~ msgstr "Oregon"
+
+#~ msgid "Pennsylvania"
+#~ msgstr "Pennsylvanie"
+
+#~ msgid "Rhode Island"
+#~ msgstr "Rhode Island"
+
+#~ msgid "South Carolina"
+#~ msgstr "Caroline du Sud"
+
+#~ msgid "South Dakota"
+#~ msgstr "Dakota du Sud"
+
+#~ msgid "Tennessee"
+#~ msgstr "Tennessee"
+
+#~ msgid "Texas"
+#~ msgstr "Texas"
+
+#~ msgid "Utah"
+#~ msgstr "Utah"
+
+#~ msgid "Vermont"
+#~ msgstr "Vermont"
+
+#~ msgid "Virginia"
+#~ msgstr "Virginie"
+
+#~ msgid "Washington"
+#~ msgstr "Washington"
+
+#~ msgid "West Virginia"
+#~ msgstr "Virginie-Occidentale"
+
+#~ msgid "Wisconsin"
+#~ msgstr "Wisconsin"
+
+#~ msgid "Wyoming"
+#~ msgstr "Wyoming"
+
+#~ msgid "Armed Forces (AA)"
+#~ msgstr "Forces armées américaines (AA)"
+
+#~ msgid "Armed Forces (AE)"
+#~ msgstr "Forces armées américaines (AE)"
+
+#~ msgid "Armed Forces (AP)"
+#~ msgstr "Forces armées américaines (AP)"
+
+#~ msgid "American Samoa"
+#~ msgstr "Samoa américaines"
+
+#~ msgid "Guam"
+#~ msgstr "Guam"
+
+#~ msgid "Northern Mariana Islands"
+#~ msgstr "Îles Mariannes du Nord"
+
+#~ msgid "Puerto Rico"
+#~ msgstr "Porto Rico"
+
+#~ msgid "US Minor Outlying Islands"
+#~ msgstr "Îles Mineures éloignées des États-Unis"
+
+#~ msgid "US Virgin Islands"
+#~ msgstr "Îles Vierges des États-Unis"
+
+#~ msgid "Eastern Cape"
+#~ msgstr "Cap-Oriental"
+
+#~ msgid "Free State"
+#~ msgstr "Free State"
+
+#~ msgid "Gauteng"
+#~ msgstr "Gauteng"
+
+#~ msgid "KwaZulu-Natal"
+#~ msgstr "KwaZulu-Natal"
+
+#~ msgid "Limpopo"
+#~ msgstr "Limpopo"
+
+#~ msgid "Mpumalanga"
+#~ msgstr "Mpumalanga"
+
+#~ msgid "Northern Cape"
+#~ msgstr "Cap-du-Nord"
+
+#~ msgid "North West"
+#~ msgstr "Nord-Ouest"
+
+#~ msgid "Western Cape"
+#~ msgstr "Cap-Occidental"
