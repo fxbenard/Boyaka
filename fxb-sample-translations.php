@@ -51,7 +51,7 @@ if ( ! class_exists( 'FXB_SAMPLE_Plugin' ) ) {
 		 * @return      object self::$instance The one true FXB_SAMPLE_Plugin
 		 */
 		public static function instance() {
-			if ( !self::$instance ) {
+			if ( ! self::$instance ) {
 				self::$instance = new FXB_SAMPLE_Plugin();
 				self::$instance->setup_constants();
 				self::$instance->includes();
