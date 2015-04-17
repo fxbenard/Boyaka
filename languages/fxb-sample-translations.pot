@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample Translations 1.0.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-16 14:57:39+00:00\n"
+"POT-Creation-Date: 2015-04-16 22:46:12+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,6 +24,40 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
 
+#: bloom-french.php:84
+msgid "Please activate your license key to receive updates."
+msgstr ""
+
+#: bloom-french.php:85 bloom-french.php:136 bloom-french.php:145
+#: includes/functions.php:60 includes/functions.php:69
+#: includes/functions.php:230
+msgid "Activate License"
+msgstr ""
+
+#: bloom-french.php:108
+msgid "Bloom French License"
+msgstr ""
+
+#: bloom-french.php:117
+msgid "Bloom French License Options"
+msgstr ""
+
+#: bloom-french.php:126 includes/functions.php:50
+msgid "License Key"
+msgstr ""
+
+#: bloom-french.php:130 includes/functions.php:54
+msgid "Enter your license key"
+msgstr ""
+
+#: bloom-french.php:140 includes/functions.php:64
+msgid "active"
+msgstr ""
+
+#: bloom-french.php:142 includes/functions.php:66
+msgid "Deactivate License"
+msgstr ""
+
 #: fxb-sample-translations.php:193
 msgid "FXB SAMPLE Settings"
 msgstr ""
@@ -32,24 +66,24 @@ msgstr ""
 msgid "Configure FXB SAMPLE Settings"
 msgstr ""
 
-#: includes/FXB_SAMPLE_Plugin_Updater.php:176
+#: includes/FXB_SAMPLE_Plugin_Updater.php:175
 msgid ""
 "There is a new version of %1$s available. <a target=\"_blank\" "
 "class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
 msgstr ""
 
-#: includes/FXB_SAMPLE_Plugin_Updater.php:183
+#: includes/FXB_SAMPLE_Plugin_Updater.php:182
 msgid ""
 "There is a new version of %1$s available. <a target=\"_blank\" "
 "class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a "
 "href=\"%4$s\">update now</a>."
 msgstr ""
 
-#: includes/FXB_SAMPLE_Plugin_Updater.php:323
+#: includes/FXB_SAMPLE_Plugin_Updater.php:322
 msgid "You do not have permission to install plugin updates"
 msgstr ""
 
-#: includes/FXB_SAMPLE_Plugin_Updater.php:323
+#: includes/FXB_SAMPLE_Plugin_Updater.php:322
 msgid "Error"
 msgstr ""
 
@@ -66,7 +100,7 @@ msgid "install it"
 msgstr ""
 
 #: includes/class.extension-activation.php:92
-msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgid " requires FxB Sample! Please %s to continue!"
 msgstr ""
 
 #: includes/functions.php:17
@@ -77,24 +111,8 @@ msgstr ""
 msgid "FxB Translations License Options"
 msgstr ""
 
-#: includes/functions.php:50
-msgid "License Key"
-msgstr ""
-
-#: includes/functions.php:54
-msgid "Enter your license key"
-msgstr ""
-
-#: includes/functions.php:60 includes/functions.php:69
-msgid "Activate License"
-msgstr ""
-
-#: includes/functions.php:64
-msgid "active"
-msgstr ""
-
-#: includes/functions.php:66
-msgid "Deactivate License"
+#: includes/functions.php:229
+msgid "Please activate your license key for %$1 to receive updates."
 msgstr ""
 
 #. Description of the plugin/theme
