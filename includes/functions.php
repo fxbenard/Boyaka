@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( ! function_exists( 'fxb_license_menu' ) ) {
 	function fxb_license_menu() {
-		add_plugins_page( __( 'FxB trads', 'fxb-sample-translations' ), __( 'FxB trads', 'fxb-sample-translations' ), 'manage_options', 'fbx-trads-license', 'fxb_license_page' );
+		add_plugins_page( __( 'FxB trads', 'fxb-sample-translations' ), __( 'FxB trads', 'fxb-sample-translations' ), 'manage_options', 'fxb-trads-license', 'fxb_license_page' );
 	}
 	add_action( 'admin_menu', 'fxb_license_menu' );
 }
@@ -25,14 +25,14 @@ if ( ! function_exists( 'fxb_license_page' ) ) {
 		$status   = get_option( 'fxb_sample_license_status' );
 		?>
 		<div class="wrap">
-			<h2><?php _e( 'Bloom French License Options', 'fxb-sample-translations' ); ?></h2>
+			<h2><?php _e( 'FxB Translations License Options', 'fxb-sample-translations' ); ?></h2>
 			<form method="post" action="options.php">
 
 				<?php settings_fields( 'fxb_sample_license' ); ?>
 
 				<table class="form-table">
 					<tbody>
-					<?php echo do_action('fbx_key_setting', $license, $status, $content_key = ''); ?>
+					<?php echo do_action('fxb_key_setting', $license, $status, $content_key = ''); ?>
 					</tbody>
 				</table>
 				<?php submit_button(); ?>
@@ -42,8 +42,8 @@ if ( ! function_exists( 'fxb_license_page' ) ) {
 	}
 }
 
-function fbx_sample_key($license, $status, $content_key) {
-	$plugin = 'FxB Sample';
+function fxb_sample_key($license, $status, $content_key) {
+	$plugin = 'FxB Sample Translations';
 
 	$content_key .= '<tr valign="top">
 		<th scope="row" valign="top">'
@@ -74,7 +74,7 @@ function fbx_sample_key($license, $status, $content_key) {
 
 	echo $content_key;
 }
-add_action('fbx_key_setting', 'fbx_sample_key', 10, 3);
+add_action( 'fxb_key_setting', 'fxb_sample_key', 10, 3 );
 
 if ( ! function_exists( 'fxb_sample_register_option' ) ) {
 	function fxb_sample_register_option() {
@@ -217,3 +217,18 @@ if ( ! function_exists( 'fxb_sample_init' ) ) {
 		}
 	}
 }
+
+function fxb_sample_translations_admin_notices() {
+	$license = get_option( 'fxb_sample_license_key' );
+	$plugin = 'FxB Sample Translations';
+
+	if ( $license ) {
+		return false;
+	}
+
+	echo '<div class="error"><p>';
+	 echo sprintf( __( 'Please enter your license key for %s. An active license key is needed for automatic plugin updates.', 'fxb-sample-translations' ), $plugin ) ;
+	 echo '&nbsp;<a href="' . admin_url( 'plugins.php?page=fxb-trads-license' ) . '" class="button-secondary">' . __( 'Activate License', 'fxb-sample-translations' ) . '</a>';
+	 echo '</p></div>';
+}
+add_action( 'admin_notices', 'fxb_sample_translations_admin_notices' );
