@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample Translations 1.0.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-16 22:46:12+00:00\n"
+"POT-Creation-Date: 2015-04-17 10:07:54+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,40 +23,6 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
-
-#: bloom-french.php:84
-msgid "Please activate your license key to receive updates."
-msgstr ""
-
-#: bloom-french.php:85 bloom-french.php:136 bloom-french.php:145
-#: includes/functions.php:60 includes/functions.php:69
-#: includes/functions.php:230
-msgid "Activate License"
-msgstr ""
-
-#: bloom-french.php:108
-msgid "Bloom French License"
-msgstr ""
-
-#: bloom-french.php:117
-msgid "Bloom French License Options"
-msgstr ""
-
-#: bloom-french.php:126 includes/functions.php:50
-msgid "License Key"
-msgstr ""
-
-#: bloom-french.php:130 includes/functions.php:54
-msgid "Enter your license key"
-msgstr ""
-
-#: bloom-french.php:140 includes/functions.php:64
-msgid "active"
-msgstr ""
-
-#: bloom-french.php:142 includes/functions.php:66
-msgid "Deactivate License"
-msgstr ""
 
 #: fxb-sample-translations.php:193
 msgid "FXB SAMPLE Settings"
@@ -100,19 +66,42 @@ msgid "install it"
 msgstr ""
 
 #: includes/class.extension-activation.php:92
-msgid " requires FxB Sample! Please %s to continue!"
+msgid " requires Easy Digital Downloads! Please %s to continue!"
 msgstr ""
 
 #: includes/functions.php:17
-msgid "FxB trads"
+msgid "FxB Translations"
 msgstr ""
 
 #: includes/functions.php:28
 msgid "FxB Translations License Options"
 msgstr ""
 
-#: includes/functions.php:229
-msgid "Please activate your license key for %$1 to receive updates."
+#: includes/functions.php:50
+msgid "License Key"
+msgstr ""
+
+#: includes/functions.php:54
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/functions.php:60 includes/functions.php:69
+#: includes/functions.php:231
+msgid "Activate License"
+msgstr ""
+
+#: includes/functions.php:64
+msgid "active"
+msgstr ""
+
+#: includes/functions.php:66
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/functions.php:230
+msgid ""
+"Please enter your license key for %s. An active license key is needed for "
+"automatic plugin updates."
 msgstr ""
 
 #. Description of the plugin/theme

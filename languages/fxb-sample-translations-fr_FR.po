@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample Translations 1.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-16 22:46:12+00:00\n"
-"PO-Revision-Date: 2015-04-17 00:47+0100\n"
+"POT-Creation-Date: 2015-04-17 10:07:54+00:00\n"
+"PO-Revision-Date: 2015-04-17 12:08+0100\n"
 "Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language-Team: fxbenard <fx@fxbenard.com>\n"
 "Language: fr_FR\n"
@@ -22,46 +22,11 @@ msgstr ""
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: bloom-french.php:84
-msgid "Please activate your license key to receive updates."
-msgstr ""
-
-#: bloom-french.php:85 bloom-french.php:136 bloom-french.php:145
-#: includes/functions.php:60 includes/functions.php:69 includes/functions.php:230
-msgid "Activate License"
-msgstr "Activer la licence"
-
-#: bloom-french.php:108
-msgid "Bloom French License"
-msgstr "Licence Bloom French"
-
-#: bloom-french.php:117
-msgid "Bloom French License Options"
-msgstr "Options de licence de Bloom French"
-
-#: bloom-french.php:126 includes/functions.php:50
-msgid "License Key"
-msgstr "Clé de licence"
-
-#: bloom-french.php:130 includes/functions.php:54
-msgid "Enter your license key"
-msgstr "Entrez votre clé de licence"
-
-#: bloom-french.php:140 includes/functions.php:64
-msgid "active"
-msgstr "licence active"
-
-#: bloom-french.php:142 includes/functions.php:66
-msgid "Deactivate License"
-msgstr "Désactiver la licence"
-
 #: fxb-sample-translations.php:193
-#, fuzzy
 msgid "FXB SAMPLE Settings"
 msgstr "Réglages de FxB Sample"
 
 #: fxb-sample-translations.php:194
-#, fuzzy
 msgid "Configure FXB SAMPLE Settings"
 msgstr "Configurer les réglages de FxB Sample"
 
@@ -93,42 +58,70 @@ msgid "Error"
 msgstr "Erreur"
 
 #: includes/class.extension-activation.php:49
-#, fuzzy
 msgid "This plugin"
 msgstr "Cette extension"
 
 #: includes/class.extension-activation.php:86
-#, fuzzy
 msgid "activate it"
 msgstr "l'activer"
 
 #: includes/class.extension-activation.php:89
-#, fuzzy
 msgid "install it"
 msgstr "installez-la"
 
 #: includes/class.extension-activation.php:92
-msgid " requires FxB Sample! Please %s to continue!"
-msgstr " nécessite FxB Sample. Veuillez %s pour continuer !"
+msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgstr " nécessite Easy Digital Downloads. Veuillez %s pour continuer !"
 
 #: includes/functions.php:17
-#, fuzzy
-msgid "FxB trads"
-msgstr "FxB trads"
+msgid "FxB Translations"
+msgstr "FxB Traductions"
 
 #: includes/functions.php:28
-#, fuzzy
 msgid "FxB Translations License Options"
 msgstr "Options de licence de FxB Translations"
 
-#: includes/functions.php:229
-msgid "Please activate your license key for %$1 to receive updates."
+#: includes/functions.php:50
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: includes/functions.php:54
+msgid "Enter your license key"
+msgstr "Entrez votre clé de licence"
+
+#: includes/functions.php:60 includes/functions.php:69 includes/functions.php:231
+msgid "Activate License"
+msgstr "Activer la licence"
+
+#: includes/functions.php:64
+msgid "active"
+msgstr "licence active"
+
+#: includes/functions.php:66
+msgid "Deactivate License"
+msgstr "Désactiver la licence"
+
+#: includes/functions.php:230
+msgid ""
+"Please enter your license key for %s. An active license key is needed for automatic "
+"plugin updates."
 msgstr ""
+"Entrez votre clé de licence de %s pour recevoir les mises à jour automatiques de "
+"l'extension."
 
 #. Description of the plugin/theme
-#, fuzzy
 msgid "Translations for the FxB Sample plugin"
 msgstr "Traductions françaises pour l'extension FxB Sample"
+
+#, fuzzy
+#~ msgid "FxB trads"
+#~ msgstr "FxB trads"
+
+#~ msgid "Bloom French License"
+#~ msgstr "Licence Bloom French"
+
+#~ msgid "Bloom French License Options"
+#~ msgstr "Options de licence de Bloom French"
 
 #~ msgid "French Language Translations for Bloom."
 #~ msgstr "Traductions françaises pour l'extension Bloom."
