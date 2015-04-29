@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample Translations 1.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-17 10:07:54+00:00\n"
-"PO-Revision-Date: 2015-04-17 12:08+0100\n"
+"POT-Creation-Date: 2015-04-27 07:00:39+00:00\n"
+"PO-Revision-Date: 2015-04-27 09:02+0100\n"
 "Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language-Team: fxbenard <fx@fxbenard.com>\n"
 "Language: fr_FR\n"
@@ -70,8 +70,8 @@ msgid "install it"
 msgstr "installez-la"
 
 #: includes/class.extension-activation.php:92
-msgid " requires Easy Digital Downloads! Please %s to continue!"
-msgstr " nécessite Easy Digital Downloads. Veuillez %s pour continuer !"
+msgid " requires FxB Sample! Please %s to continue!"
+msgstr " nécessite FxB Sample. Veuillez %s pour continuer !"
 
 #: includes/functions.php:17
 msgid "FxB Translations"
@@ -89,7 +89,7 @@ msgstr "Clé de licence"
 msgid "Enter your license key"
 msgstr "Entrez votre clé de licence"
 
-#: includes/functions.php:60 includes/functions.php:69 includes/functions.php:231
+#: includes/functions.php:60 includes/functions.php:69 includes/functions.php:198
 msgid "Activate License"
 msgstr "Activer la licence"
 
@@ -101,13 +101,17 @@ msgstr "licence active"
 msgid "Deactivate License"
 msgstr "Désactiver la licence"
 
-#: includes/functions.php:230
+#: includes/functions.php:197
 msgid ""
 "Please enter your license key for %s. An active license key is needed for automatic "
 "plugin updates."
 msgstr ""
 "Entrez votre clé de licence de %s pour recevoir les mises à jour automatiques de "
 "l'extension."
+
+#: includes/functions.php:199
+msgid "&nbsp;<a href=\"%1$s\">Hide Notice</a>"
+msgstr "&nbsp;<a href=\\\"%1$s\\\">Cacher la notification</a>"
 
 #. Description of the plugin/theme
 msgid "Translations for the FxB Sample plugin"

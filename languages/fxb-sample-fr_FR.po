@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WordPress Plugin Boilerplate\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-17 13:34:06+00:00\n"
-"PO-Revision-Date: 2015-04-17 16:48+0100\n"
+"POT-Creation-Date: 2015-04-24 14:33:53+00:00\n"
+"PO-Revision-Date: 2015-04-24 16:36+0100\n"
 "Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language-Team: French (France) (http://www.transifex.com/projects/p/"
 "wordpress-plugin-boilerplate/language/fr_FR/)\n"
@@ -553,6 +553,8 @@ msgid ""
 "translation of this plugin. See the list of <a href=\"%s\">languages to "
 "translate</a>."
 msgstr ""
+"Votre nom ne figure pas ici ? Alors que diriez-vous de prendre part à sa "
+"traduction. Voir la liste des <a href=\\\"%s\\\">langues à traduire</a> ."
 
 #: includes/admin/class-fxb-sample-admin-welcome.php:587
 msgid "External Libraries"
@@ -563,6 +565,8 @@ msgid ""
 "Translations currently in progress and completed for %s. <a href=\"%s\" "
 "target=\"_blank\">View more on %s</a>."
 msgstr ""
+"Traductions en cours et achevés pour %s. <a href=\\\"%s\\\" target=\\\"_blank"
+"\\\">En savoir plus sur %s</a>."
 
 #: includes/admin/class-fxb-sample-admin-welcome.php:635
 msgid ""
@@ -750,6 +754,8 @@ msgid ""
 "You can set pages that the plugin requires by having them installed and "
 "selected automatically when the plugin is installed."
 msgstr ""
+"Vous pouvez définir les pages dont l'extension a besoin en les installant et "
+"les sélectionnant automatiquement lorsque l'extension est installée."
 
 #: includes/admin/settings/class-fxb-sample-settings-tab-one.php:122
 msgid "This page has a shortcode applied when created by the plugin."
@@ -1102,6 +1108,9 @@ msgid ""
 "wp_remote_get() failed. The ability to update this plugin won't work with "
 "your server. Contact your hosting provider."
 msgstr ""
+"wp_remote_get () a échoué. La possibilité de mettre à jour cette extension "
+"ne fonctionnera pas avec votre serveur. Contactez votre fournisseur "
+"d'hébergement."
 
 #: includes/admin/views/html-admin-page-status-report.php:253
 msgid "Plugins"
@@ -1190,11 +1199,22 @@ msgstr "Valeur par défaut"
 msgid "Section Three"
 msgstr "Section Trois"
 
+#: includes/admin/views/html-admin-page.php:51
+msgid "default"
+msgstr "par défaut"
+
+#: includes/admin/views/html-admin-page.php:51
+msgid "You are viewing section:&nbsp;"
+msgstr "Vous êtes actuellement dans la section&nbsp;:&nbsp;"
+
 #: includes/admin/views/html-admin-page.php:54
 msgid ""
 "You can use this page to place the main back feature of your plugin. Place "
 "links at the end of your header and set the page into sections."
 msgstr ""
+"Vous pouvez utiliser cette page pour la principale fonctionnalité de votre "
+"extension. Placez des liens en bas de votre header et definissez la mise en "
+"page en sections."
 
 #: includes/admin/views/html-admin-page.php:55
 msgid ""

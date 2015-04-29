@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample Translations 1.0.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-17 10:07:54+00:00\n"
+"POT-Creation-Date: 2015-04-27 07:00:39+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -66,7 +66,7 @@ msgid "install it"
 msgstr ""
 
 #: includes/class.extension-activation.php:92
-msgid " requires Easy Digital Downloads! Please %s to continue!"
+msgid " requires FxB Sample! Please %s to continue!"
 msgstr ""
 
 #: includes/functions.php:17
@@ -86,7 +86,7 @@ msgid "Enter your license key"
 msgstr ""
 
 #: includes/functions.php:60 includes/functions.php:69
-#: includes/functions.php:231
+#: includes/functions.php:198
 msgid "Activate License"
 msgstr ""
 
@@ -98,10 +98,14 @@ msgstr ""
 msgid "Deactivate License"
 msgstr ""
 
-#: includes/functions.php:230
+#: includes/functions.php:197
 msgid ""
 "Please enter your license key for %s. An active license key is needed for "
 "automatic plugin updates."
+msgstr ""
+
+#: includes/functions.php:199
+msgid "&nbsp;<a href=\"%1$s\">Hide Notice</a>"
 msgstr ""
 
 #. Description of the plugin/theme

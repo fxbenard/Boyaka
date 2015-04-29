@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FxB Sample 1.0.0\n"
 "Report-Msgid-Bugs-To: https://fxbenard.com/\n"
-"POT-Creation-Date: 2015-04-17 11:57:58+00:00\n"
+"POT-Creation-Date: 2015-04-24 14:28:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,67 +28,67 @@ msgstr ""
 msgid "Cheatin&#8217; huh?"
 msgstr ""
 
-#: fxb-sample.php:353 includes/admin/class-fxb-sample-admin-menus.php:85
+#: fxb-sample.php:352 includes/admin/class-fxb-sample-admin-menus.php:85
 #: includes/admin/class-fxb-sample-admin-menus.php:89
 #: includes/admin/class-fxb-sample-admin-welcome.php:221
 #: includes/admin/views/html-admin-page-status-report.php:318
 msgid "Settings"
 msgstr ""
 
-#: fxb-sample.php:354 includes/admin/class-fxb-sample-admin-help.php:57
+#: fxb-sample.php:353 includes/admin/class-fxb-sample-admin-help.php:57
 msgid "Support"
 msgstr ""
 
-#: fxb-sample.php:380 includes/admin/class-fxb-sample-admin-welcome.php:51
+#: fxb-sample.php:379 includes/admin/class-fxb-sample-admin-welcome.php:51
 msgid "Getting Started"
 msgstr ""
 
-#: fxb-sample.php:381 includes/admin/class-fxb-sample-admin-welcome.php:65
+#: fxb-sample.php:380 includes/admin/class-fxb-sample-admin-welcome.php:65
 msgid "Credits"
 msgstr ""
 
-#: fxb-sample.php:382 includes/admin/class-fxb-sample-admin-help.php:48
+#: fxb-sample.php:381 includes/admin/class-fxb-sample-admin-help.php:48
 #: includes/admin/class-fxb-sample-admin.php:150
 #: includes/admin/views/html-admin-page.php:11
 msgid "Documentation"
 msgstr ""
 
-#: fxb-sample.php:739 includes/admin/class-fxb-sample-transifex-stats.php:104
+#: fxb-sample.php:738 includes/admin/class-fxb-sample-transifex-stats.php:104
 msgid "No results"
 msgstr ""
 
-#: fxb-sample.php:741 includes/admin/class-fxb-sample-admin-settings.php:189
+#: fxb-sample.php:740 includes/admin/class-fxb-sample-admin-settings.php:189
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr ""
 
-#: fxb-sample.php:745 includes/admin/class-fxb-sample-admin-menus.php:94
+#: fxb-sample.php:744 includes/admin/class-fxb-sample-admin-menus.php:94
 #: includes/admin/settings/class-fxb-sample-settings-tab-one.php:29
 msgid "First Tab"
 msgstr ""
 
-#: fxb-sample.php:746 includes/admin/class-fxb-sample-admin-menus.php:98
+#: fxb-sample.php:745 includes/admin/class-fxb-sample-admin-menus.php:98
 #: includes/admin/settings/class-fxb-sample-settings-tab-two.php:29
 msgid "Second Tab"
 msgstr ""
 
-#: fxb-sample.php:747 includes/admin/class-fxb-sample-admin-help.php:63
+#: fxb-sample.php:746 includes/admin/class-fxb-sample-admin-help.php:63
 #: includes/admin/class-fxb-sample-admin-help.php:72
 #: includes/admin/class-fxb-sample-admin-menus.php:109
 #: includes/admin/views/html-admin-page-status.php:17
 msgid "System Status"
 msgstr ""
 
-#: fxb-sample.php:748 includes/admin/class-fxb-sample-admin-menus.php:111
+#: fxb-sample.php:747 includes/admin/class-fxb-sample-admin-menus.php:111
 #: includes/admin/views/html-admin-page-status-tools.php:10
 #: includes/admin/views/html-admin-page-status.php:18
 msgid "Tools"
 msgstr ""
 
-#: fxb-sample.php:749
+#: fxb-sample.php:748
 msgid "Import"
 msgstr ""
 
-#: fxb-sample.php:750
+#: fxb-sample.php:749
 msgid "Export"
 msgstr ""
 
@@ -496,7 +496,7 @@ msgstr ""
 #: includes/admin/class-fxb-sample-admin-welcome.php:578
 msgid ""
 "<strong>%s</strong> has been kindly translated into several other languages "
-"thanks to the WordPress community."
+"thanks to the WP-Translations community."
 msgstr ""
 
 #: includes/admin/class-fxb-sample-admin-welcome.php:583
@@ -1096,6 +1096,10 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page.php:29
 msgid "Section Three"
+msgstr ""
+
+#: includes/admin/views/html-admin-page.php:51
+msgid "You are viewing section:&nbsp;"
 msgstr ""
 
 #: includes/admin/views/html-admin-page.php:54
