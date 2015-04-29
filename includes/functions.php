@@ -178,17 +178,36 @@ if ( ! function_exists( 'fxb_sample_deactivate_license' ) ) {
 	add_action( 'admin_init', 'fxb_sample_deactivate_license' );
 }
 
-function fxb_sample_translations_admin_notices() {
+/* Display a notice that can be dismissed */
+
+add_action('admin_notices', 'example_admin_notice');
+
+function example_admin_notice() {
 	$license = get_option( 'fxb_sample_license_key' );
 	$plugin = 'FxB Sample Translations';
 
 	if ( $license ) {
 		return false;
 	}
-
-	echo '<div class="error"><p>';
-	 echo sprintf( __( 'Please enter your license key for %s. An active license key is needed for automatic plugin updates.', 'fxb-sample-translations' ), $plugin ) ;
-	 echo '&nbsp;<a href="' . admin_url( 'plugins.php?page=fxb-trads-license' ) . '" class="button-secondary">' . __( 'Activate License', 'fxb-sample-translations' ) . '</a>';
-	 echo '</p></div>';
+	global $current_user ;
+				$user_id = $current_user->ID;
+				/* Check that the user hasn't already clicked to ignore the message */
+	if ( ! get_user_meta($user_id, 'example_ignore_notice') ) {
+				echo '<div class="updated"><p>';
+				printf( __( 'Please enter your license key for %s. An active license key is needed for automatic plugin updates.', 'fxb-sample-translations' ), $plugin ) ;
+				echo '&nbsp;<a href="' . admin_url( 'plugins.php?page=fxb-trads-license' ) . '" class="button-secondary">' . __( 'Activate License', 'fxb-sample-translations' ) . '</a>';
+				printf(__( '&nbsp;<a href="%1$s">Hide Notice</a>', 'fxb-sample-translations' ), '?example_nag_ignore=0');
+				echo '</p></div>';
+	}
 }
-add_action( 'admin_notices', 'fxb_sample_translations_admin_notices' );
+
+add_action( 'admin_init', 'example_nag_ignore' );
+
+function example_nag_ignore() {
+	global $current_user;
+	$user_id = $current_user->ID;
+		/* If user clicks to ignore the notice, add that to their user meta */
+		if ( isset($_GET['example_nag_ignore']) && '0' == $_GET['example_nag_ignore'] ) {
+			add_user_meta( $user_id, 'example_ignore_notice', 'true', true );
+		}
+}
