@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 class EDD_Extension_Activation {
 
-	public $plugin_name, $plugin_path, $plugin_file, $has_edd, $edd_base;
+	public $plugin_name, $plugin_path, $plugin_file, $fxb_base, $has_fxb_sample_plugin;
 
 	/**
 	 * Setup the activation class
@@ -44,16 +44,16 @@ class EDD_Extension_Activation {
 
 		// Set plugin name
 		if ( isset( $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'] ) ) {
-			$this->plugin_name = str_replace( 'Easy Digital Downloads - ', '', $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'] );
+			$this->plugin_name = str_replace( 'FxB Sample Translations -', '', $plugins[$this->plugin_path . '/' . $this->plugin_file]['Name'] );
 		} else {
 			$this->plugin_name = __( 'This plugin', 'fxb-sample-translations' );
 		}
 
-		// Is EDD installed?
+		// Is FxB Sample installed?
 		foreach ( $plugins as $plugin_path => $plugin ) {
-			if ( $plugin['Name'] == 'Easy Digital Downloads' ) {
-				$this->has_edd = true;
-				$this->edd_base = $plugin_path;
+			if ( $plugin['Name'] == 'FxB Sample' ) {
+				$this->has_fxb_sample_plugin = true;
+				$this->fxb_base = $plugin_path;
 				break;
 			}
 		}
@@ -81,14 +81,14 @@ class EDD_Extension_Activation {
 	 * @return      string The notice to display
 	 */
 	public function missing_edd_notice() {
-		if ( $this->has_edd ) {
-			$url  = esc_url( wp_nonce_url( admin_url( 'plugins.php?action=activate&plugin=' . $this->edd_base ), 'activate-plugin_' . $this->edd_base ) );
+		if ( $this->has_fxb_sample_plugin ) {
+			$url  = esc_url( wp_nonce_url( admin_url( 'plugins.php?action=activate&plugin=' . $this->fxb_base ), 'activate-plugin_' . $this->fxb_base ) );
 			$link = '<a href="' . $url . '">' . __( 'activate it', 'fxb-sample-translations' ) . '</a>';
 		} else {
-			$url  = esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=easy-digital-downloads' ), 'install-plugin_easy-digital-downloads' ) );
+			$url  = esc_url( wp_nonce_url( self_admin_url( 'update.php?action=install-plugin&plugin=fxb-sample' ), 'install-plugin_easy-digital-downloads' ) );
 			$link = '<a href="' . $url . '">' . __( 'install it', 'fxb-sample-translations' ) . '</a>';
 		}
 
-		echo '<div class="error"><p>' . $this->plugin_name . sprintf( __( ' requires Easy Digital Downloads! Please %s to continue!', 'fxb-sample-translations' ), $link ) . '</p></div>';
+		 '<div class="error"><p>' . $this->plugin_name . sprintf( __( ' requires FxB Sample! Please %s to continue!', 'fxb-sample-translations' ), $link ) . '</p></div>';
 	}
 }
